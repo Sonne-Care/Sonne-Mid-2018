@@ -40,6 +40,16 @@
     .container_example { padding: 300px 0; }
     .container_example_spacer { margin: 0 auto; }
   }
+
+  .demo_parent {
+    position: relative;
+    height: 300px;
+    background: #eee;
+    overflow-y: scroll;
+  }
+  .demo_parent .spacer {
+    margin-top: 500px;
+  }
 </style>
 
 <!-- <div class="marker" style="top: 100px;"></div>
@@ -238,5 +248,22 @@ Formstone.Ready(function() {
     <pre><code class="language-html">&lt;div class=&quot;container&quot;&gt;
 &Tab;&lt;div class=&quot;checkpoint&quot; data-checkpoint-animation=&quot;flip-up&quot; data-checkpoint-container=&quot;.container&quot;&gt;Fade Up&lt;/div&gt;
 &lt;/div&gt;</code></pre>
+  </div>
+</div>
+
+<!-- Parent -->
+
+<h4>Parent</h4>
+<div class="demo_container">
+  <div class="demo_example demo_parent">
+    <div class="spacer">
+      <div class="checkpoint demo-checkpoint" data-checkpoint-animation="fade-up" data-checkpoint-parent=".demo_parent">Fade Up</div>
+    </div>
+  </div>
+  <div class="demo_code">
+    <pre><code class="language-html">&lt;div class=&quot;parent&quot;&gt;
+&Tab;&lt;div class=&quot;checkpoint&quot; data-checkpoint-animation=&quot;fade-up&quot; data-checkpoint-parent=&quot;.parent&quot;&gt;Fade Up&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    <pre><code class="language-javascript">$(".checkpoint").checkpoint();</code></pre>
   </div>
 </div>

@@ -34,6 +34,7 @@
   "private": true,
   "dependencies": {
     "howler.css": "howlercss#*",
-    "infinite-scroll": "^3.0.3"
+    "infinite-scroll": "^3.0.3",
+    "HTML5-Reset": "^2.1.3"
   }
 }

@@ -1,0 +1,1 @@
+if(Shopify.queryParams={},location.search.length)for(var aKeyValue,i=0,aCouples=location.search.substr(1).split("&");i<aCouples.length;i++)aKeyValue=aCouples[i].split("="),aKeyValue.length>1&&(Shopify.queryParams[decodeURIComponent(aKeyValue[0])]=decodeURIComponent(aKeyValue[1]));

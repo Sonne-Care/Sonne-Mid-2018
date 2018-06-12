@@ -472,7 +472,7 @@
         }
 
         if (data.paged) {
-          data.pageCount = data.count - data.visible + 1;
+          data.pageCount -= (data.count % data.visible);
         }
 
         if (data.pageCount <= 0) {

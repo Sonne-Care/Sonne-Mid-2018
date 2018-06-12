@@ -1,14 +1,18 @@
 <div id="header">
   <div class="fs-row">
-    <div class="fs-cell fs-all-half">
+    <div class="fs-cell fs-lg-8 fs-md-half fs-sm-half">
       <a id="header-logo" class="button button-clear button-nav button-first" href="/">{{ shop.name }}</a>
-    </div>
-    <div class="fs-cell fs-all-half text-right">
       {% for link in linklists.main-menu.links %}
       <a class="button button-clear button-nav fs-md-hide fs-sm-hide" href="{{ link.url }}">{{ link.title }}</a>
       {% endfor %}
-      <a id="header-cart" class="button button-nav button-clear button-last" href="/cart">
-        Cart (<span id="header-cart-count" class="button-cart__count cart-count">{{ cart.item_count }}</span>)
+    </div>
+    <div class="fs-cell fs-lg-4 fs-md-half fs-sm-half text-right">
+      <a class="button button-clear button-nav button-icon" href="/account"><i data-feather="user"></i></a>
+      {% if customer %}
+      <a href="/account/logout" class="button button-clear button-nav button-icon"><i data-feather="log-out"></i></a>
+      {% endif %}
+      <a id="header-cart" class="button button-nav button-clear button-last cart-count {% if cart.item_count > 0 %}items{% endif %}" href="/cart">
+        <i data-feather="shopping-bag"></i>
       </a>
     </div>
   </div>

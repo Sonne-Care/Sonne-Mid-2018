@@ -1,7 +1,71 @@
-<div id="footer">
+<div id="footer" class="footer">
+
   <div class="fs-row">
-    <div class="fs-cell fs-all-full">
-      Copyright {{'now' | date: '%Y' }}, {{ shop.name }}
+
+    <div class="fs-cell fs-lg-auto fs-lg-last">
+      <div class="footer-header">Join our Mailing List</div>
+      <div class="footer-subscribe">{% include 'subscribe' %}</div>
     </div>
+
+    <hr class="divider compact fs-cell fs-lg-hide">
+
+    <div class="fs-cell fs-lg-auto fs-sm-half">
+      <div class="footer-header">{{ linklists.footer-account.title }}</div>
+      <ul class="footer-link-list">
+      {% for link in linklists.footer-account.links %} 
+        <li><a class="footer-link {% if link.active %}active{% endif %}" href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div class="fs-cell fs-lg-auto fs-sm-half">
+      <div class="footer-header">{{ linklists.footer-company.title }}</div>
+      <ul class="footer-link-list">
+      {% for link in linklists.footer-company.links %} 
+        <li><a class="footer-link {% if link.active %}active{% endif %}" href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <hr class="divider compact fs-cell fs-lg-hide">
+
+    <div class="fs-cell fs-lg-auto fs-sm-half">
+      <div class="footer-header">{{ linklists.footer-legal.title }}</div>
+      <ul class="footer-link-list">
+      {% for link in linklists.footer-legal.links %} 
+        <li><a class="footer-link {% if link.active %}active{% endif %}" href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div class="fs-cell fs-lg-auto fs-sm-half">
+      <div class="footer-header">{{ linklists.social-menu.title }}</div>
+      <ul class="footer-link-list">
+      {% for link in linklists.social-menu.links %} 
+        <li><a class="footer-link {% if link.active %}active{% endif %}" href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <hr class="divider compact fs-cell fs-lg-hide">
+
   </div>
+
+  <div class="fs-row footer-bottom">
+
+    <hr class="fs-cell divider footer-divider">
+    
+    <div id="footer-left" class="fs-cell fs-all-half fs-sm-half fs-xs-full footer-details">
+      <span>Copyright {{'now' | date: '%Y' }}, {{ shop.name }}</span>
+    </div>
+
+    <div id="footer-right" class="fs-cell fs-all-half fs-sm-half fs-xs-full footer-details">
+      {% assign phone = shop.phone | split: '' %}
+      {% capture phone %}{{ phone[0] }}{{ phone[1] }}{{ phone[2] }}-{{ phone[3] }}{{ phone[4] }}{{ phone[5] }}-{{ phone[6] }}{{ phone[7] }}{{ phone[8] }}{{ phone[9] }}{% endcapture %}
+      <a href="tel:{{ phone }}"><i data-feather="phone"></i>{{ phone }}</a>&nbsp;
+      <a href="mailto:{{ shop.email }}"><i data-feather="mail"></i>{{ shop.email }}</a>
+    </div>
+
+  </div>
+
 </div>

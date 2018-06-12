@@ -134,6 +134,9 @@
   }
 
   .fs_grid_cell_contained {
+    width: 100%;
+
+    flex: 0 0 100%;
     margin-left: 0;
     margin-right: 0;
   }
@@ -276,6 +279,7 @@
 
   .fs_grid_column(@total, @margin, @count) {
     width: (((100% / @total) * @count) - (@margin * 2));
+    max-width: (((100% / @total) * @count) - (@margin * 2));
     min-width: 0;
 
     flex: 0 0 (((100% / @total) * @count) - (@margin * 2));

@@ -3,7 +3,8 @@
  * @name Grid
  * @description A responsive CSS grid.
  */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cormorant');
+@import url("https://use.typekit.net/kly2nfe.css");
 .fs_grid_row,
 .fs-grid .fs-row {
   min-width: 300px;
@@ -102,6 +103,7 @@
 .fs_grid_cell,
 .fs-grid .fs-row [class*="fs-cell"] {
   width: 97.91666667%;
+  max-width: 97.91666667%;
   min-width: 0;
   flex: 0 0 97.91666667%;
   flex-basis: auto;
@@ -118,6 +120,8 @@
 }
 .fs_grid_cell_contained,
 .fs-grid .fs-row [class*="fs-cell"][class*="-contained"] {
+  width: 100%;
+  flex: 0 0 100%;
   margin-left: 0;
   margin-right: 0;
 }
@@ -142,12 +146,10 @@
 .fs_grid_cell_align_end {
   align-self: flex-end;
 }
-.fs_grid_cell_first,
-.fs-grid .fs-row [class*="fs-cell"][class*="-first"] {
+.fs_grid_cell_first {
   order: -1;
 }
-.fs_grid_cell_last,
-.fs-grid .fs-row [class*="fs-cell"][class*="-last"] {
+.fs_grid_cell_last {
   order: 1;
 }
 .fs_grid_cell_destroy {
@@ -216,26 +218,31 @@
 }
 .fs-grid .fs-row .fs-all-fifth {
   width: 17.91666667%;
+  max-width: 17.91666667%;
   min-width: 0;
   flex: 0 0 17.91666667%;
 }
 .fs-grid .fs-row .fs-all-fourth {
   width: 22.91666667%;
+  max-width: 22.91666667%;
   min-width: 0;
   flex: 0 0 22.91666667%;
 }
 .fs-grid .fs-row .fs-all-third {
   width: 31.25%;
+  max-width: 31.25%;
   min-width: 0;
   flex: 0 0 31.25%;
 }
 .fs-grid .fs-row .fs-all-half {
   width: 47.91666667%;
+  max-width: 47.91666667%;
   min-width: 0;
   flex: 0 0 47.91666667%;
 }
 .fs-grid .fs-row .fs-all-full {
   width: 97.91666667%;
+  max-width: 97.91666667%;
   min-width: 0;
   flex: 0 0 97.91666667%;
 }
@@ -253,26 +260,31 @@
 }
 .fs-grid .fs-row [class*="-contained"].fs-all-fifth {
   width: 20%;
+  max-width: 20%;
   min-width: 0;
   flex: 0 0 20%;
 }
 .fs-grid .fs-row [class*="-contained"].fs-all-fourth {
   width: 25%;
+  max-width: 25%;
   min-width: 0;
   flex: 0 0 25%;
 }
 .fs-grid .fs-row [class*="-contained"].fs-all-third {
   width: 33.33333333%;
+  max-width: 33.33333333%;
   min-width: 0;
   flex: 0 0 33.33333333%;
 }
 .fs-grid .fs-row [class*="-contained"].fs-all-half {
   width: 50%;
+  max-width: 50%;
   min-width: 0;
   flex: 0 0 50%;
 }
 .fs-grid .fs-row [class*="-contained"].fs-all-full {
   width: 100%;
+  max-width: 100%;
   min-width: 0;
   flex: 0 0 100%;
 }
@@ -332,16 +344,19 @@
   }
   .fs-grid .fs-row .fs-sm-1 {
     width: 31.25%;
+    max-width: 31.25%;
     min-width: 0;
     flex: 0 0 31.25%;
   }
   .fs-grid .fs-row .fs-sm-2 {
     width: 64.58333333%;
+    max-width: 64.58333333%;
     min-width: 0;
     flex: 0 0 64.58333333%;
   }
   .fs-grid .fs-row .fs-sm-3 {
     width: 97.91666667%;
+    max-width: 97.91666667%;
     min-width: 0;
     flex: 0 0 97.91666667%;
   }
@@ -353,16 +368,19 @@
   }
   .fs-grid .fs-row [class*="-contained"].fs-sm-1 {
     width: 33.33333333%;
+    max-width: 33.33333333%;
     min-width: 0;
     flex: 0 0 33.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-sm-2 {
     width: 66.66666667%;
+    max-width: 66.66666667%;
     min-width: 0;
     flex: 0 0 66.66666667%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-sm-3 {
     width: 100%;
+    max-width: 100%;
     min-width: 0;
     flex: 0 0 100%;
   }
@@ -399,26 +417,31 @@
   }
   .fs-grid .fs-row .fs-sm-fifth {
     width: 17.91666667%;
+    max-width: 17.91666667%;
     min-width: 0;
     flex: 0 0 17.91666667%;
   }
   .fs-grid .fs-row .fs-sm-fourth {
     width: 22.91666667%;
+    max-width: 22.91666667%;
     min-width: 0;
     flex: 0 0 22.91666667%;
   }
   .fs-grid .fs-row .fs-sm-third {
     width: 31.25%;
+    max-width: 31.25%;
     min-width: 0;
     flex: 0 0 31.25%;
   }
   .fs-grid .fs-row .fs-sm-half {
     width: 47.91666667%;
+    max-width: 47.91666667%;
     min-width: 0;
     flex: 0 0 47.91666667%;
   }
   .fs-grid .fs-row .fs-sm-full {
     width: 97.91666667%;
+    max-width: 97.91666667%;
     min-width: 0;
     flex: 0 0 97.91666667%;
   }
@@ -436,26 +459,31 @@
   }
   .fs-grid .fs-row [class*="-contained"].fs-sm-fifth {
     width: 20%;
+    max-width: 20%;
     min-width: 0;
     flex: 0 0 20%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-sm-fourth {
     width: 25%;
+    max-width: 25%;
     min-width: 0;
     flex: 0 0 25%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-sm-third {
     width: 33.33333333%;
+    max-width: 33.33333333%;
     min-width: 0;
     flex: 0 0 33.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-sm-half {
     width: 50%;
+    max-width: 50%;
     min-width: 0;
     flex: 0 0 50%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-sm-full {
     width: 100%;
+    max-width: 100%;
     min-width: 0;
     flex: 0 0 100%;
   }
@@ -516,16 +544,19 @@
   }
   .fs-grid .fs-row .fs-xs-1 {
     width: 31.25%;
+    max-width: 31.25%;
     min-width: 0;
     flex: 0 0 31.25%;
   }
   .fs-grid .fs-row .fs-xs-2 {
     width: 64.58333333%;
+    max-width: 64.58333333%;
     min-width: 0;
     flex: 0 0 64.58333333%;
   }
   .fs-grid .fs-row .fs-xs-3 {
     width: 97.91666667%;
+    max-width: 97.91666667%;
     min-width: 0;
     flex: 0 0 97.91666667%;
   }
@@ -537,16 +568,19 @@
   }
   .fs-grid .fs-row [class*="-contained"].fs-xs-1 {
     width: 33.33333333%;
+    max-width: 33.33333333%;
     min-width: 0;
     flex: 0 0 33.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xs-2 {
     width: 66.66666667%;
+    max-width: 66.66666667%;
     min-width: 0;
     flex: 0 0 66.66666667%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xs-3 {
     width: 100%;
+    max-width: 100%;
     min-width: 0;
     flex: 0 0 100%;
   }
@@ -583,26 +617,31 @@
   }
   .fs-grid .fs-row .fs-xs-fifth {
     width: 17.91666667%;
+    max-width: 17.91666667%;
     min-width: 0;
     flex: 0 0 17.91666667%;
   }
   .fs-grid .fs-row .fs-xs-fourth {
     width: 22.91666667%;
+    max-width: 22.91666667%;
     min-width: 0;
     flex: 0 0 22.91666667%;
   }
   .fs-grid .fs-row .fs-xs-third {
     width: 31.25%;
+    max-width: 31.25%;
     min-width: 0;
     flex: 0 0 31.25%;
   }
   .fs-grid .fs-row .fs-xs-half {
     width: 47.91666667%;
+    max-width: 47.91666667%;
     min-width: 0;
     flex: 0 0 47.91666667%;
   }
   .fs-grid .fs-row .fs-xs-full {
     width: 97.91666667%;
+    max-width: 97.91666667%;
     min-width: 0;
     flex: 0 0 97.91666667%;
   }
@@ -620,26 +659,31 @@
   }
   .fs-grid .fs-row [class*="-contained"].fs-xs-fifth {
     width: 20%;
+    max-width: 20%;
     min-width: 0;
     flex: 0 0 20%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xs-fourth {
     width: 25%;
+    max-width: 25%;
     min-width: 0;
     flex: 0 0 25%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xs-third {
     width: 33.33333333%;
+    max-width: 33.33333333%;
     min-width: 0;
     flex: 0 0 33.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xs-half {
     width: 50%;
+    max-width: 50%;
     min-width: 0;
     flex: 0 0 50%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xs-full {
     width: 100%;
+    max-width: 100%;
     min-width: 0;
     flex: 0 0 100%;
   }
@@ -700,31 +744,37 @@
   }
   .fs-grid .fs-row .fs-md-1 {
     width: 14.58333333%;
+    max-width: 14.58333333%;
     min-width: 0;
     flex: 0 0 14.58333333%;
   }
   .fs-grid .fs-row .fs-md-2 {
     width: 31.25%;
+    max-width: 31.25%;
     min-width: 0;
     flex: 0 0 31.25%;
   }
   .fs-grid .fs-row .fs-md-3 {
     width: 47.91666667%;
+    max-width: 47.91666667%;
     min-width: 0;
     flex: 0 0 47.91666667%;
   }
   .fs-grid .fs-row .fs-md-4 {
     width: 64.58333333%;
+    max-width: 64.58333333%;
     min-width: 0;
     flex: 0 0 64.58333333%;
   }
   .fs-grid .fs-row .fs-md-5 {
     width: 81.25%;
+    max-width: 81.25%;
     min-width: 0;
     flex: 0 0 81.25%;
   }
   .fs-grid .fs-row .fs-md-6 {
     width: 97.91666667%;
+    max-width: 97.91666667%;
     min-width: 0;
     flex: 0 0 97.91666667%;
   }
@@ -745,31 +795,37 @@
   }
   .fs-grid .fs-row [class*="-contained"].fs-md-1 {
     width: 16.66666667%;
+    max-width: 16.66666667%;
     min-width: 0;
     flex: 0 0 16.66666667%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-md-2 {
     width: 33.33333333%;
+    max-width: 33.33333333%;
     min-width: 0;
     flex: 0 0 33.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-md-3 {
     width: 50%;
+    max-width: 50%;
     min-width: 0;
     flex: 0 0 50%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-md-4 {
     width: 66.66666667%;
+    max-width: 66.66666667%;
     min-width: 0;
     flex: 0 0 66.66666667%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-md-5 {
     width: 83.33333333%;
+    max-width: 83.33333333%;
     min-width: 0;
     flex: 0 0 83.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-md-6 {
     width: 100%;
+    max-width: 100%;
     min-width: 0;
     flex: 0 0 100%;
   }
@@ -815,26 +871,31 @@
   }
   .fs-grid .fs-row .fs-md-fifth {
     width: 17.91666667%;
+    max-width: 17.91666667%;
     min-width: 0;
     flex: 0 0 17.91666667%;
   }
   .fs-grid .fs-row .fs-md-fourth {
     width: 22.91666667%;
+    max-width: 22.91666667%;
     min-width: 0;
     flex: 0 0 22.91666667%;
   }
   .fs-grid .fs-row .fs-md-third {
     width: 31.25%;
+    max-width: 31.25%;
     min-width: 0;
     flex: 0 0 31.25%;
   }
   .fs-grid .fs-row .fs-md-half {
     width: 47.91666667%;
+    max-width: 47.91666667%;
     min-width: 0;
     flex: 0 0 47.91666667%;
   }
   .fs-grid .fs-row .fs-md-full {
     width: 97.91666667%;
+    max-width: 97.91666667%;
     min-width: 0;
     flex: 0 0 97.91666667%;
   }
@@ -852,26 +913,31 @@
   }
   .fs-grid .fs-row [class*="-contained"].fs-md-fifth {
     width: 20%;
+    max-width: 20%;
     min-width: 0;
     flex: 0 0 20%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-md-fourth {
     width: 25%;
+    max-width: 25%;
     min-width: 0;
     flex: 0 0 25%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-md-third {
     width: 33.33333333%;
+    max-width: 33.33333333%;
     min-width: 0;
     flex: 0 0 33.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-md-half {
     width: 50%;
+    max-width: 50%;
     min-width: 0;
     flex: 0 0 50%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-md-full {
     width: 100%;
+    max-width: 100%;
     min-width: 0;
     flex: 0 0 100%;
   }
@@ -932,61 +998,73 @@
   }
   .fs-grid .fs-row .fs-lg-1 {
     width: 6.25%;
+    max-width: 6.25%;
     min-width: 0;
     flex: 0 0 6.25%;
   }
   .fs-grid .fs-row .fs-lg-2 {
     width: 14.58333333%;
+    max-width: 14.58333333%;
     min-width: 0;
     flex: 0 0 14.58333333%;
   }
   .fs-grid .fs-row .fs-lg-3 {
     width: 22.91666667%;
+    max-width: 22.91666667%;
     min-width: 0;
     flex: 0 0 22.91666667%;
   }
   .fs-grid .fs-row .fs-lg-4 {
     width: 31.25%;
+    max-width: 31.25%;
     min-width: 0;
     flex: 0 0 31.25%;
   }
   .fs-grid .fs-row .fs-lg-5 {
     width: 39.58333333%;
+    max-width: 39.58333333%;
     min-width: 0;
     flex: 0 0 39.58333333%;
   }
   .fs-grid .fs-row .fs-lg-6 {
     width: 47.91666667%;
+    max-width: 47.91666667%;
     min-width: 0;
     flex: 0 0 47.91666667%;
   }
   .fs-grid .fs-row .fs-lg-7 {
     width: 56.25%;
+    max-width: 56.25%;
     min-width: 0;
     flex: 0 0 56.25%;
   }
   .fs-grid .fs-row .fs-lg-8 {
     width: 64.58333333%;
+    max-width: 64.58333333%;
     min-width: 0;
     flex: 0 0 64.58333333%;
   }
   .fs-grid .fs-row .fs-lg-9 {
     width: 72.91666667%;
+    max-width: 72.91666667%;
     min-width: 0;
     flex: 0 0 72.91666667%;
   }
   .fs-grid .fs-row .fs-lg-10 {
     width: 81.25%;
+    max-width: 81.25%;
     min-width: 0;
     flex: 0 0 81.25%;
   }
   .fs-grid .fs-row .fs-lg-11 {
     width: 89.58333333%;
+    max-width: 89.58333333%;
     min-width: 0;
     flex: 0 0 89.58333333%;
   }
   .fs-grid .fs-row .fs-lg-12 {
     width: 97.91666667%;
+    max-width: 97.91666667%;
     min-width: 0;
     flex: 0 0 97.91666667%;
   }
@@ -1025,61 +1103,73 @@
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-1 {
     width: 8.33333333%;
+    max-width: 8.33333333%;
     min-width: 0;
     flex: 0 0 8.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-2 {
     width: 16.66666667%;
+    max-width: 16.66666667%;
     min-width: 0;
     flex: 0 0 16.66666667%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-3 {
     width: 25%;
+    max-width: 25%;
     min-width: 0;
     flex: 0 0 25%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-4 {
     width: 33.33333333%;
+    max-width: 33.33333333%;
     min-width: 0;
     flex: 0 0 33.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-5 {
     width: 41.66666667%;
+    max-width: 41.66666667%;
     min-width: 0;
     flex: 0 0 41.66666667%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-6 {
     width: 50%;
+    max-width: 50%;
     min-width: 0;
     flex: 0 0 50%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-7 {
     width: 58.33333333%;
+    max-width: 58.33333333%;
     min-width: 0;
     flex: 0 0 58.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-8 {
     width: 66.66666667%;
+    max-width: 66.66666667%;
     min-width: 0;
     flex: 0 0 66.66666667%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-9 {
     width: 75%;
+    max-width: 75%;
     min-width: 0;
     flex: 0 0 75%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-10 {
     width: 83.33333333%;
+    max-width: 83.33333333%;
     min-width: 0;
     flex: 0 0 83.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-11 {
     width: 91.66666667%;
+    max-width: 91.66666667%;
     min-width: 0;
     flex: 0 0 91.66666667%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-12 {
     width: 100%;
+    max-width: 100%;
     min-width: 0;
     flex: 0 0 100%;
   }
@@ -1143,26 +1233,31 @@
   }
   .fs-grid .fs-row .fs-lg-fifth {
     width: 17.91666667%;
+    max-width: 17.91666667%;
     min-width: 0;
     flex: 0 0 17.91666667%;
   }
   .fs-grid .fs-row .fs-lg-fourth {
     width: 22.91666667%;
+    max-width: 22.91666667%;
     min-width: 0;
     flex: 0 0 22.91666667%;
   }
   .fs-grid .fs-row .fs-lg-third {
     width: 31.25%;
+    max-width: 31.25%;
     min-width: 0;
     flex: 0 0 31.25%;
   }
   .fs-grid .fs-row .fs-lg-half {
     width: 47.91666667%;
+    max-width: 47.91666667%;
     min-width: 0;
     flex: 0 0 47.91666667%;
   }
   .fs-grid .fs-row .fs-lg-full {
     width: 97.91666667%;
+    max-width: 97.91666667%;
     min-width: 0;
     flex: 0 0 97.91666667%;
   }
@@ -1180,26 +1275,31 @@
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-fifth {
     width: 20%;
+    max-width: 20%;
     min-width: 0;
     flex: 0 0 20%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-fourth {
     width: 25%;
+    max-width: 25%;
     min-width: 0;
     flex: 0 0 25%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-third {
     width: 33.33333333%;
+    max-width: 33.33333333%;
     min-width: 0;
     flex: 0 0 33.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-half {
     width: 50%;
+    max-width: 50%;
     min-width: 0;
     flex: 0 0 50%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-lg-full {
     width: 100%;
+    max-width: 100%;
     min-width: 0;
     flex: 0 0 100%;
   }
@@ -1260,61 +1360,73 @@
   }
   .fs-grid .fs-row .fs-xl-1 {
     width: 6.25%;
+    max-width: 6.25%;
     min-width: 0;
     flex: 0 0 6.25%;
   }
   .fs-grid .fs-row .fs-xl-2 {
     width: 14.58333333%;
+    max-width: 14.58333333%;
     min-width: 0;
     flex: 0 0 14.58333333%;
   }
   .fs-grid .fs-row .fs-xl-3 {
     width: 22.91666667%;
+    max-width: 22.91666667%;
     min-width: 0;
     flex: 0 0 22.91666667%;
   }
   .fs-grid .fs-row .fs-xl-4 {
     width: 31.25%;
+    max-width: 31.25%;
     min-width: 0;
     flex: 0 0 31.25%;
   }
   .fs-grid .fs-row .fs-xl-5 {
     width: 39.58333333%;
+    max-width: 39.58333333%;
     min-width: 0;
     flex: 0 0 39.58333333%;
   }
   .fs-grid .fs-row .fs-xl-6 {
     width: 47.91666667%;
+    max-width: 47.91666667%;
     min-width: 0;
     flex: 0 0 47.91666667%;
   }
   .fs-grid .fs-row .fs-xl-7 {
     width: 56.25%;
+    max-width: 56.25%;
     min-width: 0;
     flex: 0 0 56.25%;
   }
   .fs-grid .fs-row .fs-xl-8 {
     width: 64.58333333%;
+    max-width: 64.58333333%;
     min-width: 0;
     flex: 0 0 64.58333333%;
   }
   .fs-grid .fs-row .fs-xl-9 {
     width: 72.91666667%;
+    max-width: 72.91666667%;
     min-width: 0;
     flex: 0 0 72.91666667%;
   }
   .fs-grid .fs-row .fs-xl-10 {
     width: 81.25%;
+    max-width: 81.25%;
     min-width: 0;
     flex: 0 0 81.25%;
   }
   .fs-grid .fs-row .fs-xl-11 {
     width: 89.58333333%;
+    max-width: 89.58333333%;
     min-width: 0;
     flex: 0 0 89.58333333%;
   }
   .fs-grid .fs-row .fs-xl-12 {
     width: 97.91666667%;
+    max-width: 97.91666667%;
     min-width: 0;
     flex: 0 0 97.91666667%;
   }
@@ -1353,61 +1465,73 @@
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-1 {
     width: 8.33333333%;
+    max-width: 8.33333333%;
     min-width: 0;
     flex: 0 0 8.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-2 {
     width: 16.66666667%;
+    max-width: 16.66666667%;
     min-width: 0;
     flex: 0 0 16.66666667%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-3 {
     width: 25%;
+    max-width: 25%;
     min-width: 0;
     flex: 0 0 25%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-4 {
     width: 33.33333333%;
+    max-width: 33.33333333%;
     min-width: 0;
     flex: 0 0 33.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-5 {
     width: 41.66666667%;
+    max-width: 41.66666667%;
     min-width: 0;
     flex: 0 0 41.66666667%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-6 {
     width: 50%;
+    max-width: 50%;
     min-width: 0;
     flex: 0 0 50%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-7 {
     width: 58.33333333%;
+    max-width: 58.33333333%;
     min-width: 0;
     flex: 0 0 58.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-8 {
     width: 66.66666667%;
+    max-width: 66.66666667%;
     min-width: 0;
     flex: 0 0 66.66666667%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-9 {
     width: 75%;
+    max-width: 75%;
     min-width: 0;
     flex: 0 0 75%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-10 {
     width: 83.33333333%;
+    max-width: 83.33333333%;
     min-width: 0;
     flex: 0 0 83.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-11 {
     width: 91.66666667%;
+    max-width: 91.66666667%;
     min-width: 0;
     flex: 0 0 91.66666667%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-12 {
     width: 100%;
+    max-width: 100%;
     min-width: 0;
     flex: 0 0 100%;
   }
@@ -1471,26 +1595,31 @@
   }
   .fs-grid .fs-row .fs-xl-fifth {
     width: 17.91666667%;
+    max-width: 17.91666667%;
     min-width: 0;
     flex: 0 0 17.91666667%;
   }
   .fs-grid .fs-row .fs-xl-fourth {
     width: 22.91666667%;
+    max-width: 22.91666667%;
     min-width: 0;
     flex: 0 0 22.91666667%;
   }
   .fs-grid .fs-row .fs-xl-third {
     width: 31.25%;
+    max-width: 31.25%;
     min-width: 0;
     flex: 0 0 31.25%;
   }
   .fs-grid .fs-row .fs-xl-half {
     width: 47.91666667%;
+    max-width: 47.91666667%;
     min-width: 0;
     flex: 0 0 47.91666667%;
   }
   .fs-grid .fs-row .fs-xl-full {
     width: 97.91666667%;
+    max-width: 97.91666667%;
     min-width: 0;
     flex: 0 0 97.91666667%;
   }
@@ -1508,26 +1637,31 @@
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-fifth {
     width: 20%;
+    max-width: 20%;
     min-width: 0;
     flex: 0 0 20%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-fourth {
     width: 25%;
+    max-width: 25%;
     min-width: 0;
     flex: 0 0 25%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-third {
     width: 33.33333333%;
+    max-width: 33.33333333%;
     min-width: 0;
     flex: 0 0 33.33333333%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-half {
     width: 50%;
+    max-width: 50%;
     min-width: 0;
     flex: 0 0 50%;
   }
   .fs-grid .fs-row [class*="-contained"].fs-xl-full {
     width: 100%;
+    max-width: 100%;
     min-width: 0;
     flex: 0 0 100%;
   }
@@ -4531,420 +4665,317 @@
   position: absolute;
   bottom: 10px;
 }
-/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-/**
- * 1. Change the default font family in all browsers (opinionated).
- * 2. Correct the line height in all browsers.
- * 3. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
- */
-/* Document
-   ========================================================================== */
-html {
-  font-family: sans-serif;
-  /* 1 */
-  line-height: 1.15;
-  /* 2 */
-  -ms-text-size-adjust: 100%;
-  /* 3 */
-  -webkit-text-size-adjust: 100%;
-  /* 3 */
-}
-/* Sections
-   ========================================================================== */
-/**
- * Remove the margin in all browsers (opinionated).
- */
-body {
-  margin: 0;
-}
-/**
- * Add the correct display in IE 9-.
- */
+/*
+	HTML5 Reset :: style.css
+	----------------------------------------------------------
+	We have learned much from/been inspired by/taken code where offered from:
+
+	Eric Meyer					:: http://meyerweb.com
+	HTML5 Doctor				:: http://html5doctor.com
+	and the HTML5 Boilerplate	:: http://html5boilerplate.com
+
+-------------------------------------------------------------------------------*/
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
 article,
 aside,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video,
+details,
+summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+article,
+aside,
+figure,
 footer,
 header,
 nav,
-section {
+section,
+details,
+summary {
   display: block;
 }
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+/* Handle box-sizing while better addressing child elements:
+   http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+html {
+  box-sizing: border-box;
 }
-/* Grouping content
-   ========================================================================== */
-/**
- * Add the correct display in IE 9-.
- * 1. Add the correct display in IE.
- */
-figcaption,
-figure,
-main {
-  /* 1 */
-  display: block;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
-/**
- * Add the correct margin in IE 8.
- */
-figure {
-  margin: 1em 40px;
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+/* Responsive images and other embedded objects */
+/* if you don't have full control over `img` tags (if you have to overcome attributes), consider adding height: auto */
+img,
+object,
+embed {
+  max-width: 100%;
 }
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+/*
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+	In fact, it *will* cause problems with Google Maps' controls at small size.
+	If this is the case for you, try uncommenting the following:
+
+#map img {
+		max-width: none;
 }
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+*/
+/* force a vertical scrollbar to prevent a jumpy page */
+html {
+  overflow-y: scroll;
 }
-/* Text-level semantics
-   ========================================================================== */
-/**
- * 1. Remove the gray background on active links in IE 10.
- * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
- */
+/* we use a lot of ULs that aren't bulleted.
+	you'll have to restore the bullets within content,
+	which is fine because they're probably customized anyway */
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
 a {
-  background-color: transparent;
-  /* 1 */
-  -webkit-text-decoration-skip: objects;
-  /* 2 */
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
-/**
- * Remove the outline on focused links when they are also active or hovered
- * in all browsers (opinionated).
- */
-a:active,
-a:hover {
-  outline-width: 0;
+del {
+  text-decoration: line-through;
 }
-/**
- * 1. Remove the bottom border in Firefox 39-.
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
 }
-/**
- * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
- */
-b,
-strong {
-  font-weight: inherit;
+/* tables still need cellspacing="0" in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-b,
-strong {
-  font-weight: bolder;
+th {
+  font-weight: bold;
+  vertical-align: bottom;
 }
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-code,
-kbd,
-samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+td {
+  font-weight: normal;
+  vertical-align: top;
 }
-/**
- * Add the correct font style in Android 4.3-.
- */
-dfn {
-  font-style: italic;
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
-/**
- * Add the correct background and color in IE 9-.
- */
-mark {
-  background-color: #ff0;
-  color: #000;
+input,
+select {
+  vertical-align: middle;
 }
-/**
- * Add the correct font size in all browsers.
- */
+pre {
+  white-space: pre;
+  /* CSS2 */
+  white-space: pre-wrap;
+  /* CSS 2.1 */
+  white-space: pre-line;
+  /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word;
+  /* IE */
+}
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
+input[type="checkbox"] {
+  vertical-align: bottom;
+}
+.ie7 input[type="checkbox"] {
+  vertical-align: baseline;
+}
+.ie6 input {
+  vertical-align: text-bottom;
+}
+select,
+input,
+textarea {
+  font: 99% sans-serif;
+}
+table {
+  font-size: inherit;
+  font: 100%;
+}
 small {
-  font-size: 80%;
+  font-size: 85%;
 }
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
+strong {
+  font-weight: bold;
+}
+td,
+td img {
+  vertical-align: top;
+}
+/* Make sure sup and sub don't mess with your line-heights http://gist.github.com/413930 */
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
-sub {
-  bottom: -0.25em;
 }
 sup {
   top: -0.5em;
 }
-/* Embedded content
-   ========================================================================== */
-/**
- * Add the correct display in IE 9-.
- */
-audio,
-video {
-  display: inline-block;
+sub {
+  bottom: -0.25em;
 }
-/**
- * Add the correct display in iOS 4-7.
- */
-audio:not([controls]) {
-  display: none;
-  height: 0;
+/* standardize any monospaced elements */
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, sans-serif;
 }
-/**
- * Remove the border on images inside links in IE 10-.
- */
-img {
-  border-style: none;
+/* hand cursor on clickable elements */
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer;
 }
-/**
- * Hide the overflow in IE.
- */
-svg:not(:root) {
-  overflow: hidden;
-}
-/* Forms
-   ========================================================================== */
-/**
- * 1. Change the font styles in all browsers (opinionated).
- * 2. Remove the margin in Firefox and Safari.
- */
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
 button,
 input,
-optgroup,
 select,
 textarea {
-  font-family: sans-serif;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
   margin: 0;
-  /* 2 */
 }
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
+/* make buttons play nice in IE */
 button,
-input {
-  /* 1 */
+input[type=button] {
+  width: auto;
   overflow: visible;
 }
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-button,
-select {
-  /* 1 */
-  text-transform: none;
+/* scale images in IE7 more attractively */
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
 }
-/**
- * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
- *    controls in Android 4.
- * 2. Correct the inability to style clickable types in iOS and Safari.
- */
-button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-}
-/**
- * Remove the inner border and padding in Firefox.
- */
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-/**
- * Restore the focus styles unset by the previous rule.
- */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-/**
- * Change the border, margin, and padding in all browsers (opinionated).
- */
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
-legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
-}
-/**
- * 1. Add the correct display in IE 9-.
- * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-progress {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */
-}
-/**
- * Remove the default vertical scrollbar in IE.
- */
-textarea {
-  overflow: auto;
-}
-/**
- * 1. Add the correct box sizing in IE 10-.
- * 2. Remove the padding in IE 10-.
- */
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-}
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
-}
-/**
- * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
- */
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-}
-/* Interactive
-   ========================================================================== */
-/*
- * Add the correct display in IE 9-.
- * 1. Add the correct display in Edge, IE, and Firefox.
- */
-details,
-menu {
+/* prevent BG image flicker upon hover
+   (commented out as usage is rare, and the filter syntax messes with some pre-processors)
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+*/
+/* let's clear some floats */
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
   display: block;
+  height: 0;
+  overflow: hidden;
 }
-/*
- * Add the correct display in all browsers.
- */
-summary {
-  display: list-item;
+.clearfix:after {
+  clear: both;
 }
-/* Scripting
-   ========================================================================== */
-/**
- * Add the correct display in IE 9-.
- */
-canvas {
-  display: inline-block;
-}
-/**
- * Add the correct display in IE.
- */
-template {
-  display: none;
-}
-/* Hidden
-   ========================================================================== */
-/**
- * Add the correct display in IE 10-.
- */
-[hidden] {
-  display: none;
+.clearfix {
+  zoom: 1;
 }
 html {
   font-size: 62.5%;
 }
 body {
   color: #606c76;
-  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
-  font-size: 1.5em;
+  font-family: 'komet', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.4em;
   font-weight: 300;
-  letter-spacing: .025em;
   line-height: 1.8;
+}
+*:link,
+*:visited,
+*:hover,
+*:active,
+*:focus {
+  transition: background-color 0.1s linear, border-color 0.1s linear, color 0.1s linear, opacity 0.1s linear;
+}
+*:focus,
+*:hover,
+*:active {
+  outline: none;
 }
 .button,
 button,
@@ -4958,10 +4989,7 @@ input[type='submit'] {
   cursor: pointer;
   display: inline-block;
   font-family: inherit;
-  font-size: 1.4rem;
-  font-weight: 700;
   height: 3.8rem;
-  letter-spacing: .025rem;
   line-height: 3.8rem;
   padding: 0 2rem;
   text-align: center;
@@ -5087,13 +5115,20 @@ input[type='submit'].button-clear[disabled]:hover {
   background-color: transparent;
   color: #606c76;
 }
-.button.button-nav,
-button.button-nav,
-input[type='button'].button-nav,
-input[type='reset'].button-nav,
-input[type='submit'].button-nav {
-  font-weight: normal;
-  padding: 0 1.25rem;
+.button.button-cta,
+button.button-cta,
+input[type='button'].button-cta,
+input[type='reset'].button-cta,
+input[type='submit'].button-cta {
+  background-color: #9E6927;
+  color: #fff;
+  border-radius: 50%;
+  height: 55px;
+  line-height: 55px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  border-radius: 27.5px;
 }
 .button.button-first,
 button.button-first,
@@ -5196,20 +5231,6 @@ ul {
   list-style: none;
   margin-top: 0;
   padding-left: 0;
-  font-size: 90%;
-  margin: 1.5rem 0 1.5rem 3.0rem;
-}
-dl,
-ol,
-ul {
-  font-size: 90%;
-  margin: 1.5rem 0 1.5rem 3.0rem;
-}
-ol {
-  list-style: decimal inside;
-}
-ul {
-  list-style: circle inside;
 }
 hr {
   width: 100%;
@@ -5352,60 +5373,181 @@ h6 {
   display: none;
 }
 #header {
-  padding: 25px 0;
-  border-bottom: 1px solid #f2f2f2;
-  margin-bottom: 50px;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(158, 105, 39, 0.3);
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+#header.active {
+  background-color: #fff;
+}
+#header .button {
+  color: #9E6927;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+#header .button .feather {
+  position: relative;
+  top: 6px;
+}
+#header .button.items {
+  position: relative;
+}
+#header .button.items:after {
+  content: '';
+  display: block;
+  height: 8px;
+  width: 8px;
+  background-color: #9E6927;
+  position: absolute;
+  top: 5px;
+  right: -2px;
+  border-radius: 50%;
+}
+.footer {
+  -webkit-font-smoothing: antialiased;
+}
+.footer .footer-header {
+  margin-bottom: 10px;
+  color: #606c76;
+}
+.footer .footer-bottom a {
+  color: #979797;
+}
+.footer .footer-bottom .feather {
+  width: 15px;
+  height: auto;
+}
+.footer .footer-link {
+  color: #979797;
+  transition: 400ms ease;
+  border-bottom: 1px solid transparent;
+}
+.footer .footer-link:hover {
+  color: #9E6927;
+  border-bottom: 1px solid #9E6927;
+}
+.footer .footer-link-list {
+  padding: 0;
+  margin: 0;
+}
+.footer .footer-link-list li {
+  display: block;
+  margin: 3px 0;
+}
+.footer .footer-details a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
 }
 #footer {
-  padding: 25px 0;
+  padding: 50px 0;
+  font-size: 1.4rem;
+  color: #979797;
+  font-weight: normal;
   border-top: 1px solid #f2f2f2;
-  margin-top: 50px;
+}
+#footer a {
+  text-decoration: none;
+}
+#footer span {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+}
+#footer .feather {
+  margin-right: 8px;
+  position: relative;
+  top: 3px;
+}
+#footer-left a {
+  margin-right: 10px;
+}
+@media screen and (min-width: 300px) {
+  #footer-right {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 500px) {
+  #footer-right {
+    text-align: right;
+  }
 }
 .cart .quantity {
   width: 100%;
   text-align: inherit;
 }
-@media screen and (min-width: 980px) {
-  .product .product-info-wrapper {
-    padding-right: 25px;
+.product .product-title {
+  color: #9E6927;
+  font-size: 4rem;
+  line-height: 1.3;
+  font-weight: 300;
+}
+.product .product-subtitle {
+  color: #979797;
+  font-size: 4rem;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+.product .product-list {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  line-height: 2.2;
+  letter-spacing: .05rem;
+  color: #979797;
+}
+.product .product-cta {
+  margin-bottom: 25px;
+}
+.product .product-hero {
+  background-color: #F9F9F9;
+  position: relative;
+  min-height: 600px;
+}
+@media screen and (min-width: 300px) {
+  .product .product-hero {
+    height: 800px;
   }
 }
-.product .product-details {
-  margin-bottom: 15px;
+@media screen and (min-width: 980px) {
+  .product .product-hero {
+    height: 80vh;
+  }
 }
-.product .product-form {
-  margin-bottom: 15px;
+@media screen and (min-width: 1220px) {
+  .product .product-hero {
+    height: 80vh;
+  }
 }
-.product .product-desc ul {
-  margin-left: 0;
-}
-.product-item__images {
-  position: relative;
-}
-.product-item__images img {
-  transition: 600ms ease;
-}
-.product-item__images--first {
-  position: relative;
-  z-index: 2;
-}
-.product-item__images--second {
+.product .product-hero-centered {
   position: absolute;
-  z-index: 1;
-  top: 0;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
 }
-.product-item__link {
-  display: block;
-  position: relative;
+.product .product-section {
+  border-bottom: 1px solid #f2f2f2;
 }
-.product-item__link:hover .first {
-  opacity: 0;
+@media screen and (min-width: 300px) {
+  .product .product-section {
+    padding: 50px 0;
+  }
 }
-.product-item-info__top {
-  padding-top: 10px;
+@media screen and (min-width: 980px) {
+  .product .product-section {
+    padding: 75px 0;
+  }
 }
-.product-item-info__bottom {
-  padding-top: 0;
+@media screen and (min-width: 1220px) {
+  .product .product-section {
+    padding: 100px 0;
+  }
+}
+.product #rc_container .rc_popup {
+  display: none;
 }
 .account .table-wrap {
   overflow: scroll;
@@ -5419,4 +5561,70 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 1.1rem;
+}
+.home .home-title {
+  color: #9E6927;
+  font-size: 4rem;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+.home .home-subtitle {
+  color: #979797;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+.home .home-list {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  line-height: 2.2;
+  letter-spacing: .05rem;
+  color: #979797;
+}
+.home .home-cta {
+  margin-bottom: 25px;
+}
+.home .home-hero {
+  background-color: #F9F9F9;
+  position: relative;
+  min-height: 600px;
+}
+@media screen and (min-width: 300px) {
+  .home .home-hero {
+    height: 800px;
+  }
+}
+@media screen and (min-width: 980px) {
+  .home .home-hero {
+    height: 80vh;
+  }
+}
+@media screen and (min-width: 1220px) {
+  .home .home-hero {
+    height: 80vh;
+  }
+}
+.home .home-hero-centered {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.home .home-section {
+  border-bottom: 1px solid #f2f2f2;
+}
+@media screen and (min-width: 300px) {
+  .home .home-section {
+    padding: 50px 0;
+  }
+}
+@media screen and (min-width: 980px) {
+  .home .home-section {
+    padding: 75px 0;
+  }
+}
+@media screen and (min-width: 1220px) {
+  .home .home-section {
+    padding: 100px 0;
+  }
 }

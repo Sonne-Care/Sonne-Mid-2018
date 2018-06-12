@@ -12,10 +12,7 @@ input[type='submit'] {
   cursor: pointer;
   display: inline-block;
   font-family: inherit;
-  font-size: 1.4rem;
-  font-weight: 700;
   height: @size;
-  letter-spacing: .025rem;
   line-height: @size;
   padding: 0 2rem;
   text-align: center;
@@ -71,15 +68,21 @@ input[type='submit'] {
     }
   }
 
-  &.button-nav {
-    font-weight: normal;
-    padding: 0 1.25rem;
+  &.button-cta {
+    background-color: @brown;
+    color: @white;
+    border-radius: 50%;
+    height: 55px;
+    line-height: 55px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    border-radius: (55px/2);
   }
 
   &.button-first {
     padding-left: 0;
   }
-
   &.button-last {
     padding-right: 0;
   }

@@ -2,6 +2,22 @@
 
 <!-- -->
 
+### 1.4.6
+
+* Added `parent` scroll context support in Checkpoint
+* Fixed issue with Carousel
+
+### 1.4.5
+
+* Fixed issue with `-first` and `-last` classes in Grid
+* Fixed issue with inactive animations in Checkpoint
+
+### 1.4.4
+
+* Added option to select multiple items without pressing 'ctl' key in Dropdown (Thanks @qtsd!)
+* Fixed issue with `contained` classes in Grid
+* Fixed issue with default behavior in Number
+
 ### 1.4.3
 
 * Fixed issue with 'autoAdvanced' in Carousel
