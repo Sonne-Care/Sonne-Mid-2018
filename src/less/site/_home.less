@@ -2,10 +2,17 @@
 
   & &-title {
     color: @brown;
-    font-size: 4.5rem;
-    line-height: 1.2;
-    margin-bottom: @spacer*.5;
     .serif();
+    letter-spacing: -1px;
+    @media @min {
+      font-size: 3.5rem;
+      line-height: 1.2;
+      margin-bottom: @spacer*.5;
+    }
+    @media @tablet {
+      font-size: 4.5rem;
+      line-height: 1.2;
+    }
     &.emphasized {
       font-size: 8rem;
       line-height: 1;
@@ -63,6 +70,12 @@
       transform: translateY(-50%);
     }
 
+    .home {
+      &-subtitle, &-list {
+        color: rgba(0,0,0,.4);
+      }
+    }
+
   }
 
   & &-section {
@@ -76,29 +89,51 @@
     @media @max {
       padding: 100px 0;
     }
+    &--testimonials {
+      overflow: hidden;
+    }
+    &--problem {
+      position: relative;
+      z-index: 2;
+      border-bottom: 0;
+    }
+    &:last-child {
+      border-bottom: 0;
+    }
+    &__content {
+      position: relative;
+      z-index: 30;
+    }
   }
 
   & &-problem {
 
     color: @white;
+    height: 100%;
+    transform-style: preserve-3d;
 
     &:hover {
       box-shadow: 0 20px @spacer*2 rgba(0,0,0,.1);
     }
 
     @media @min {
-      padding: @spacer;
       text-align: center;
     }
 
     @media @tablet {
-      height: 400px;
       text-align: left;
     }
-    
-    @media @desktop {
-      height: 500px;
-      padding: @spacer*2;
+
+    &-content {
+      position: relative;
+      z-index: 30;
+      transform: translateZ(20px);
+      @media @min {
+        padding: @spacer;
+      }
+      @media @desktop {
+        padding: @spacer*2;
+      }
     }
 
     &-title {
@@ -111,7 +146,7 @@
         margin-bottom: @spacer
       }
       @media @tablet {
-        margin-bottom: @spacer*2;
+        margin-bottom: @spacer*4;
       }
     }
 
@@ -126,7 +161,8 @@
         font-size: 1.35rem;
       }
       @media @desktop {
-        font-size: 1.75rem;
+        font-size: 1.65rem;
+        line-height: 1.6;
       }
       
       > div {
@@ -134,7 +170,7 @@
         margin-bottom: @spacer;
         color: @white;
         font-size: 4rem;
-        line-height: 1.2;
+        line-height: 1.1;
       }
     }
 
@@ -143,9 +179,11 @@
     }
     &.two {
       background-color: #A68963;
+      top: @spacer;
     }
     &.three {
       background-color: lighten(#9D8A6C,20%);
+      top: @spacer*2;
     }
     &-wrapper {
       position: relative;

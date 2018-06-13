@@ -11,13 +11,15 @@
       {% endfor %}
     </div>
     <div class="fs-cell fs-lg-4 fs-md-half fs-sm-half text-right">
-      <a class="button button-clear button-nav button-icon" href="/account"><i data-feather="user"></i></a>
-      {% if customer %}
-      <a href="/account/logout" class="button button-clear button-nav button-icon"><i data-feather="log-out"></i></a>
-      {% endif %}
-      <a id="header-cart" class="button button-nav button-clear button-last cart-count {% if cart.item_count > 0 %}items{% endif %}" href="/cart">
-        <i data-feather="shopping-bag"></i>
-      </a>
+      <div id="header-socials">
+        <a class="button button-clear button-nav button-icon" href="/account"><i data-feather="user"></i></a>
+        {% if customer %}
+        <a href="/account/logout" class="button button-clear button-nav button-icon"><i data-feather="log-out"></i></a>
+        {% endif %}
+        <a id="header-cart" class="button button-nav button-clear cart-count {% if cart.item_count > 0 %}items{% endif %}" href="/cart">
+          <i data-feather="shopping-bag"></i>
+        </a>
+      </div>
     </div>
   </div>
 </div>

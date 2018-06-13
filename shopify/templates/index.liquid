@@ -9,7 +9,7 @@
             <hr class="invisible huge">
             <div class="home-title emphasized">Future proof your skin.</div>
             <div class="home-subtitle emphasized">The doctor-developed skincare system delivered to your door.</div>
-            <a class="button button-cta home-cta">Get Started</a>
+            <a href="#" class="button button-cta home-cta">Buy Now</a>
             <ul class="home-list">
               <li>Combats the #1 cause of skin aging</li>
               <li>Visible results reported in 6-8 days</li>
@@ -40,46 +40,32 @@
     </div>
   </div>
 
-  <div class="home-section">
-    <div class="fs-row">
-      <div class="fs-cell fs-all-full">
-        <div class="home-title text-center">Sonne is easy.</div>
-        <hr class="invisible">
-        <div class="quotes">
-          <div class="quotes-wrapper carousel" data-carousel-options='{"pagination":false}'>
-            {% include 'home-quote' %}
-            {% include 'home-quote' %}
-            {% include 'home-quote' %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="home-section">
+  <div class="home-section home-section--problem">
     <div class="fs-row">
       <div class="fs-cell fs-all-full text-center">
-        <div class="home-title">Hey, being human is hard.</div>
+        <div class="home-title">We get it — being human is hard.</div>
         <div class="home-subtitle">Especially when it comes caring for your skin.</div>
         <hr class="invisible">
       </div>
-      <div class="fs-cell fs-cell-contained fs-all-half fs-sm-full">
-        <div class="home-problem one js-tilt">
-          <div class="home-problem-title">Problem 1</div>
-          <div class="home-problem-desc">
-            <div>Skincare is very necessary.</div>
-            The thing is, your skin is aging. You might not need, or consider a chemical peel. 
-            But you probably don’t want wrinkles or skin cancer. And if your skin sees the sun 
-            at all (even on cloudy days) you’re risking both. 
+      <div class="fs-cell fs-cell-contained fs-all-third fs-sm-full">
+        <div class="home-problem one js-tilt background" data-background-options='{"source":"{{ 'prob1.jpg'  | asset_url }}"}'>
+          <div class="home-problem-content">
+            <div class="home-problem-title">Problem 1</div>
+            <div class="home-problem-desc">
+              <div>Proper skincare is very necessary.</div>
+              The thing is, your skin is aging. You might not need, or consider a chemical peel. 
+              But you probably don’t want wrinkles or skin cancer. And if your skin sees the sun 
+              at all (even on cloudy days) you’re risking both. 
+            </div>
           </div>
         </div>
       </div>
-      <div class="fs-cell fs-cell-contained fs-all-half fs-sm-full">
-        <div class="home-problem-wrapper">
-          <div class="home-problem two js-tilt">
+      <div class="fs-cell fs-cell-contained fs-all-third fs-sm-full">
+        <div class="home-problem two js-tilt background" data-background-options='{"source":"{{ 'prob2.jpg'  | asset_url }}"}'>
+          <div class="home-problem-content">
             <div class="home-problem-title">Problem 2</div>
             <div class="home-problem-desc">
-              <div>Skincare's pretty confusing.</div>
+              <div>Skincare can be pretty confusing.</div>
               The skincare industry is saturated with myths. Forget not knowing where to start, 
               it’s hard to know products even work. People spend big money on their best guess. 
               Or get overwhelmed and do nothing. Both are bad options.
@@ -87,15 +73,31 @@
           </div>
         </div>
       </div>
-      <div class="fs-cell fs-cell-contained fs-all-half fs-sm-full">
-        <div class="home-problem three js-tilt">
-          <div class="home-problem-title">Problem 3</div>
-          <div class="home-problem-desc">
-            <div>Skincare takes work.</div>
-            The beauty store. The drug store. The overwhelming online shop. 
-            The expensive dermatologist, again. The hunt for effective skincare shouldn’t be so complicated. 
-            But it is. 
+      <div class="fs-cell fs-cell-contained fs-all-third fs-sm-full">
+        <div class="home-problem three js-tilt background" data-background-options='{"source":"{{ 'prob3.jpg'  | asset_url }}"}'>
+          <div class="home-problem-content">
+            <div class="home-problem-title">Problem 3</div>
+            <div class="home-problem-desc">
+              <div>Skincare takes WORK.</div>
+              The beauty store. The drug store. The overwhelming online shop. 
+              The expensive dermatologist, again. The hunt for effective skincare shouldn’t be so complicated. 
+              But it is. 
+            </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-section">
+    <div class="home-section__content">
+      <div class="fs-row">
+        <div class="fs-cell fs-all-full">
+          <div class="home-title text-center">Sonne is super easy</div>  
+        </div>
+        <div class="fs-cell fs-lg-half sol">
+          {% include 'home-sol' %}
+          <a href="#" class="button button-cta home-cta">Get Started</a>
         </div>
       </div>
     </div>
@@ -104,9 +106,39 @@
   <div class="home-section">
     <div class="fs-row">
       <div class="fs-cell fs-all-full">
-        
+        <div class="home-title text-center">How it works</div>  
+      </div>
+    </div>
+    <hr class="invisible">
+    {% include 'home-hiw' %}
+  </div>
+
+  <div class="home-section home-section--testimonials">
+    <div class="fs-row">
+      <div class="fs-cell fs-all-full">
+        <div class="home-title text-center">What they’re saying about us</div>
+        <hr class="invisible">
+        <div class="quotes">
+          <div class="quotes-wrapper carousel" data-carousel-options='{"controls":false,"autoAdvance":false,"single":false,"contained":false}'>
+            {% include 'home-quote' %}
+            {% include 'home-quote' %}
+            {% include 'home-quote' %}
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
+  <div class="home-section background" data-background-options='{"source":"{{ 'easy.jpg'  | asset_url }}"}'>
+    <div class="home-section__content">
+      <div class="fs-row">
+        <div class="fs-cell fs-all-full text-center">
+          <div class="home-title">Get started today</div>  
+          <a href="#" class="button button-cta home-cta">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 </div>
