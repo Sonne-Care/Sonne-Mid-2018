@@ -12,7 +12,7 @@
     <hr class="divider fs-cell">
 
     <div class="fs-cell fs-lg-8 fs-md-full fs-sm-full">
-      <div class="account-header">{{ 'customer.orders.title' | t }}</div>
+      <div class="account-title">{{ 'customer.orders.title' | t }}</div>
       {% paginate customer.orders by 20 %}
       {% if customer.orders.size != 0 %}
       <div class="table-wrap">

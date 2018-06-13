@@ -13,11 +13,11 @@
 
     {% paginate customer.addresses by 5 %}
 
-    <div class="fs-cell fs-lg-3 fs-lg-push-1 fs-md-full fs-sm-full fs-all-justify-last text-right">
+    <div class="fs-cell fs-lg-3 fs-lg-push-1 fs-md-full fs-sm-full fs-all-last text-right">
       <a href="#" class="button button-full--mobile" onclick="Shopify.CustomerAddress.toggleNewForm(); return false;">{{ 'customer.addresses.add_new' | t }}</a>
     </div>
 
-    <div class="fs-cell fs-lg-8 fs-md-full fs-sm-full">
+    <div class="fs-cell fs-lg-8 fs-md-full fs-sm-full fs-first">
       {% form 'customer_address', customer.new_address %}
       <div id="AddAddress" class="form-vertical" {% unless form.errors %}style="display:none;"{% endunless %}>
 

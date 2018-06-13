@@ -1,3 +1,8 @@
+input.button {
+  top: -2px;
+  position: relative;
+}
+
 .button,
 button,
 input[type='button'],
@@ -23,7 +28,7 @@ input[type='submit'] {
   white-space: nowrap;
 
   &:focus, &:hover {
-    background-color: darken(@color-secondary, 10%);
+    background-color: darken(@brown, 10%);
     color: @color-initial;
     outline: 0;
   }
@@ -39,9 +44,10 @@ input[type='submit'] {
   &.button-outline {
     background-color: transparent;
     color: @color-secondary;
-    box-shadow: inset 0 0 0 1px @color-secondary;
+    box-shadow: inset 0 0 0 1px @lightGray;
     &:focus, &:hover {
       color: darken(@color-secondary, 10%);
+      box-shadow: inset 0 0 0 1px darken(@lightGray, 10%);
     }
     &[disabled] {
       background-color: transparent;

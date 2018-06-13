@@ -1,0 +1,38 @@
+.quotes {
+
+  position: relative;
+
+  & &-quote {
+
+    margin-right: @spacer;
+    display: block;
+    padding: 0 @spacer*4;
+
+    &__bio {
+      background: @bgGray;
+      padding: @spacer*2;
+      text-align: center;
+
+      & .avatar {
+        height: 150px;
+        width: 150px;
+        margin: 0 auto 10px;
+        border-radius: 50%;
+        background-color: @white;
+      }
+
+    }
+
+    &__testimonial {
+      background-color: @brown;
+      padding: @spacer*2;
+      color: @white;
+      font-size: 3rem;
+      line-height: 1.4;
+      box-shadow: 0 10px @spacer rgba(0,0,0,.05);
+      .serif();
+    }
+
+  }
+
+}

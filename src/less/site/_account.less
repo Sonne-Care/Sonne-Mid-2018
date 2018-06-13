@@ -1,7 +1,16 @@
 .account {
 
 	& a {
+		&:not(.button) {
+			color: @brown;
+		}
+	}
+
+	& &-title {
+		font-weight: 500;
+		margin-bottom: @spacer*.5;
 		color: @brown;
+		font-size: 1.75rem;
 	}
 
 	& &-logout {
