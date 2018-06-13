@@ -1,5 +1,63 @@
 <!-- /templates/customers/login.liquid -->
 
+<div class="page page--account">
+  <div class="fs-row">
+    <div class="fs-cell fs-xl-5 fs-lg-half fs-md-5 fs-sm-3 fs-all-justify-center">
+
+      <div class="note form-success" id="ResetSuccess" style="display:none;">
+        {{ 'customer.recover_password.success' | t }}
+      </div>
+
+      <div id="CustomerLoginForm" class="form-vertical">
+        {% form 'customer_login' %}
+          <div class="page-header">
+            <div class="page-title">{{ 'customer.login.title' | t }}</div>
+          </div>
+          <hr class="divider compact">
+          {{ form.errors | default_errors }}
+          <label for="CustomerEmail" class="hidden-label">{{ 'customer.login.email' | t }}</label>
+          <input type="email" name="customer[email]" id="CustomerEmail" class="input-full{% if form.errors contains 'email' %} error{% endif %}" placeholder="{{ 'customer.login.email' | t }}" autocorrect="off" autocapitalize="off" autofocus>
+          {% if form.password_needed %}
+          <label for="CustomerPassword" class="hidden-label">{{ 'customer.login.password' | t }}</label>
+          <input type="password" value="" name="customer[password]" id="CustomerPassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}" placeholder="{{ 'customer.login.password' | t }}">
+          {% endif %}
+          <input type="submit" class="button button-full" value="{{ 'customer.login.sign_in' | t }}">
+          <hr class="divider compact">
+          <a href="/">{{ 'customer.login.cancel' | t }}</a>
+          {{ 'layout.customer.create_account' | t | customer_register_link }}
+          {% if form.password_needed %}
+          <a href="#recover" id="RecoverPassword">{{ 'customer.login.forgot_password' | t }}</a>
+          {% endif %}
+        {% endform %}
+      </div>
+
+      <div id="RecoverPasswordForm" style="display: none;">
+        <div class="page-header">
+          <div class="page-title">{{ 'customer.recover_password.title' | t }}</div>
+        </div>
+        <p>{{ 'customer.recover_password.subtext' | t }}</p>
+        <hr class="divider compact">
+        <div class="form-vertical">
+          {% form 'recover_customer_password' %}
+          {{ form.errors | default_errors }}
+          {% if form.posted_successfully? %}
+          {% assign resetPassword = true %}
+          {% endif %}
+          <label for="RecoverEmail" class="hidden-label">{{ 'customer.recover_password.email' | t }}</label>
+          <input type="email" value="" name="email" id="RecoverEmail" class="input-full" placeholder="{{ 'customer.recover_password.email' | t }}" autocorrect="off" autocapitalize="off">
+          <input type="submit" class="button" value="{{ 'customer.recover_password.submit' | t }}">
+          <button type="button" id="HideRecoverPasswordLink" class="button button-clear">{{ 'customer.recover_password.cancel' | t }}</button>
+          {% endform %}
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+{% comment %}
 <div class="page page-account">
   <div class="fs-row">
     <div class="fs-cell fs-lg-third fs-lg-push-third text-center">
@@ -49,8 +107,8 @@
           {% assign resetPassword = true %}
           {% endif %}
           <label for="RecoverEmail" class="hidden-label">{{ 'customer.recover_password.email' | t }}</label>
-          <input type="email" value="" name="email" id="RecoverEmail" class="input-full" placeholder="{{ 'customer.recover_password.email' | t }}" autocorrect="off" autocapitalize="off">
-          <input type="submit" class="btn btn--full" value="{{ 'customer.recover_password.submit' | t }}">
+          <input type="email" value="" name="email" id="RecoverEmail" class="button" placeholder="{{ 'customer.recover_password.email' | t }}" autocorrect="off" autocapitalize="off">
+          <input type="submit" class="button" value="{{ 'customer.recover_password.submit' | t }}">
           <button type="button" id="HideRecoverPasswordLink" class="text-link">{{ 'customer.recover_password.cancel' | t }}</button>
           {% endform %}
         </div>
@@ -67,3 +125,4 @@
     </div>
   </div>
 </div>
+{% endcomment %}

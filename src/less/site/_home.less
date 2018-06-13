@@ -2,16 +2,27 @@
 
   & &-title {
     color: @brown;
-    font-size: 4rem;
-    line-height: 1.3;
-    margin-bottom: @spacer;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    margin-bottom: @spacer*.5;
+    .serif();
+    &.emphasized {
+      font-size: 8rem;
+      line-height: 1;
+      margin-bottom: @spacer;
+    }
   }
 
   & &-subtitle {
     color: @gray;
-    font-size: 2.5rem;
-    line-height: 1.5;
-    margin-bottom: @spacer;
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: @spacer*.5;
+    &.emphasized {
+      font-size: 2.5rem;
+      line-height: 1.7;
+      margin-bottom: @spacer;
+    }
   }
 
   & &-list {
@@ -48,6 +59,7 @@
       position: absolute;
       top: 50%;
       width: 100%;
+      z-index: 50;
       transform: translateY(-50%);
     }
 
@@ -64,6 +76,84 @@
     @media @max {
       padding: 100px 0;
     }
+  }
+
+  & &-problem {
+
+    color: @white;
+
+    &:hover {
+      box-shadow: 0 20px @spacer*2 rgba(0,0,0,.1);
+    }
+
+    @media @min {
+      padding: @spacer;
+      text-align: center;
+    }
+
+    @media @tablet {
+      height: 400px;
+      text-align: left;
+    }
+    
+    @media @desktop {
+      height: 500px;
+      padding: @spacer*2;
+    }
+
+    &-title {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      display: inline-block;
+      border-bottom: 1px solid @white;
+      @media @min {
+        margin-bottom: @spacer
+      }
+      @media @tablet {
+        margin-bottom: @spacer*2;
+      }
+    }
+
+    &-desc {
+
+      color: @white50;
+
+      @media @min {
+        font-size: 1.45rem;
+      }
+      @media @tablet {
+        font-size: 1.35rem;
+      }
+      @media @desktop {
+        font-size: 1.75rem;
+      }
+      
+      > div {
+        .serif();
+        margin-bottom: @spacer;
+        color: @white;
+        font-size: 4rem;
+        line-height: 1.2;
+      }
+    }
+
+    &.one {
+      background-color: @brown;
+    }
+    &.two {
+      background-color: #A68963;
+    }
+    &.three {
+      background-color: lighten(#9D8A6C,20%);
+    }
+    &-wrapper {
+      position: relative;
+      @media @tablet {
+        transform: translateY(50%);
+      }
+    }
+
   }
 
 }

@@ -1,12 +1,16 @@
 #header {
 
-  padding: 15px 0;
-  border-bottom: 1px solid fade(@brown, 30%);
-  position: fixed;
-  width: 100%;
-  z-index: 99;
+  padding: 20px 0;
+  //border-bottom: 1px solid fade(@brown, 30%);
+  transition: background-color 500ms ease;
 
-  &.active {
+  &.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  &.active, &:hover {
     background-color: @white;
   }
 

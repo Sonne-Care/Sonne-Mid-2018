@@ -1,4 +1,8 @@
-<div id="header">
+{% if template == 'index' or template == 'product' %}
+<div id="header" class="fixed sticky">
+{% else %}
+<div id="header" class="sticky">
+{% endif %}
   <div class="fs-row">
     <div class="fs-cell fs-lg-8 fs-md-half fs-sm-half">
       <a id="header-logo" class="button button-clear button-nav button-first" href="/">{{ shop.name }}</a>

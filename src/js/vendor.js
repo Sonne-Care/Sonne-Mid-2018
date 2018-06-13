@@ -16,3 +16,4 @@
 // Other Plugins
 // @codekit-append "../bower_components/infinite-scroll/dist/infinite-scroll.pkgd.js"
 // @codekit-append "../bower_components/feather-icons/dist/feather.js"
+// @codekit-append "../node_modules/tilt.js/dest/tilt.jquery.js"

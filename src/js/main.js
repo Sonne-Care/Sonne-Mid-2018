@@ -20,6 +20,11 @@ function headerScroll(){
 function init(){
   formstone();
   headerScroll();
+  const tilt = $('.js-tilt').tilt({
+    maxTilt: 3,
+    scale: 1.01,
+    //glare: true
+  });
   feather.replace({
     'stroke-width': 1,
   });
