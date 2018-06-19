@@ -30,6 +30,11 @@
       box-shadow: 0 10px @spacer rgba(0,0,0,.05);
       position: relative;
       z-index: 40;
+      text-align: center;
+
+      @media @tablet {
+        text-align: left;
+      }
 
       &:before {
         content: '';

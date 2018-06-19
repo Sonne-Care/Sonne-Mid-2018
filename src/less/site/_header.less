@@ -5,9 +5,11 @@
   box-shadow: 0 0 @spacer transparent;
 
   &.fixed {
-    position: fixed;
-    width: 100%;
-    z-index: 9999;
+    @media @tablet {
+      position: fixed;
+      width: 100%;
+      z-index: 9999;
+    }
   }
 
   &.active, &:hover, &.fs-sticky-stuck {
@@ -28,6 +30,20 @@
     & .feather {
       position: relative;
       top: 6px;
+    }
+
+    &.button-menu {
+      .feather-x {
+        display: none!important;
+      }
+      &.fs-swap-active {
+        .feather-x {
+          display: inline!important;
+        }
+        .feather-menu {
+          display: none!important;
+        }
+      }
     }
 
     &.active {
@@ -71,6 +87,41 @@
     & .button {
       padding: 0 2px;
     }
+  }
+
+  &-mobile {
+    
+    .cover();
+    position: fixed;
+    background-color: @white;
+    z-index: 49;
+    visibility: hidden;
+    opacity: 0;
+    transition: 700ms ease;
+
+    &.fs-swap-active {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    @media @tablet {
+      display: none;
+    }
+
+    &-content {
+      .center();
+      width: 100%;
+      text-align: center;
+    }
+
+    & .mobile-btn {
+      display: block;
+      color: @brown;
+      font-size: 2.5rem;
+      text-decoration: none;
+      letter-spacing: .025rem;
+    }
+
   }
 
 }

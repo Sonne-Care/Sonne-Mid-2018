@@ -5388,10 +5388,12 @@ h6 {
   transition: background-color 500ms ease, box-shadow 500ms ease;
   box-shadow: 0 0 25px transparent;
 }
-#header.fixed {
-  position: fixed;
-  width: 100%;
-  z-index: 9999;
+@media screen and (min-width: 740px) {
+  #header.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+  }
 }
 #header.active,
 #header:hover,
@@ -5411,6 +5413,15 @@ h6 {
 #header .button .feather {
   position: relative;
   top: 6px;
+}
+#header .button.button-menu .feather-x {
+  display: none!important;
+}
+#header .button.button-menu.fs-swap-active .feather-x {
+  display: inline!important;
+}
+#header .button.button-menu.fs-swap-active .feather-menu {
+  display: none!important;
 }
 #header .button.active {
   border-bottom: 1px solid;
@@ -5448,6 +5459,43 @@ h6 {
 }
 #header-socials .button {
   padding: 0 2px;
+}
+#header-mobile {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  z-index: 49;
+  visibility: hidden;
+  opacity: 0;
+  transition: 700ms ease;
+}
+#header-mobile.fs-swap-active {
+  visibility: visible;
+  opacity: 1;
+}
+@media screen and (min-width: 740px) {
+  #header-mobile {
+    display: none;
+  }
+}
+#header-mobile-content {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+#header-mobile .mobile-btn {
+  display: block;
+  color: #9E6927;
+  font-size: 2.5rem;
+  text-decoration: none;
+  letter-spacing: .025rem;
 }
 .footer {
   -webkit-font-smoothing: antialiased;
@@ -5744,20 +5792,49 @@ h6 {
   }
 }
 .home .home-title.emphasized {
-  font-size: 8rem;
   line-height: 1;
   margin-bottom: 25px;
+}
+@media screen and (min-width: 300px) {
+  .home .home-title.emphasized {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 740px) {
+  .home .home-title.emphasized {
+    font-size: 6rem;
+  }
+}
+@media screen and (min-width: 980px) {
+  .home .home-title.emphasized {
+    font-size: 8rem;
+  }
 }
 .home .home-subtitle {
   color: #979797;
   font-size: 2rem;
   line-height: 1.3;
   margin-bottom: 12.5px;
+  font-weight: 300;
 }
 .home .home-subtitle.emphasized {
-  font-size: 2.5rem;
   line-height: 1.7;
   margin-bottom: 25px;
+}
+@media screen and (min-width: 300px) {
+  .home .home-subtitle.emphasized {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 740px) {
+  .home .home-subtitle.emphasized {
+    font-size: 2.25rem;
+  }
+}
+@media screen and (min-width: 980px) {
+  .home .home-subtitle.emphasized {
+    font-size: 2.5rem;
+  }
 }
 .home .home-list {
   text-transform: uppercase;
@@ -5774,9 +5851,15 @@ h6 {
   position: relative;
   min-height: 600px;
 }
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 500px) {
   .home .home-hero {
-    height: 800px;
+    padding: 0 0 50px;
+  }
+}
+@media screen and (min-width: 740px) {
+  .home .home-hero {
+    padding: 0;
+    height: 90vh;
   }
 }
 @media screen and (min-width: 980px) {
@@ -5790,11 +5873,21 @@ h6 {
   }
 }
 .home .home-hero-centered {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  z-index: 50;
-  transform: translateY(-50%);
+  text-align: center;
+}
+@media screen and (min-width: 740px) {
+  .home .home-hero-centered {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 740px) {
+  .home .home-hero-centered {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 50;
+    transform: translateY(-50%);
+  }
 }
 .home .home-hero .home-subtitle,
 .home .home-hero .home-list {
@@ -5836,9 +5929,6 @@ h6 {
 }
 .home .home-section--cta {
   padding: 225px 0;
-}
-.home .home-section--hiw {
-  padding-bottom: 0;
 }
 .home .home-section:last-child {
   border-bottom: 0;
@@ -5980,6 +6070,12 @@ h6 {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
   position: relative;
   z-index: 40;
+  text-align: center;
+}
+@media screen and (min-width: 740px) {
+  .quotes .quotes-quote__testimonial {
+    text-align: left;
+  }
 }
 .quotes .quotes-quote__testimonial:before {
   content: '';
@@ -6043,6 +6139,12 @@ h6 {
 }
 .hiw .hiw-item {
   background-color: #fff;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 740px) {
+  .hiw .hiw-item {
+    margin-bottom: 0;
+  }
 }
 .hiw .hiw-wrapper {
   padding: 0 25px;

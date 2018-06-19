@@ -2,33 +2,20 @@
 <div class="home">
 
   <div class="carousel" data-carousel-options='{"pagination":false}'>
-    <div class="home-hero background" data-background-options='{"source":"{{ 'home2.jpg'  | asset_url }}"}'>
+    {% capture source %}{"source":{"0px":"","740px":"{{ 'home2.jpg'  | asset_url }}"},"alt":"Background Image"}'{% endcapture %}
+    <div class="home-hero background" data-background-options='{{ source }}'>
       <div class="home-hero-centered">
         <div class="fs-row">
-          <div class="fs-cell fs-xl-5 fs-lg-half fs-md-3">
-            <hr class="invisible huge">
-            <hr class="invisible huge">
+          <div class="fs-cell fs-lg-hide fs-md-hide fs-sm-full">
+            <img src="{{ 'SonneCare_Lifestyle2-2184.jpg'  | asset_url }}" class="img-responsive">
+            <hr class="invisible compact">
+          </div>
+          <div class="fs-cell fs-xl-5 fs-lg-half fs-md-3 fs-sm-2 fs-sm-justify-center fs-xs-full">
+            <hr class="invisible huge fs-sm-hide">
+            <hr class="invisible huge fs-sm-hide">
             <div class="home-title emphasized">Future proof your skin.</div>
             <div class="home-subtitle emphasized">A skincare system developed by doctors and delivered to your door.</div>
             <a href="{{ url }}" class="button button-cta home-cta">Buy Now</a>
-            <ul class="home-list">
-              <li>Combats the #1 cause of skin aging</li>
-              <li>Visible results reported in 6-8 days</li>
-              <li>Vegan, No Parabens, Cruelty Free</li>
-              <li>Manufactured in the USA</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="home-hero background" data-background-options='{"source":"{{ 'home2.jpg'  | asset_url }}"}'>
-      <div class="home-hero-centered">
-        <div class="fs-row">
-          <div class="fs-cell fs-xl-5 fs-lg-half fs-md-3">
-            <hr class="invisible huge">
-            <div class="home-title">Future proof your skin.</div>
-            <div class="home-subtitle">The doctor-developed skincare system delivered to your door.</div>
-            <a class="button button-cta home-cta">Get Started</a>
             <ul class="home-list">
               <li>Combats the #1 cause of skin aging</li>
               <li>Visible results reported in 6-8 days</li>
