@@ -97,6 +97,22 @@
       z-index: 2;
       border-bottom: 0;
     }
+    &--sol {
+      padding-bottom: 0;
+    }
+    &--insta {
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+    &--cta {
+      padding: 225px 0;
+    }
+    &--hiw {
+      padding-bottom: 0;
+    }
     &:last-child {
       border-bottom: 0;
     }
@@ -139,9 +155,19 @@
     &-title {
       text-transform: uppercase;
       letter-spacing: 1px;
-      font-weight: 500;
       display: inline-block;
-      border-bottom: 1px solid @white;
+      & span {
+        display: block;
+        @size: 30px;
+        height: @size;
+        line-height: @size;
+        width: @size;
+        border-radius: 50%;
+        background-color: @white;
+        color: @brown;
+        text-align: center;
+        font-weight: 700;
+      }
       @media @min {
         margin-bottom: @spacer
       }

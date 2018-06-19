@@ -1,0 +1,40 @@
+.faq {
+
+  & &-item {
+  
+    transition: 500ms ease;
+
+    &:last-child {
+      hr {
+        background-color: transparent;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+      border-color: @brown;
+    }
+
+    p {
+      font-weight: normal;
+      color: @gray;
+    }
+
+    strong {
+      color: @brown;
+      font-weight: 300;
+      display: block;
+      @media @min {
+        font-weight: 300;
+        font-size: 18px;
+      }
+      @media @tablet {
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+      }
+    }
+
+  }
+
+}

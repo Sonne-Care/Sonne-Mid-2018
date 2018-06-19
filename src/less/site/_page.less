@@ -14,4 +14,63 @@
     font-size: 2rem;
   }
 
+  // Specific Pages
+
+  &.page {
+    &-about {
+      padding-top: 0;
+    }
+  }
+
+  &-header {
+
+    border-bottom: 1px solid @lighterGray;
+
+    @media @min {
+      padding: 0 0 @spacer;
+      margin-bottom: @spacer;
+    }
+    @media @tablet {
+      padding: 0 0 @spacer*2;
+      margin-bottom: @spacer*2;  
+    }
+    
+
+    &.nobottom {
+      margin-bottom: 0;
+    }
+
+    & &__title {
+      color: @brown;
+      line-height: 1.5;
+      margin-bottom: 0;
+      @media @min {
+        font-weight: 300;
+        font-size: 24px;
+      }
+      @media @tablet {
+        font-size: 36px;
+      }
+    }
+
+    & &__subtitle {
+      color: @gray;
+      display: inline-block;
+      line-height: 1.5;
+      margin-bottom: 0;
+      margin-top: 10px;
+      @media @min {
+        font-weight: 300;
+        font-size: 20px;
+      }
+      @media @tablet {
+        font-size: 28px;
+        height: 40px;
+        line-height: 40px;
+        display: inline-block;
+      }
+    }
+
+  }
+
 }

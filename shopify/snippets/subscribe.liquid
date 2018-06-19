@@ -1,25 +1,26 @@
-<form id="email_signup" class=" klaviyo_bare_embed_MenjQP" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
-  <input type="hidden" name="g" value="MenjQP">
-  <div class="fs-row">
-    <div class="klaviyo_field_group fs-cell">
-      {% comment %}<label for="k_id_email">Newsletter Sign Up</label>{% endcomment %}
-      <input type="email" value="" name="email" id="k_id_email" placeholder="Your email" />
-    </div>
-    <div class="klaviyo_messages fs-cell">
-      <div class="success_message" style="display:none;"></div>
-      <div class="error_message" style="display:none;"></div>
+<div id="signup" class="signup fs-grid-fluid">
+  <div class="signup-container">
+    <div class="fs-row fs-all-align-end">
+      <div class="fs-cell fs-xl-4 fs-lg-6 fs-md-5 fs-sm-3 fs-all-justify-center">
+        <div class="signup-wrapper">
+          <div class="signup-close swap" data-swap-target="#signup" data-swap-linked=".signup-close"><i data-feather="x"></i></div>
+          <div class="signup-header">Sonne Pronunciation Guide</div>
+          <div class="signup-content">
+            <p class="serif">Sounds like: Sun.</p>
+            <p class="serif">Protects from: Sun.</p>
+            <p class="serif">Here comes the: <span>_____</span>.</p>
+            <p class="serif">Nice. You get it.</p>
+            <p class="serif">Now get Sonne.</p>
+          </div>
+          <div class="signup-footer">
+            $15 off your first delivery. <br>Just enter your e-mail below.
+          </div>
+          <div class="signup-form">
+            {% include 'subscribe-form-2' %}
+          </div>
+        </div>
+        <div class="signup-close-big swap" data-swap-linked=".signup-close" data-swap-target="#signup"></div>
       </div>
-    <div class="klaviyo_form_actions fs-cell">
-      <button type="submit" class="klaviyo_submit_button button button-full">Subscribe</button>
     </div>
   </div>
-</form>
-<script type="text/javascript" src="//www.klaviyo.com/media/js/public/klaviyo_subscribe.js"></script>
-<script type="text/javascript">
-  KlaviyoSubscribe.attachToForms('#email_signup', {
-    hide_form_on_success: true
-  });
-  $(document).on('submit','#email_signup',function(){
-    $.cookie('submitted', 'true');
-  });
-</script>
+</div>

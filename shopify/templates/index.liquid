@@ -1,3 +1,4 @@
+{% assign url = '/products/sonne-premium-skincare-membership' %}
 <div class="home">
 
   <div class="carousel" data-carousel-options='{"pagination":false}'>
@@ -8,8 +9,8 @@
             <hr class="invisible huge">
             <hr class="invisible huge">
             <div class="home-title emphasized">Future proof your skin.</div>
-            <div class="home-subtitle emphasized">The doctor-developed skincare system delivered to your door.</div>
-            <a href="#" class="button button-cta home-cta">Buy Now</a>
+            <div class="home-subtitle emphasized">A skincare system developed by doctors and delivered to your door.</div>
+            <a href="{{ url }}" class="button button-cta home-cta">Buy Now</a>
             <ul class="home-list">
               <li>Combats the #1 cause of skin aging</li>
               <li>Visible results reported in 6-8 days</li>
@@ -43,19 +44,18 @@
   <div class="home-section home-section--problem">
     <div class="fs-row">
       <div class="fs-cell fs-all-full text-center">
-        <div class="home-title">We get it — being human is hard.</div>
+        <div class="home-title">Being a human is hard.</div>
         <div class="home-subtitle">Especially when it comes caring for your skin.</div>
         <hr class="invisible">
       </div>
       <div class="fs-cell fs-cell-contained fs-all-third fs-sm-full">
         <div class="home-problem one js-tilt background" data-background-options='{"source":"{{ 'prob1.jpg'  | asset_url }}"}'>
           <div class="home-problem-content">
-            <div class="home-problem-title">Problem 1</div>
+            <div class="home-problem-title"><span>1</span></div>
             <div class="home-problem-desc">
-              <div>Proper skincare is very necessary.</div>
-              The thing is, your skin is aging. You might not need, or consider a chemical peel. 
-              But you probably don’t want wrinkles or skin cancer. And if your skin sees the sun 
-              at all (even on cloudy days) you’re risking both. 
+              <div>Skincare is necessary.</div>
+              Your skin <em>is</em> aging. We assume you don’t want wrinkles or skin cancer. 
+              And if your skin sees the sun at all (even on cloudy days), then you’re risking both.  
             </div>
           </div>
         </div>
@@ -63,12 +63,13 @@
       <div class="fs-cell fs-cell-contained fs-all-third fs-sm-full">
         <div class="home-problem two js-tilt background" data-background-options='{"source":"{{ 'prob2.jpg'  | asset_url }}"}'>
           <div class="home-problem-content">
-            <div class="home-problem-title">Problem 2</div>
+            <div class="home-problem-title"><span>2</span></div>
             <div class="home-problem-desc">
-              <div>Skincare can be pretty confusing.</div>
-              The skincare industry is saturated with myths. Forget not knowing where to start, 
-              it’s hard to know products even work. People spend big money on their best guess. 
-              Or get overwhelmed and do nothing. Both are bad options.
+              <div>Skincare is confusing.</div>
+              The skincare industry is saturated with myths and marketing gimmicks. 
+              Forget not knowing where to start. It’s hard to know if products even work. 
+              People spend big money on their best guess. Or get overwhelmed and do nothing. 
+              Both are bad options. 
             </div>
           </div>
         </div>
@@ -76,11 +77,11 @@
       <div class="fs-cell fs-cell-contained fs-all-third fs-sm-full">
         <div class="home-problem three js-tilt background" data-background-options='{"source":"{{ 'prob3.jpg'  | asset_url }}"}'>
           <div class="home-problem-content">
-            <div class="home-problem-title">Problem 3</div>
+            <div class="home-problem-title"><span>3</span></div>
             <div class="home-problem-desc">
-              <div>Skincare takes WORK.</div>
-              The beauty store. The drug store. The overwhelming online shop. 
-              The expensive dermatologist, again. The hunt for effective skincare shouldn’t be so complicated. 
+              <div>Skincare <br>takes work.</div>
+              The beauty store. The drug store. The overwhelming online shop.
+              The hunt for effective skincare shouldn’t be so complicated. 
               But it is. 
             </div>
           </div>
@@ -89,21 +90,19 @@
     </div>
   </div>
 
-  <div class="home-section">
+  <div class="home-section home-section--sol">
     <div class="home-section__content">
       <div class="fs-row">
         <div class="fs-cell fs-all-full">
-          <div class="home-title text-center">Sonne is super easy</div>  
-        </div>
-        <div class="fs-cell fs-lg-half sol">
-          {% include 'home-sol' %}
-          <a href="#" class="button button-cta home-cta">Get Started</a>
+          <div class="home-title text-center">Sonne makes it easy.</div>  
+          <hr class="invisible">
         </div>
       </div>
+      {% include 'home-sol' %}
     </div>
   </div>
 
-  <div class="home-section">
+  <div class="home-section home-section--hiw">
     <div class="fs-row">
       <div class="fs-cell fs-all-full">
         <div class="home-title text-center">How it works</div>  
@@ -129,16 +128,17 @@
     </div>
   </div>
 
-  <div class="home-section background" data-background-options='{"source":"{{ 'easy.jpg'  | asset_url }}"}'>
+  <div class="home-section home-section--cta background" data-background-options='{"source":"{{ 'SonneCare_Lifestyle2-2058.jpg'  | asset_url }}"}'>
     <div class="home-section__content">
       <div class="fs-row">
-        <div class="fs-cell fs-all-full text-center">
+        <div class="fs-cell fs-lg-4 fs-lg-push-1">
           <div class="home-title">Get started today</div>  
-          <a href="#" class="button button-cta home-cta">Buy Now</a>
+          <a href="{{ url }}" class="button button-cta home-cta">Buy Now</a>
         </div>
       </div>
     </div>
   </div>
 
-
 </div>
+
+{% include 'subscribe' %}

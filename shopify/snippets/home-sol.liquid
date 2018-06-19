@@ -1,26 +1,56 @@
-{% assign numsize = 'fs-lg-1' %}
-{% assign copsize = 'fs-lg-11' %}
+{% capture block1_title %}Real science. Real results.{% endcapture %}
+{% capture block1_desc %}90% of skin aging is caused by the sun. Sonne is formulated to prevent this process while reducing signs of past damage (like wrinkles and redness). No guesswork. No gimmicks. Just smart science, and great skin.{% endcapture %}
+{% capture block1_dir %}left{% endcapture %}
+{% capture block1_img %}{{ 'home-sol-2.jpg'  | asset_url }}{% endcapture %}
 
-<div class="sol-item">
-<div class="sol-num">1</div>
-<div class="sol-desc">
-<div>Real science. Real results. </div>
-90% of skin aging is caused by the sun. Sonne is doctor formulated to prevent this process while reducing signs of past damage (like wrinkles and redness). No guesswork. No gimmicks. Just smart science, and great skin.    
-</div>
+{% capture block2_title %}Work smarter, not harder.{% endcapture %}
+{% capture block2_desc %}You don’t need 300 skincare products. You need one that works. Sonne is easy. Just one step in the morning and one step at night for a lifetime of safe, healthy skin.{% endcapture %}
+{% capture block2_dir %}right{% endcapture %}
+{% capture block2_img %}{{ 'home-sol-1.jpg'  | asset_url }}{% endcapture %}
+
+{% capture block3_title %}Simple Subscription.{% endcapture %}
+{% capture block3_desc %}Good products are only good if you get them. That’s why Sonne ships free to your door every month.{% endcapture %}
+{% capture block3_dir %}left{% endcapture %}
+{% capture block3_img %}{{ 'home-sol-4.jpg'  | asset_url }}{% endcapture %}
+
+<div class="hero hero-small hero-headless checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
+  <div class="fs-row">
+    <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full {% if block1_dir == 'left' %}fs-all-last fs-sm-first{% endif%}">
+      <img src="{{ block1_img }}" class="img-responsive {{ block1_dir }}" alt="">
+    </div>
+    <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-all-align-center">
+      <div class="explain-content {{ block1_dir }}">
+        <div class="explain-title">{{ block1_title }}</div>
+        <div class="explain-desc">{{ block1_desc }}</div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="sol-item">
-<div class="sol-num">2</div>
-<div class="sol-desc">
-<div>Work smarter, not harder.</div>
-You don’t need 300 skincare products. You need one that works. Sonne is simple. Kick back, relax, and make looking good look easy.
-</div>
+<div class="hero hero-small hero-headless checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
+  <div class="fs-row">
+    <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full {% if block2_dir == 'left' %}fs-all-last fs-sm-first{% endif%}">
+      <img src="{{ block2_img }}" class="img-responsive {{ block2_dir }}" alt="">
+    </div>
+    <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-all-align-center">
+      <div class="explain-content {{ block2_dir }}">
+        <div class="explain-title">{{ block2_title }}</div>
+        <div class="explain-desc">{{ block2_desc }}</div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="sol-item">
-<div class="sol-num">3</div>
-<div class="sol-desc">
-<div>Simple Subscription</div>
-Good products are only good if you get them. That’s why Sonne ships free to your door, every month.  
-</div>
+<div class="hero hero-small hero-headless checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
+  <div class="fs-row">
+    <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full {% if block3_dir == 'left' %}fs-all-last fs-sm-first{% endif%}">
+      <img src="{{ block3_img }}" class="img-responsive {{ block3_dir }}" alt="">
+    </div>
+    <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-all-align-center">
+      <div class="explain-content {{ block3_dir }}">
+        <div class="explain-title">{{ block3_title }}</div>
+        <div class="explain-desc">{{ block3_desc }}</div>
+      </div>
+    </div>
+  </div>
 </div>

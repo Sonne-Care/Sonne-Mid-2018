@@ -1,13 +1,16 @@
+{% capture heroimage %}{{ 'product.jpg'  | asset_url }}{% endcapture %}
+{% capture takestwo %}{{ 'takestwo.jpg'  | asset_url }}{% endcapture %}
+
 <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
 <meta itemprop="image" content="{{ product.featured_image.src | img_url: 'grande' }}">
 
 <div class="product">
-  <div class="product-hero">
+  <div class="product-hero background" data-background-options='{"source":"{{ heroimage }}"}'>
     <div class="product-hero-centered">
       <div class="fs-row">
-        <div class="fs-cell fs-xl-4 fs-xl-push-8 fs-lg-5 fs-lg-push-7">
+        <div class="fs-cell fs-xl-4 fs-xl-push-8 fs-lg-5 fs-lg-push-7 fs-md-3 fs-md-push-3">
           <hr class="invisible huge">
-          <div class="product-title">The Sonne System <br>Morning & Evening</div>
+          <div class="product-title main">The Sonne System <br>Morning & Evening</div>
           <div class="product-subtitle">$45/month</div>
           <form action="/cart/add" method="post" enctype="multipart/form-data" data-productid="{{product.id}}">
             {% if product.available %}{% include 'subscription-product' %}{% endif %}
@@ -34,6 +37,102 @@
       </div>
     </div>
   </div>
+
+  <div class="product-section product-section--betterskin">
+    <div class="fs-row">
+      <div class="fs-cell fs-lg-8 fs-md-5 fs-sm-3 fs-all-justify-center">
+        <div class="product-title text-center">Smarter Skincare = Better Skin</div>
+        <div class="product-desc text-center">
+          We put serious consideration towards what goes into Sonne — and what doesn’t. 
+          Because everything inside Sonne goes into your skin. And we take that seriously.
+        </div>
+      </div>
+      <div class="fs-cell fs-lg-9 fs-md-6 fs-sm-3 fs-all-justify-center">
+        {% include 'freeitems' %}
+      </div>
+    </div>
+  </div>
+
+  <div class="product-section product-section--betterskin">
+    <div class="fs-row">
+      <div class="fs-cell fs-lg-8 fs-md-5 fs-sm-3 fs-all-justify-center">
+        <div class="product-title text-center">The Sonne System</div>
+        <hr class="invisible compact">
+      </div>
+    </div>
+    <div class="hero hero-small hero-headless checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
+      <div class="fs-row">
+        <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full fs-all-last fs-sm-first fs-all-align-center">
+          <img src="{{ 'product-morning.jpg' | asset_url }}" class="img-responsive left" alt="Sonne Morning">
+        </div>
+        <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-all-align-center">
+          <div class="explain-content left">
+            <div class="explain-title">Morning: Prepare</div>
+            <div class="explain-desc">
+              <p>Guards against UV rays to prevent damaged, <br>dull skin and cancer. </p>
+              <p>Our highly-concentrated, non-irritating lotion is scientifically formulated to offer your skin 4x protection against harmful UV rays — preventing redness, wrinkles, and signs of aging. Enriched with nutrients like red algae, Vitamin C, and Vitamin E to give you enviable skin. </p>
+              <hr class="invisible compact">
+              {% include 'morning-benefits' %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="invisible big">
+
+    <div class="hero hero-small hero-headless checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
+      <div class="fs-row">
+        <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full {% if block.settings.block_align == 'left' %}fs-last fs-sm-first{% endif%} fs-all-align-center">
+          <img src="{{ 'product-evening.jpg' | asset_url }}" class="img-responsive right" alt="Sonne Evening">
+        </div>
+        <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-all-align-center">
+          <div class="explain-content right">
+            <div class="explain-title">Evening: Repair</div>
+            <div class="explain-desc">
+              <p>Brightens and hydrates while reducing wrinkles and stimulating collagen  — in your sleep. </p>
+              <p>Dermatologists agree that SPF alone won’t give you great skin. Research recommends a complementary night cream to combat the remaining 3% of sun damage your skin receives. Ours is antioxidant-rich to prevent wrinkles and improve tone and goes to work instantly to reduce the appearance of existing fine lines. </p>
+              <hr class="invisible compact">
+              {% include 'evening-benefits' %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-section product-section--takestwo background" data-background-options='{"source":"{{ takestwo }}"}'>
+    <div class="product-section__content">
+      <div class="fs-row">
+        <div class="fs-cell fs-xl-4 fs-xl-push-8 fs-lg-5 fs-lg-push-7 fs-md-3 fs-md-push-3">
+          <div class="product-title">It takes two.</div>
+          <div class="product-desc">
+            Most skincare products only skim the surface. Our unique combination system protects and activates your skin’s regenerative processes on a cellular level so you can enjoy younger-looking skin now, and far into the future.
+          </div>
+          <div class="product-cta">
+            <a href="#" class="button button-cta home-cta">{{ 'products.product.add_to_cart' | t }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-section product-section--testimonials">
+    <div class="fs-row">
+      <div class="fs-cell">
+        <div class="product-title text-center">What they’re saying about us</div>
+        <hr class="invisible">
+        <div class="quotes">
+          <div class="quotes-wrapper carousel" data-carousel-options='{"controls":false,"autoAdvance":false,"single":false,"contained":false}'>
+            {% include 'product-quote' %}
+            {% include 'product-quote' %}
+            {% include 'product-quote' %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <script>
@@ -58,5 +157,6 @@
     {% if product.variants.size == 1 and product.variants.first.title contains 'Default' %}
       $('.selector-wrapper').hide();
     {% endif %}
+    //$("select:not(#productSelect)").dropdown();
   });
 </script>

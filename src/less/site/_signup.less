@@ -1,0 +1,130 @@
+.signup {
+
+  z-index: 999;
+  color: @white;
+  .cover();
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  transition: 500ms ease;
+
+  &.fs-swap-active {
+    opacity: 1;
+    visibility: visible;
+
+    & .signup {
+      &-wrapper {
+        margin-top: 0;
+      }
+    }
+
+  }
+
+  & &-close {
+    color: @white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    cursor: pointer;
+    &-big {
+      .cover();
+      position: fixed;
+      z-index: 2;
+    }
+  }
+
+  & &-container {
+    width: 100%;
+    .center();
+  }
+
+  & &-spacer {
+    height: 100vh;
+  }
+
+  & &-wrapper {
+
+    background-color: @brown;
+    position: relative;
+    box-shadow: 0 15px @spacer rgba(0,0,0,.1);
+    transition: 500ms ease;
+    z-index: 4;
+
+    @media @min {
+      padding: @spacer;
+      margin: @spacer 0;
+    }
+    @media @tablet {
+      margin-top: @spacer;
+      padding: @spacer*2;
+    }
+
+  }
+
+  & &-header, & &-footer {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: @spacer*.5;
+    padding-bottom: @spacer*.5;
+    border-bottom: 1px solid @white25;
+  }
+
+  & &-footer {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: @spacer;
+  }
+
+  & &-content {
+    margin-bottom: @spacer*.5;
+    text-align: center;
+    padding-bottom: @spacer*.5;
+    p {
+      margin-bottom: 0;
+    }
+    & .serif {
+      font-family: 'Cormorant', serif;
+      font-size: 32px;
+      line-height: 1.4;
+      span {
+        letter-spacing: -5px;
+      }
+    }
+  }
+
+  & &-form {
+    @height: 45px;
+    button {
+      border-radius: 0;
+      height: @height;
+      line-height: @height;
+      @media @min {
+        border: 1px solid @white50;
+        border-top: 0;
+      }
+      @media @tablet {
+        border: 1px solid @white50;
+        border-left: 0;
+      }
+    }
+    input {
+      margin-bottom: 0;
+      padding: 0 15px;
+      height: @height;
+      line-height: @height;
+      &#k_id_email {
+        border: 1px solid @white50;
+        border-radius: 0;
+        color: @white;
+        &::placeholder {
+          color: @white25;
+        }
+      }
+    }
+  }
+
+}

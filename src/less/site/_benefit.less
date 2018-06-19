@@ -1,0 +1,56 @@
+.benefit-item {
+
+  border-bottom: 1px solid @lighterGray;
+  position: relative;
+  padding-left: 15px;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &:before {
+    content: '+';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    color: @gray;
+  }
+
+  & .title {
+    color: @gray;
+    padding: 6px 0;
+    transition: 400ms ease;
+    &:hover {
+      cursor: pointer;
+      color: @brown;
+    }
+  }
+
+  & .content {
+    display: none;
+    padding-bottom: 10px;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    a {
+      color: @brown;
+    }
+  }
+
+  &.fs-swap-active {
+
+    & .title {
+      color: @brown;
+    }
+
+    & .content {
+      display: block;
+    }
+
+    &:before {
+      content: '-'
+    }
+
+  }
+
+}

@@ -7,8 +7,9 @@
     <div class="fs-cell fs-lg-8 fs-md-half fs-sm-half">
       <a id="header-logo" class="button button-clear button-nav button-first" href="/">{{ shop.name }}</a>
       {% for link in linklists.main-menu.links %}
-      <a class="button button-clear button-nav fs-md-hide fs-sm-hide" href="{{ link.url }}">{{ link.title }}</a>
+      <a class="button button-clear button-nav fs-md-hide fs-sm-hide {% if link.active %}active{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
       {% endfor %}
+      <a class="button button-clear button-nav fs-md-hide fs-sm-hide" target="blank" href="http://medium.com/sonnecare">Blog</a>
     </div>
     <div class="fs-cell fs-lg-4 fs-md-half fs-sm-half text-right">
       <div id="header-socials">

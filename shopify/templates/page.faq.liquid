@@ -1,0 +1,21 @@
+{% assign faqs = page.content | split: '<hr>' %}
+
+<div id="page" class="page page-{{ page.handle }} faq">
+  <div class="page-header">
+    <div class="fs-row">
+      <div class="fs-cell fs-all-full">
+        <h2 class="page-header__title">You have questions, we have answers.</h2>
+        <h3 class="page-header__subtitle">Here are some common questions we get about Sonne</h3>
+      </div>
+    </div>
+  </div>
+  <div class="fs-row">
+    {% assign j = 0 %}
+    {% for faq in faqs %}
+    <div class="faq-item fs-cell fs-lg-10 fs-md-6 fs-sm-full">
+      {{ faq }}
+      <hr class="divider big">
+    </div>
+    {% endfor %}
+  </div>
+</div>

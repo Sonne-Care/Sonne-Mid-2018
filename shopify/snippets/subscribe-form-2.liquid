@@ -1,0 +1,32 @@
+<form id="email_signup" class=" klaviyo_bare_embed_MenjQP" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
+  <input type="hidden" name="g" value="MenjQP">
+  <div class="fs-row">
+    <div class="fs-cell fs-lg-8 fs-md-4 fs-sm-3 fs-contained">
+      <div class="klaviyo_field_group">
+        {% comment %}<label for="k_id_email">Newsletter Sign Up</label>{% endcomment %}
+        <input type="email" value="" name="email" id="k_id_email" placeholder="Your email" />
+      </div>
+    </div>
+    <div class="fs-cell fs-lg-4 fs-md-2 fs-sm-3 fs-contained">
+      <div class="klaviyo_form_actions">
+        <button type="submit" class="klaviyo_submit_button">Subscribe</button>
+      </div>
+    </div>
+    <div class="fs-cell text-center">
+      <div class="klaviyo_messages">
+        <div class="success_message" style="display:none;"></div>
+        <div class="error_message" style="display:none;"></div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<script type="text/javascript" src="//www.klaviyo.com/media/js/public/klaviyo_subscribe.js"></script>
+<script type="text/javascript">
+  $('.signup-close').on('click', function(){
+    $.cookie('closesignup', 'true');
+  });
+  KlaviyoSubscribe.attachToForms('#email_signup', {
+    hide_form_on_success: true
+  });
+</script>
