@@ -5638,6 +5638,13 @@ h6 {
   font-weight: 500;
   font-size: 2rem;
 }
+.page .page-subtitle {
+  color: #979797;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1.75rem;
+}
 .page.page-about {
   padding-top: 0;
 }
@@ -6526,25 +6533,78 @@ h6 {
 .about-relative {
   position: relative;
 }
-@media screen and (min-width: 300px) {
-  .skin .skin-carousel-slide {
-    height: 75vh;
-    background-color: #F9F9F9;
-    border-right: 1px solid #fff;
-    padding: 25px;
-  }
+.skin .skin-header {
+  font-size: 3rem;
+  margin-bottom: 25px;
+  color: #979797;
 }
-@media screen and (min-width: 740px) {
-  .skin .skin-carousel-slide {
-    height: 60vh;
-    padding: 50px;
-  }
+.skin .skin-content {
+  padding: 50px 0;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #979797;
 }
-@media screen and (min-width: 980px) {
-  .skin .skin-carousel-slide {
-    height: 50vh;
-    padding: 50px;
-  }
+.skin .skin-content__section4 {
+  border-bottom: 0;
+}
+.skin .skin-content .emphasized {
+  font-size: 2rem;
+  color: #9E6927;
+}
+.skin .skin-content img {
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.05);
+}
+.skin .skin-content img.border {
+  border-radius: 2px;
+  border: 1px solid #9E6927;
+}
+.skin .skin-content img.noshadow {
+  box-shadow: none;
+}
+.skin .skin-content ul {
+  padding: 0;
+  margin: 0;
+}
+.skin .skin-content ul li {
+  position: relative;
+  padding-left: 0;
+  display: block;
+  margin-bottom: 12px;
+  margin-right: 25px;
+}
+.skin .skin-content ul li:before {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  top: 11px;
+  background-color: #9E6927;
+}
+.skin .skin-caption {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  color: #979797;
+  border-top: 1px solid #f2f2f2;
+  margin-top: 20px;
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+.skin .skin-divider {
+  position: relative;
+}
+.skin .skin-divider:before {
+  content: '';
+  display: block;
+  width: 1px;
+  background-color: #f2f2f2;
+  height: 100%;
+  position: absolute;
+  left: 50%;
 }
 @media screen and (min-width: 300px) {
   .hero {

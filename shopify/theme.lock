@@ -23,6 +23,8 @@ assets/envelope.svg:
   development: 2018-06-13T07:31:23-07:00   2df25474af0f78f3834e346338331161
 assets/evening-2_1024x1024_de34637c-c145-419c-b420-4badb9fd1cd5_1024x1024.jpg:
   development: 2018-06-18T16:56:07-07:00   713bea42b194cf75d53c35191b9ae7e4
+assets/fastclick.min-min.js:
+  development: 2018-06-19T17:45:18-07:00   3fcae108dd4a21cc781a174cd8559a3f
 assets/fastclick.min.js:
   development: 2018-06-11T15:32:45-07:00   a8082e71d6b046776c20a40496c0917b
 assets/github.svg:
@@ -40,7 +42,7 @@ assets/home2.jpg:
 assets/leaf.svg:
   development: 2018-06-13T07:31:24-07:00   95fed90f0049925557502e65e45833b5
 assets/main.min.css:
-  development: 2018-06-19T17:41:21-07:00   45aa8234e2547b54952ba952737490d8
+  development: 2018-06-19T17:45:18-07:00   960fb121a5d7e7566e399ff8c41ba2c7
 assets/main.min.css.map:
   development: 2018-06-11T15:32:45-07:00   e1338bb491140abd827b0f0ee1256615
 assets/main.min.js:
@@ -65,10 +67,12 @@ assets/moon.svg:
   development: 2018-06-13T07:31:26-07:00   2cf0a819a66e43280fe5ff83d9f2bdf5
 assets/morning-2_1024x1024_5448eb8f-9e85-45b4-af76-a70615a9700c_1024x1024.jpg:
   development: 2018-06-18T16:56:09-07:00   3750016b18c06fab86f9379f2c1e12b4
+assets/option_selection-min.js:
+  development: 2018-06-19T17:45:15-07:00   5d772baacb0e8ff8a451e5ed69f28c05
 assets/option_selection.js:
   development: 2018-06-11T15:32:45-07:00   2c6231664b43b04ff80dc88d50fc347f
 assets/password.jpg:
-  development: 2018-06-11T15:32:46-07:00   42eaf3ca0e067b974bc95c7480d48c25
+  development: 2018-06-19T17:45:16-07:00   a5349f07c2ab94382a319fbd8cad796b
 assets/prob1.jpg:
   development: 2018-06-13T15:18:18-07:00   1148657e5a101d153ca54151d006ec6d
 assets/prob2.jpg:
@@ -85,6 +89,8 @@ assets/productmobile.jpg:
   development: 2018-06-19T17:13:02-07:00   6ee91920c6a7ca243ab760cc35c58417
 assets/quote-1.jpg:
   development: 2018-06-18T16:17:51-07:00   99194bf2e56005f1564216d2d7fb8033
+assets/shopify_common-min.js:
+  development: 2018-06-19T17:45:19-07:00   25c810c30f2d1926aad70021996a85b2
 assets/shopify_common.js:
   development: 2018-06-11T15:32:46-07:00   bf001459d7d6c7c05491db53511b03b1
 assets/soldout.png:
@@ -191,6 +197,8 @@ snippets/subscribe-form.liquid:
   development: 2018-06-18T16:25:53-07:00   44df466fac0185a592fd9e792ae47116
 snippets/subscribe.liquid:
   development: 2018-06-18T16:25:57-07:00   6cc84c1c63b1165d5a04b6773b8d7709
+snippets/subscription-cart-footer.liquid:
+  development: 2018-06-19T17:45:17-07:00   e15461a3c789aeb9d5fa26c74bdd52ea
 snippets/subscription-product.liquid:
   development: 2018-06-11T17:23:30-07:00   b901ca8db83de45e031c21d718f18514
 snippets/subscription-theme-footer.liquid:
@@ -229,6 +237,8 @@ templates/list-collections.liquid:
   development: 2018-06-11T15:32:49-07:00   31e3dc19c53b28349257f298c8f11c22
 templates/page.about.liquid:
   development: 2018-06-19T16:00:11-07:00   c0636c7c6223da2defa8bc807928444a
+templates/page.about2.liquid:
+  development: 2018-06-19T17:45:16-07:00   4038c6a03c86976914109a2b7ca20900
 templates/page.faq.liquid:
   development: 2018-06-18T17:42:36-07:00   c07b9161c220c829ad63cd4298e73e81
 templates/page.liquid:
@@ -236,7 +246,7 @@ templates/page.liquid:
 templates/page.mission.liquid:
   development: 2018-06-19T15:15:08-07:00   938624c34f5c3dd78e867e24837bd9b5
 templates/page.skin-101.liquid:
-  development: 2018-06-19T17:01:41-07:00   86f9b19557cd06d62eab235270b2bfc8
+  development: 2018-06-19T17:45:17-07:00   d9f1b85d796d2efb4fb8495133bc679d
 templates/page.story.liquid:
   development: 2018-06-14T10:57:02-07:00   b6f90480909aeef427cca6bd59c0ee3d
 templates/password.liquid:

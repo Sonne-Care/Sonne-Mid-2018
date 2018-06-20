@@ -926,6 +926,13 @@
 		"oAP": "\/shopify\/snippets\/subscribe.liquid",
 		"oF": 0
 		},
+	"\/shopify\/snippets\/subscription-cart-footer.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/shopify\/snippets\/subscription-cart-footer.liquid",
+		"oF": 0
+		},
 	"\/shopify\/snippets\/subscription-product.liquid": {
 		"cB": 0,
 		"ft": 8192,

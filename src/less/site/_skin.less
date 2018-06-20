@@ -1,25 +1,91 @@
 .skin {
 
-  & &-wrapper {
+  & &-header {
+    font-size: 3rem;
+    margin-bottom: @spacer;
+    color: @gray;
+  }
+
+  & &-content {
+    
+    padding: @spacer*2 0;
+    border-bottom: 1px solid @lighterGray;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: @gray;
+
+    &__section4 {
+      border-bottom: 0;
+    }
+
+    & .emphasized {
+      font-size: 2rem;
+      color: @brown;
+    }
+
+    & img {
+
+      box-shadow: 0 @spacer @spacer*2 rgba(0,0,0,.05);  
+
+      &.border {
+        border-radius: 2px;  
+        border: 1px solid @brown;
+      }
+      &.noshadow {
+        box-shadow: none;
+      }
+      
+    }
+
+    ul {
+      
+      padding: 0;
+      margin: 0;
+
+      li {
+        position: relative;
+        padding-left: 0;
+        display: block;
+        margin-bottom: 12px;
+        margin-right: @spacer;
+        &:before {
+          content: '';
+          display: block;
+          height: 3px;
+          width: 3px;
+          border-radius: 50%;
+          position: absolute;
+          left: -10px;
+          top: 11px;
+          background-color: @brown;
+        }
+      }
+
+    }
 
   }
 
-  & &-carousel {
-    &-slide {
-      @media @min {
-        height: 75vh;
-        background-color: @bgGray;
-        border-right: 1px solid @white;
-        padding: @spacer;
-      }
-      @media @tablet {
-        height: 60vh;
-        padding: @spacer*2;
-      }
-      @media @desktop {
-        height: 50vh;
-        padding: @spacer*2;
-      }
+  & &-caption {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    color: @gray;
+    border-top: 1px solid @lighterGray;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: @spacer;
+  }
+
+  & &-divider {
+    position: relative;
+    &:before {
+      content: '';
+      display: block;
+      width: 1px;
+      background-color: @lighterGray;
+      height: 100%;
+      position: absolute;
+      left: 50%;
     }
   }
 
