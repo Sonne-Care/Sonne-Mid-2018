@@ -1,6 +1,8 @@
-<div class="page page-about about">
+{% assign url = '/products/sonne-premium-skincare-membership' %}
 
-  <div class="about-tabs">
+<div class="page page-about about fs-grid-fluid">
+
+  <div class="about-tabs relative">
     <div class="fs-row text-center">
       <div class="fs-cell fs-lg-2 fs-lg-push-4 fs-md-fourth fs-md-push-fourth fs-sm-fourth fs-sm-push-fourth">
         <div class="about-tabs__tab"><a href="/pages/about">Brand Story</a></div>
@@ -11,14 +13,15 @@
     </div>
   </div>
 
-  <div class="about-hero about-hero-main background" data-background-options='{"source":"{{ 'about-top.jpg'  | asset_url }}"}'>
-    <div class="about-hero-centered">
+  <div class="fs-row">
+    <div class="fs-cell fs-lg-half fs-md-half fs-sm-full fs-contained">
+      {{ 'SONNECARE_3-944.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
+    </div>
+    <div class="fs-cell fs-lg-half fs-md-half fs-contained fs-all-align-center">
       <div class="fs-row">
-        <div class="fs-cell fs-lg-8 fs-md-5 fs-sm-3 fs-all-justify-center">
-          <div class="about-desc emphasized text-center">
-            This isn't your standard skincare. 
-          </div>
-          <div class="about-desc text-center">
+        <div class="fs-cell fs-lg-8 fs-md-4 fs-sm-4 fs-cell-contained  fs-all-justify-center">
+          <div class="about-mission-content">
+            <h4>This isn't your standard skincare.</h4>
             At Sonne, we believe in transparency, simplicity, and results. 
             Because we think skincare should be easy — on your body, 
             on your mind, and on your wallet. 
@@ -28,28 +31,65 @@
     </div>
   </div>
 
-  <hr class="invisible big">
-
+  <div class="about-relative">
+    <div class="fs-row">
+      <div class="fs-cell fs-all-full fs-contained">
+        {{ 'mission.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
+        <div class="about-mission-content overlay">
+          <div class="fs-row">
+            <div class="fs-cell">
+              <h4>Safety first, claims second</h4>
+              We only use safe, non-toxic ingredients. Any ingredients linked to negative effects on health got the boot. Most affordable skincare is made with ingredients that are useless at best and dangerous at worst. You won’t find them in The Sonne System. 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <div class="fs-row">
-    <div class="fs-cell">
-      <div>Safety first, claims second</div>
-      We only use safe, non-toxic ingredients. Any ingredients linked to negative effects on health got the boot. Most affordable skincare is made with ingredients that are useless at best and dangerous at worst. You won’t find them in The Sonne System. 
-      <div>Science-backed</div>
-      Our ingredients aren’t just safe, they’re proven. Our formulations developed by doctors and backed by published research available to the public. Because you deserve skincare that does what it claims to do. 
-      <div>Transparency</div>
-      Science changes. We’re open about that. We promise to do our best to present the facts in a clear way so you can make decisions for yourself. Skincare can be overwhelming, but we can help you make sense of it all. 
+    <div class="fs-cell fs-lg-half fs-md-half fs-sm-full fs-lg-last fs-contained fs-md-last">
+      {{ 'mission2.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
+    </div>
+    <div class="fs-cell fs-lg-half fs-md-half fs-contained fs-all-align-center">
+      <div class="fs-row">
+        <div class="fs-cell fs-lg-8 fs-md-4 fs-sm-4 fs-cell-contained  fs-all-justify-center">
+          <div class="about-mission-content">
+            <h4>Science-backed</h4>
+            Our ingredients aren’t just safe, they’re proven. Our formulations developed by doctors and backed by published research available to the public. Because you deserve skincare that does what it claims to do. 
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <hr class="divider big">
-
   <div class="fs-row">
-    <div class="fs-cell fs-all-full home">
-      <div class="about-section">
-        <div class="about-cta text-center">
-          <div class="home-title">Future proof your skin.</div>
-          <div class="home-subtitle">The doctor-developed skincare system delivered to your door.</div>
-          <a href="#" class="button button-cta home-cta">Buy Now</a>
+    <div class="fs-cell fs-lg-half fs-md-half fs-sm-full fs-contained ">
+      {{ 'mission4.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
+    </div>
+    <div class="fs-cell fs-lg-half fs-md-half  fs-contained  fs-all-align-center">
+      <div class="fs-row">
+        <div class="fs-cell fs-lg-8 fs-md-4 fs-sm-4 fs-cell-contained  fs-all-justify-center">
+          <div class="about-mission-content">
+            <h4 class="white">Transparency</h4>
+              Science changes. We’re open about that. We promise to do our best to present the facts in a clear way so you can make decisions for yourself. Skincare can be overwhelming, but we can help you make sense of it all. 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fs-row bg--creme">
+    <div class="fs-cell fs-lg-half fs-md-half fs-sm-full fs-lg-last fs-contained fs-md-last">
+      {{ 'mission-last.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
+    </div>
+    <div class="fs-cell fs-lg-half fs-md-half fs-contained fs-all-align-center">
+      <div class="fs-row">
+        <div class="fs-cell fs-lg-8 fs-md-4 fs-sm-4 fs-cell-contained  fs-all-justify-center">
+          <div class="about-mission-content mobile-centered">
+            <h2 class="brown">Get Started <br>with Sonne today</h2>
+            <a href="{{ url }}" class="button button-cta home-cta">Buy Now</a>
+          </div>
         </div>
       </div>
     </div>

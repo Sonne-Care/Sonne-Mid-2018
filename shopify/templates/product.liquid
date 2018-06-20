@@ -5,7 +5,11 @@
 <meta itemprop="image" content="{{ product.featured_image.src | img_url: 'grande' }}">
 
 <div class="product">
-  <div class="product-hero background" data-background-options='{"source":"{{ heroimage }}"}'>
+  {% capture source %}{"source":{"0px":"","740px":"{{ 'product.jpg'  | asset_url }}"},"alt":"Background Image"}'{% endcapture %}
+  <div class="product-hero-mobile">
+    <img src="{{ 'productmobile.jpg'  | asset_url }}" class="img-responsive">
+  </div>
+  <div class="product-hero background" data-background-options='{{ source }}'>
     <div class="product-hero-centered">
       <div class="fs-row">
         <div class="fs-cell fs-xl-4 fs-xl-push-8 fs-lg-5 fs-lg-push-7 fs-md-3 fs-md-push-3">
@@ -60,12 +64,12 @@
         <hr class="invisible compact">
       </div>
     </div>
-    <div class="hero hero-small hero-headless checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
+    <div class="checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
       <div class="fs-row">
-        <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full fs-all-last fs-sm-first fs-all-align-center">
+        <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full fs-all-last fs-sm-first fs-lg-align-center fs-md-align-center">
           <img src="{{ 'product-morning.jpg' | asset_url }}" class="img-responsive left" alt="Sonne Morning">
         </div>
-        <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-all-align-center">
+        <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-lg-align-center fs-md-align-center">
           <div class="explain-content left">
             <div class="explain-title">Morning: Prepare</div>
             <div class="explain-desc">
@@ -81,12 +85,12 @@
 
     <hr class="invisible big">
 
-    <div class="hero hero-small hero-headless checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
+    <div class="checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
       <div class="fs-row">
-        <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full {% if block.settings.block_align == 'left' %}fs-last fs-sm-first{% endif%} fs-all-align-center">
+        <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full {% if block.settings.block_align == 'left' %}fs-last fs-sm-first{% endif%} fs-lg-align-center fs-md-align-center">
           <img src="{{ 'product-evening.jpg' | asset_url }}" class="img-responsive right" alt="Sonne Evening">
         </div>
-        <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-all-align-center">
+        <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-lg-align-center fs-md-align-center">
           <div class="explain-content right">
             <div class="explain-title">Evening: Repair</div>
             <div class="explain-desc">
@@ -101,16 +105,17 @@
     </div>
   </div>
 
-  <div class="product-section product-section--takestwo background" data-background-options='{"source":"{{ takestwo }}"}'>
+  {% capture source %}{"source":{"0px":"","740px":"{{ 'takestwo.jpg'  | asset_url }}"},"alt":"Background Image"}'{% endcapture %}
+  <div class="product-section product-section--takestwo background" data-background-options='{{ source }}"}'>
     <div class="product-section__content">
       <div class="fs-row">
-        <div class="fs-cell fs-xl-4 fs-xl-push-8 fs-lg-5 fs-lg-push-7 fs-md-3 fs-md-push-3">
+        <div class="fs-cell fs-xl-4 fs-xl-push-8 fs-lg-5 fs-lg-push-7 fs-md-3 fs-md-push-3 fs-sm-2 fs-sm-justify-center">
           <div class="product-title">It takes two.</div>
           <div class="product-desc">
             Most skincare products only skim the surface. Our unique combination system protects and activates your skin’s regenerative processes on a cellular level so you can enjoy younger-looking skin now, and far into the future.
           </div>
           <div class="product-cta">
-            <a href="#" class="button button-cta home-cta">{{ 'products.product.add_to_cart' | t }}</a>
+            <a href="#" class="button button-cta button-dummy home-cta">{{ 'products.product.add_to_cart' | t }}</a>
           </div>
         </div>
       </div>
@@ -119,13 +124,11 @@
 
   <div class="product-section product-section--testimonials">
     <div class="fs-row">
-      <div class="fs-cell">
+      <div class="fs-cell fs-all-full">
         <div class="product-title text-center">What they’re saying about us</div>
         <hr class="invisible">
         <div class="quotes">
           <div class="quotes-wrapper carousel" data-carousel-options='{"controls":false,"autoAdvance":false,"single":false,"contained":false}'>
-            {% include 'product-quote' %}
-            {% include 'product-quote' %}
             {% include 'product-quote' %}
           </div>
         </div>
@@ -136,6 +139,7 @@
 </div>
 
 <script>
+
   var selectCallback = function(variant, selector) {
     timber.productPage({
       money_format: "{{ shop.money_format }}",
@@ -144,6 +148,10 @@
     });
   };
   jQuery(function($) {
+    $('.button-dummy').click(function(event){
+      event.preventDefault();
+      $('#AddToCart').click();
+    });
     new Shopify.OptionSelectors('productSelect', {
       product: {{ product | json }},
       onVariantSelected: selectCallback,

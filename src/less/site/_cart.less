@@ -1,8 +1,64 @@
 .cart {
 
-  & .quantity {
-    width: 100%;
-    text-align: inherit;
+  & &-header {
+    & .item {
+      text-transform: uppercase;
+      color: @gray;
+      letter-spacing: 1px;
+      .font_size(13);
+    }
+  }
+
+  & &-actions {
+    padding-top: 10px;
+  }
+
+  & &-info {
+    color: @gray;
+    font-weight: 300;
+    strong {
+      color: @brown;
+    }
+  }
+
+  & &-item {
+
+    &__cell {
+      color: @gray;
+      a {
+        text-decoration: none;
+        color: @brown;
+      }
+      &.qty {
+        input {
+          display: block;
+          max-width: 100%;
+          text-align: center;
+        }
+      }
+    }
+
+    &__title {
+      
+    }
+
+  }
+
+  & &-empty {
+    color: @gray;
+    font-weight: 300;
+    @media @min {
+      padding: @spacer*2 0;
+    }
+    @media @desktop {
+      padding: @spacer*4 0;
+    }
+    span {
+      .font_size(28);  
+    }
+    a {
+      color: @brown;
+    }
   }
 
 }

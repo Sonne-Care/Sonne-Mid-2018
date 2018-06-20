@@ -96,7 +96,15 @@
 
     &.relative {
       position: relative;
-      background-color: @brown;
+      margin-bottom: @spacer;
+      & .about-tabs__tab a {
+        color: fade(@brown,50%);
+        border-bottom: 1px solid transparent;
+        &.active, &:hover {
+          color: @brown;
+          border-bottom: 1px solid @brown;
+        }
+      }
     }
 
     &__tab {
@@ -120,5 +128,83 @@
 
   }
 
+  & &-mission {
+    &-content {
+      h2 {
+        .serif();
+        color: @brown;
+        font-size: 4rem;
+        white-space: nowrap;
+        &.white {
+          color: @white;
+        }
+      }
+      h4 {
+        text-transform: uppercase;
+        color: @brown;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        &.white {
+          color: @white;
+        }
+      }
+      p {
+        margin-bottom: 8px;
+      }
+      @media @min {
+        font-size: 1.5rem;
+        padding: @spacer*2 @spacer;
+      }
+      @media @tablet {
+        padding: 0;
+        font-size: 1.66rem;
+      }
+      @media @desktop {
+        font-size: 2rem;
+      }
+      &.smaller {
+        @media @min {
+          font-size: 1.5rem;
+          padding: @spacer*2 @spacer;
+        }
+        @media @tablet {
+          padding: 0;
+          font-size: 1.2rem;
+        }
+        @media @desktop {
+          font-size: 1.35rem;
+        }
+      }
+      &.mobile-centered {
+        @media @min {
+          text-align: center;
+        }
+        @media @tablet {
+          text-align: left;
+        }
+      }
+      &.overlay {
+        .center();
+        top: 50%;
+        color: @white75;
+        @media @min {
+          width: 100%;
+          text-align: center;
+        }
+        @media @tablet {
+          width: auto;
+          text-align: left;
+        }
+        h4 {
+          color: @white;
+        }
+      }
+    }
+  }
+
+  &-relative {
+    position: relative;
+  }
 
 }

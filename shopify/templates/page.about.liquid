@@ -1,32 +1,39 @@
+{% assign url = '/products/sonne-premium-skincare-membership' %}
 {% assign section_1 = 'Not all skincare is created equal.' %}
 {% capture section_2 %}
   <div class="about-desc__title">Matt's Story</div>
-  The closer he got to 30, the more Matt thought about his skin. He noticed his complexion looked a little dull, even tired. 
+  <p>The closer he got to 30, the more Matt thought about his skin. He noticed his complexion looked a little dull, even tired. 
   Having never cared much about skincare in the past, Matt began to search for products for the first time. 
   Quickly overwhelmed by the options and prices at stores, he did what most of us do. He gave up. 
   Opting instead to use free products he had around. But after months of using gym freebies and 
-  borrowing from his wife’s stash, he thought — surely there’s a better way. <br>
-  That’s when he called Amir. 
+  borrowing from his wife’s stash, he thought — surely there’s a better way.</p>
+  <p>That’s when he called Amir. </p>
 {% endcapture %}
 {% capture section_3 %}<div class="about-desc__title">Amir's Story</div>
-  Hospital rotations made it impossible for Amir to ignore skin cancer’s prevalence. 
+  <p>Hospital rotations made it impossible for Amir to ignore skin cancer’s prevalence. 
   During his last year of medical school, the number of cases he saw every day made him curious 
   about skin health and skin cancer. He dove head first into research. He read articles and spoke 
   with hospital dermatologists. The facts were there. Skin cancer is preventable. 
   Skin aging can be slowed. All you need is proper skincare. Fascinated by the amount of clear 
-  information available, Amir went looking for products that met his criteria. <br>
-  What he found instead were false promises, high prices, and harmful ingredients. 
-  The skincare industry was full of treatments supported by no scientific evidence.<br>
-  And that’s about the time Matt called. 
+  information available, Amir went looking for products that met his criteria. </p>
+  <p>What he found instead were false promises, high prices, and harmful ingredients. 
+  The skincare industry was full of treatments supported by no scientific evidence.</p>
+  <p>And that’s about the time Matt called. </p>
 {% endcapture %}
-{% capture section_4 %}<div class="about-desc__title">The Solution is the Sonne System</div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in arcu eu velit tincidunt semper ut id turpis. Sed bibendum nisl vitae sem cursus auctor. Vivamus eu magna sed nisi consectetur eleifend vitae sit amet nisi.' {% endcapture %}
-{% assign section_5 = '' %}
-{% assign section_6 = '' %}
-{% assign section_7 = '' %}
+{% capture section_4 %}
+  <div class="about-desc__title">The Sonne System</div>
+  <p>Matt asked Amir what skincare products he, as a doctor, would trust on his skin. Knowing UV rays cause most skin aging and skin cancer, Amir told Matt what he needed was a product to 1) protect skin from UV rays 2) reduce signs of previous photoaging. </p>
+  <p>But Matt and Amir already knew the situation — no product like this existed. </p>
+  <p>So they created one. </p>
+{% endcapture %}
+{% capture section_5 %}
+  <p>An alternative to markups and marketing gimmicks, The Sonne System is trustworthy, science-based, affordable, and easy to use. Our combination system uses two products that work together to improve the look of your skin while reducing your risk of skin cancer. From skincare newbies to near professionals, The System is designed to meet the standards of anyone with skin. </p>
+  <p>Because being human is hard. <br>But caring for your skin shouldn’t be. </p>
+{% endcapture %}
 
-<div class="page page-about about">
+<div class="page page-about about fs-grid-fluid">
 
-  <div class="about-tabs">
+  <div class="about-tabs absolute">
     <div class="fs-row text-center">
       <div class="fs-cell fs-lg-2 fs-lg-push-4 fs-md-fourth fs-md-push-fourth fs-sm-fourth fs-sm-push-fourth">
         <div class="about-tabs__tab"><a class="active" href="/pages/about">Brand Story</a></div>
@@ -37,30 +44,15 @@
     </div>
   </div>
 
-  <div class="about-hero about-hero-main background" data-background-options='{"source":"{{ 'about-top.jpg'  | asset_url }}"}'>
-    <div class="about-hero-centered">
-      <div class="fs-row">
-        <div class="fs-cell fs-lg-8 fs-md-5 fs-sm-3 fs-all-justify-center">
-          <div class="about-desc emphasized text-center">{{ section_1 }}</div>
-          <div class="about-desc text-center">
-            Skeptical of skincare companies? Us too. 
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <hr class="invisible compact">
-
-  <div class="about-section about-section--matt">
+  <div class="about-relative">
     <div class="fs-row">
-      <div class="about-section__cell main fs-cell">
-        <div class="about-centered">
-          <div class="fs-cell fs-lg-8 fs-md-5 fs-contained fs-all-justify-center">
-            <div class="about-desc text-center">
-              Long before we started Sonne, we were just golfing buddies looking for skincare products we could trust. 
-              Our search led us to discover that no single product met our standards.
-              So we made one that did.
+      <div class="fs-cell fs-all-full fs-contained">
+        {{ 'about-top.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
+        <div class="about-mission-content overlay">
+          <div class="fs-row">
+            <div class="fs-cell text-center">
+              <h2 class="white">{{ section_1 }}</h2>
+              Skeptical of skincare companies? Us too. 
             </div>
           </div>
         </div>
@@ -68,67 +60,81 @@
     </div>
   </div>
 
-  <hr class="invisible compact">
-
-  <div class="about-section about-section--matt">
-    <div class="fs-row">
-      <div class="about-section__cell fs-cell fs-lg-half fs-md-half fs-sm-full">{{ 'matt.jpg'  | asset_url | img_tag, 'Matt Jung', 'img-responsive' }}</div>
-      <div class="about-section__cell fs-cell fs-lg-half fs-md-half fs-sm-full">
-        <div class="about-centered">
-          <div class="fs-cell fs-lg-8 fs-md-5 fs-contained fs-all-justify-center">
-            <div class="about-desc">{{ section_2 }}</div>
-          </div>
-        </div>
-      </div>
+  <div class="fs-row">
+    <div class="fs-cell fs-lg-half fs-md-half fs-sm-full fs-lg-last fs-contained fs-md-last">
+      {{ 'mission2.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
     </div>
-  </div>
-
-  <hr class="invisible compact">
-
-  <div class="about-section about-section--amir">
-    <div class="fs-row">
-      <div class="about-section__cell fs-cell fs-lg-half fs-md-half fs-sm-full fs-lg-last">{{ 'amir.jpg'  | asset_url | img_tag, 'Matt Jung', 'img-responsive' }}</div>
-      <div class="about-section__cell fs-cell fs-lg-half fs-md-half fs-sm-full">
-        <div class="about-centered">
-          <div class="fs-cell fs-lg-8 fs-md-4 fs-contained fs-all-justify-center">
-            <div class="about-desc">{{ section_3 }}</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <hr class="invisible compact">
-
-  <div class="about-section about-section--solution relative">
-    <div class="fs-row">
-      <div class="fs-cell fs-all-full">
-        {{ 'easy2.jpg'  | asset_url | img_tag, 'Matt Jung', 'img-responsive' }}
-      </div>
-    </div>
-    <div class="about-centered">
+    <div class="fs-cell fs-lg-half fs-md-half fs-contained fs-all-align-center">
       <div class="fs-row">
-        <div class="fs-cell fs-lg-5 fs-lg-push-1 fs-md-half fs-sm-full">
-          <div class="about-desc">{{ section_4 }}</div>
+        <div class="fs-cell fs-lg-8 fs-md-4 fs-sm-4 fs-cell-contained  fs-all-justify-center">
+          <div class="about-mission-content">
+            Long before we started Sonne, we were just golfing buddies looking for skincare products we could trust. 
+            Our search led us to discover that no single product met our standards.
+            So we made one that did.
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <hr class="invisible compact">
-
-  <div class="about-section about-section--cta home">
-    <div class="fs-row">
-      <div class="fs-cell fs-all-full text-center">
-        <hr class="invisible big">
-        <div class="home-title">Future proof your skin.</div>
-        <div class="home-subtitle">The doctor-developed skincare system delivered to your door.</div>
-        <a href="#" class="button button-cta home-cta">Buy Now</a>
-        <hr class="invisible big">
+  <div class="fs-row">
+    <div class="fs-cell fs-lg-half fs-md-half fs-sm-full fs-contained ">
+      {{ 'matt.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
+    </div>
+    <div class="fs-cell fs-lg-half fs-md-half  fs-contained  fs-all-align-center">
+      <div class="fs-row">
+        <div class="fs-cell fs-lg-8 fs-md-4 fs-sm-4 fs-cell-contained  fs-all-justify-center">
+          <div class="about-mission-content smaller">
+            {{ section_2 }}
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fs-row">
+    <div class="fs-cell fs-lg-half fs-md-half fs-sm-full fs-lg-last fs-contained fs-md-last">
+      {{ 'amir.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
+    </div>
+    <div class="fs-cell fs-lg-half fs-md-half fs-contained fs-all-align-center">
+      <div class="fs-row">
+        <div class="fs-cell fs-lg-8 fs-md-4 fs-sm-4 fs-cell-contained  fs-all-justify-center">
+          <div class="about-mission-content smaller">
+            {{ section_3 }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fs-row">
+    <div class="fs-cell fs-lg-half fs-md-half fs-sm-full fs-contained ">
+      {{ 'easy2.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
+    </div>
+    <div class="fs-cell fs-lg-half fs-md-half  fs-contained  fs-all-align-center">
+      <div class="fs-row">
+        <div class="fs-cell fs-lg-8 fs-md-4 fs-sm-4 fs-cell-contained  fs-all-justify-center">
+          <div class="about-mission-content smaller">
+            {{ section_4 }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-relative">
+    <div class="fs-row">
+      <div class="fs-cell fs-all-full fs-contained">
+        {{ 'about-bottom.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
+        <div class="about-mission-content overlay">
+          <div class="fs-row">
+            <div class="fs-cell text-center">
+              {{ section_5 }}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
 </div>
-
-

@@ -1,60 +1,43 @@
-{% assign content = page.content | split: '<hr>' %}
+{% capture skin_1 %}
+<h4>The skinny.</h4>
+Skin is our largest organ, and one of the most important parts of our body. Skin has three full-time gigs: protecting, regulating temperature, and feeling. 
+{% endcapture %}
 
-<div id="page" class="page page-{{ page.handle }} skin">
-  <div class="page-header nobottom">
-    <div class="fs-row">
-      <div class="fs-cell fs-all-full">
-        <h2 class="page-header__title">{{ page.title }}</h2>
-        <h3 class="page-header__subtitle">What everyone should know about skincare</h3>
-      </div>
+{% capture skin_2 %}
+<h4>Protecting</h4>
+There are high levels of gross (bacteria, viruses, and more) floating around outside and, sorry, landing on you. Your skin’s job is to stop this junk from entering your body. 
+{% endcapture %}
+
+{% capture skin_3 %}
+<h4>Regulating Temperature</h4>
+Skin regulates our body temperatures so we don’t overheat or freeze. Sweat glands release water to lower our temperature and retain water when we need to warm up. 
+{% endcapture %}
+
+{% capture skin_4 %}
+<h4>All The Feels</h4>
+Without skin, we couldn’t sense touch. Holding hands, a spring breeze, your favorite sweater - all pretty lame without skin. Nerve receptors in your skin allow you to feel. 
+Basically, skin rides hard for us. We should try harder to return the favor.
+{% endcapture %}
+
+<div class="page page-account account skin fs-grid-fluid">
+
+  <div class="fs-row">
+    <div class="page-header fs-cell text-center noborder nobottom">
+      <div class="page-title">{{ page.title }}</div>
     </div>
   </div>
 
-  <div class="skin-content skin-content__section1">
-    <div class="fs-row">
-
-      <div class="fs-cell fs-lg-5 fs-md-6 fs-sm-3 fs-all-justify-center">
-        <img src="{{ 'grid.png' | asset_url }}" class="img-responsive noshadow" />
-      </div>
-
-      <hr class="invisible fs-all-full">
-
-      <div class="fs-cell fs-lg-6 fs-md-6 fs-sm-3">
-        {{ content[0] }}
-      </div>
-
-      <hr class="divider compact fs-lg-hide fs-md-full fs-sm-full">
-
-      <div class="fs-cell fs-lg-6 fs-md-6 fs-sm-3">
-        {{ content[1] }}
-      </div>
-
-    </div>
-  </div>
-
-  <div class="skin-content skin-content__section1">
-    <div class="fs-row">
-      <div class="fs-cell fs-lg-6 fs-md-6 fs-sm-3 fs-lg-align-center fs-md-align-center fs-last fs-md-first">
-        <img src="{{ 'prevent.jpg' | asset_url }}" class="img-responsive" />
-      </div>
-      <div class="fs-cell fs-lg-6 fs-md-6 fs-sm-3 fs-sm-last fs-lg-first">
-        {{ content[2] }}
+  <div class="fs-row">
+    <div class="fs-cell fs-all-full fs-contained">
+      <div class="skin-wrapper skin-wrapper-1">
+        <div class="skin-carousel carousel" data-carousel-options='{"show":2.25,"pagination":false}'>
+          <div class="skin-carousel-slide">{{ skin_1 }}</div>
+          <div class="skin-carousel-slide">{{ skin_2 }}</div>
+          <div class="skin-carousel-slide">{{ skin_3 }}</div>
+          <div class="skin-carousel-slide">{{ skin_4 }}</div>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="hero hero-feature background product" data-background-options='{"source":"{{ 'backgorund.jpg' | asset_url }}"}'>
-    <hr class="invisible big">
-    <div class="fs-row hero-content">
-      <div class="fs-cell fs-all-full text-center">
-        <h2 class="product-section-title nomargin">Become a Member Today</h2>
-        <h4 class="product-section-subtitle">We think you'll really enjoy it.</h4>
-        <a class="product-add button button-cta nomargin" href="/products/sonne-premium-skincare-membership">
-          <span id="AddToCartText">{{ 'products.product.add_to_cart' | t }}</span>
-        </a>
-      </div>
-    </div>
-    <hr class="invisible big">
   </div>
 
 </div>

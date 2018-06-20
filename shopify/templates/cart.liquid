@@ -1,6 +1,9 @@
 <div id="cart" class="page cart">
   <div class="fs-row">
     <div class="fs-cell">
+      <div class="page-header">
+        <div class="page-title text-center">Shopping Bag</div>
+      </div>
       {% if cart.item_count > 0 %}
       <form action="/cart" method="post" id="cart" class="cart">
         <div class="fs-row cart-header">
@@ -13,17 +16,20 @@
         <hr class="divider">
         {% for item in cart.items %}
         <div class="fs-row cart-item" id="cart-item-{{item.variant.id}}">
-          <div class="cart-item__cell fs-cell fs-lg-2 fs-md-hide fs-sm-hide fs-lg-align-center item desc"><img src="{{ item | img_url: 'compact' }}" alt="{{ item.title | escape }}" class="img-responsive full"></div>
-          <div class="cart-item__cell fs-cell fs-lg-6 fs-md-2 fs-sm-fourth fs-lg-align-center item desc"><div>
+          <div class="cart-item__cell fs-cell fs-all-align-center fs-lg-2 fs-md-hide fs-sm-hide item desc"><img src="{{ item | img_url: 'grande' }}" alt="{{ item.title | escape }}" class="img-responsive full"></div>
+          <div class="cart-item__cell fs-cell fs-all-align-center fs-lg-6 fs-md-2 fs-sm-fourth item desc"><div>
             <a href="/collections/{{ item.product.collections.first.title | downcase }}#{{ item.product.handle }}">
-              <span class="cart-item__title">{{ item.product.title }}</span><br>
+              <span class="cart-item__title">{{ item.product.title }}</span>
+              {% unless item.variant.title == 'Default Title' %}
+              <br>
               <small class="cart-item__variant">{{ item.variant.title }}</small>
+              {% endunless %}
             </a></div>
           </div>
-          <div class="cart-item__cell fs-cell fs-lg-1 fs-md-1 fs-sm-fourth fs-lg-align-center text-center item price"><div>{{ item.price | money }}</div></div>
-          <div class="cart-item__cell fs-cell fs-lg-1 fs-md-1 fs-sm-fourth fs-lg-align-center text-center item qty"><div><input type="number" size="4" pattern="[0-9]*" name="updates[{{item.variant.id}}]" id="quantity-{{ item.variant.id }}" class="quantity" value="{{ item.quantity }}" min="1" onfocus="this.select();"/></div></div>
-          <div class="cart-item__cell fs-cell fs-lg-1 fs-md-1 fs-sm-fourth fs-lg-align-center text-center item price"><div>{{ item.line_price | money }}</div></div>
-          <div class="cart-item__cell fs-cell fs-lg-1 fs-md-1 fs-sm-hide fs-lg-align-center text-right item remove"><div><a href="/cart/change/{{item.variant.id}}?quantity=0"><i data-feather="x"></i></a></div></div>
+          <div class="cart-item__cell fs-cell fs-all-align-center fs-lg-1 fs-md-1 fs-sm-fourth text-center item price"><div>{{ item.price | money }}</div></div>
+          <div class="cart-item__cell fs-cell fs-all-align-center fs-lg-1 fs-md-1 fs-sm-fourth text-center item qty"><div><input type="number" size="4" pattern="[0-9]*" name="updates[{{item.variant.id}}]" id="quantity-{{ item.variant.id }}" class="quantity" value="{{ item.quantity }}" min="1" onfocus="this.select();"/></div></div>
+          <div class="cart-item__cell fs-cell fs-all-align-center fs-lg-1 fs-md-1 fs-sm-fourth text-center item price"><div>{{ item.line_price | money }}</div></div>
+          <div class="cart-item__cell fs-cell fs-all-align-center fs-lg-1 fs-md-1 fs-sm-hide text-right item remove"><div><a href="/cart/change/{{item.variant.id}}?quantity=0"><i data-feather="x"></i></a></div></div>
           <hr class="divider fs-cell">
         </div>
         {% endfor %}
@@ -36,19 +42,19 @@
           <div class="fs-cell fs-lg-half text-right cart-info">
             Total: <strong>{{ cart.total_price | money }}</strong>
             <div class="cart-actions">
-              <input class="button button-clear" type="submit" id="update-cart" name="update" value="Update"  />
+              <input class="button button-secondary" type="submit" id="update-cart" name="update" value="Update"  />
               <input class="button" type="submit" name="checkout" value="Checkout" />
             </div>
           </div>
         </div>
       </form>
       {% else %}
-      <hr class="invisible">
       <div class="cart-empty text-center">
-        <span class="cart-empty__title">It appears that your cart is currently empty!</span><br>
-        <span class="cart-empty__subtitle">You can continue browsing <a href="/">here</a>.</span>
+        <span class="cart-empty__title">Hey friendo, there's nothing in your cart.</span><br>
+        <span class="cart-empty__subtitle">Head back <a href="/">home</a>.</span>
       </div>
       {% endif %}
+      {% include 'subscription-cart-footer' %}
     </div>
   </div>
 </div>
