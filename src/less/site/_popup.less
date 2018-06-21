@@ -15,8 +15,19 @@
   }
 
   & &-wrapper {
-    .center();
     width: 100%;
+    height: 100%;
+
+    @media @min {
+      padding-top: @spacer;
+      overflow: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    @media @tablet {
+      padding-top: 0;
+      .center();
+    }
   }
 
   & &-title {
@@ -25,7 +36,12 @@
   }
 
   & &-content {
-    padding: @spacer*2;
+    @media @min {
+      padding: @spacer;  
+    }
+    @media @tablet {
+      padding: @spacer*2;  
+    }
     background-color: @white;
     box-shadow: 0 @spacer @spacer*2 rgba(0,0,0,.05);  
     position: relative;
