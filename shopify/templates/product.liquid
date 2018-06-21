@@ -122,6 +122,8 @@
     </div>
   </div>
 
+  {{ content_for_product }}
+
   <div class="product-section product-section--testimonials">
     <div class="fs-row">
       <div class="fs-cell fs-all-full">
@@ -136,6 +138,31 @@
     </div>
   </div>
 
+</div>
+
+{% assign width = 'fs-lg-8 fs-md-8 fs-sm-3 fs-all-justify-center popup-content' %}
+
+<div id="ingredients-morning" class="popup morning-popup">
+  <div class="popup-wrapper">
+    <div class="fs-row">
+      <div class="fs-cell {{ width }}">
+        <a href="#" class="swap popup-close popup-close-morn" data-swap-target='.moning-popup' data-swap-linked='.popup-close-morn'><i data-feather="x"></i></a>
+        <h3 class="popup-title">{{ pages.sonne-morning-ingredients.title }}</h3>
+        {{ pages.sonne-morning-ingredients.content }}
+      </div>
+    </div>
+  </div>
+</div>
+<div id="ingredients-evening" class="popup evening-popup">
+  <div class="popup-wrapper">
+    <div class="fs-row">
+      <div class="fs-cell {{ width }}">
+        <a href="#" class="swap popup-close popup-close-eve" data-swap-target='.evening-popup' data-swap-linked='.popup-close-eve'><i data-feather="x"></i></a>
+        <h3 class="popup-title">{{ pages.sonne-evening-ingredients.title }}</h3>
+        {{ pages.sonne-evening-ingredients.content }}
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>

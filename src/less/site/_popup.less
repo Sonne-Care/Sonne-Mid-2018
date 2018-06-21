@@ -1,0 +1,43 @@
+.popup {
+
+  .cover();
+  z-index: 999;
+  position: fixed;
+  background-color: @black25;
+  visibility: hidden;
+  opacity: 0;
+  transition: 500ms ease;
+  -webkit-font-smoothing: antialiased;
+
+  &.fs-swap-active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  & &-wrapper {
+    .center();
+    width: 100%;
+  }
+
+  & &-title {
+    color: @brown;
+    font-weight: 300;
+  }
+
+  & &-content {
+    padding: @spacer*2;
+    background-color: @white;
+    box-shadow: 0 @spacer @spacer*2 rgba(0,0,0,.05);  
+    position: relative;
+  }
+
+  & &-close {
+    color: @brown;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: @spacer;
+  }
+
+}

@@ -14,13 +14,17 @@
       line-height: 1.2;
     }
     &.emphasized {
-      line-height: 1;
       margin-bottom: @spacer;
       @media @min {
         font-size: 4rem;
+        line-height: 1.2;
       }
       @media @tablet {
         font-size: 6rem;
+        line-height: 1;
+        br {
+          display: none;
+        }
       }
       @media @desktop {
         font-size: 8rem;
@@ -69,7 +73,7 @@
     position: relative;
     min-height: 600px;
 
-    @media @mobile {
+    @media @min {
       padding: 0 0 @spacer*2;
     }
     @media @tablet {
@@ -85,6 +89,8 @@
 
     &-centered {
       text-align: center;
+      position: relative;
+      z-index: 50;
       @media @tablet {
         text-align: left;
       }
@@ -92,7 +98,6 @@
         position: absolute;
         top: 50%;
         width: 100%;
-        z-index: 50;
         transform: translateY(-50%);
       }
     }

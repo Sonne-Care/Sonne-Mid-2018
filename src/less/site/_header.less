@@ -73,10 +73,16 @@
     text-indent: -9999px;
     width: 100px;
     position: relative;
-    top: -6px;
+    
     padding: 0;
     margin-right: 2rem;
     margin-left: 0!important;
+    @media @min {
+      top: -4px;  
+    }
+    @media @tablet {
+      top: -6px;  
+    }
   }
 
   &-socials {
@@ -86,6 +92,7 @@
     float: right;
     & .button {
       padding: 0 2px;
+      margin: 0;
     }
   }
 

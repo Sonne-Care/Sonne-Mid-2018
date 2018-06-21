@@ -10,6 +10,7 @@ function formstone(){
   $(".checkpoint").checkpoint({
     reverse: true
   });
+  $(".lightbox").lightbox();
 }
 
 function instagram(){

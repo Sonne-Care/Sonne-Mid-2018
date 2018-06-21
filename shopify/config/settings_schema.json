@@ -7,15 +7,30 @@
         "content": "Notification Bar"
       },
       {
-        "type": "textarea",
-        "id": "notification-bar",
-        "default": "Free shipping on orders over $100",
-        "label": "Notification Message"
+         "type": "textarea",
+         "id": "notification-bar",
+         "default": "Free shipping on orders over $100",
+         "label": "Notification Message"
       },
       {
         "type": "checkbox",
         "id": "notification-enable",
         "label": "Enable Notification Message"
+      },
+      {
+        "type": "header",
+        "content": "Subscribe Box"
+      },
+      {
+         "type": "textarea",
+         "id": "subscribe-box",
+         "default": "Free shipping on orders over $100",
+         "label": "Notification Message"
+      },
+      {
+        "type": "checkbox",
+        "id": "subscribe-enable",
+        "label": "Enable Subscribe Box"
       },
       {
         "type": "header",

@@ -1,155 +1,63 @@
-<style>
-  .home-hero-{{ section.id }}{
-    background-color: {{ section.settings.background_color }};
-  }
-  .home-hero-{{ section.id }} .home-headline {
-    color: {{ section.settings.heading_color }};
-  }
-</style>
-
-{% if section.settings.desktop_bg %}
-<div 
-  class="home-hero home-hero-{{ section.id }} {{ section.settings.hero_height | escape }} background" 
-  data-section-id="{{ section.id }}" 
-  data-background-options='{"source":{"0px":"{{ section.settings.mobile_bg | img_url: '2048x2048' }}","980px":"{{ section.settings.desktop_bg | img_url: '2048x2048' }}"}}'
-  data-section-type="content-block"
->
-{% else %}  
-<div class="home-hero home-hero-{{ section.id }} home-hero-height--padded" data-section-id="{{ section.id }}" data-section-type="content-block"> 
-{% endif %}
-  <div class="inners {{ section.settings.text_align }}">
-    <div class="fs-row">
-      <div class="fs-cell {{ section.settings.hero_width | escape }}">
-        <div>
-          <h2 class="home-headline">{{ section.settings.heading_text | escape }}</h2>
-          <div class="home-desc">{{ section.settings.heading_desc }}</div>
-          <hr class="invisible compact fs-sm-hide">
-          <div class="carousel">
-            {% for block in section.blocks %}
-            <div class="carousel-slide" data-carousel-options='{"single":true}'>
+<div class="home-section home-section--testimonials">
+  <div class="fs-row">
+    <div class="fs-cell fs-all-full">
+      <div class="home-title text-center">What they’re saying about us</div>
+      <hr class="invisible">
+      <div class="quotes">
+        <div class="quotes-wrapper carousel" data-carousel-options='{"controls":false,"autoAdvance":false,"single":false,"contained":false}'>
+          {% for block in section.blocks %}
+          <div class="quotes-quote">
+            <div class="quotes-quote__wrapper">
               <div class="fs-row">
-                <div class="fs-cell fs-xl-6 fs-lg-8 fs-md-5 fs-sm-3 fs-all-justify-center">
-                  <div class="carousel-slide__quote">{{ block.settings.block_desc }}</div>
-                  <hr class="invisible compact fs-sm-hide">
-                  <div class="carousel-slide__attr">{{ block.settings.block_text }}</div>
+                <div class="fs-cell fs-lg-9 fs-lg-last fs-md-4 fs-md-last fs-sm-3 fs-all-align-center fs-contained">
+                  <div class="quotes-quote__testimonial">
+                    <div class="quote">
+                      {{ block.settings.block_desc }}
+                    </div>
+                    <div class="name">{{ block.settings.block_name }}</div>
+                    <div class="location">{{ block.settings.block_location }}</div>
+                  </div>
                 </div>
+                <div class="fs-cell fs-lg-3 fs-md-2 fs-sm-hide fs-contained background" data-background-options='{"source":"{{ block.settings.block_img | img_url: '2048x2048' }}"}'></div>
               </div>
             </div>
-            {% endfor %}
           </div>
+          {% endfor %}
         </div>
       </div>
     </div>
   </div>
 </div>
 
+
 {% schema %}
 {
   "name": "Quote Block",
   "class": "index-section index-section--custom-content",
-  "settings": [
-    {
-      "type": "text",
-      "id": "heading_text",
-      "label": "Heading",
-      "default": "Custom content"
-    },
-    {
-      "type": "html",
-      "id": "heading_desc",
-      "label": "Heading Description"
-    },
-    {
-      "type": "color",
-      "id": "heading_color",
-      "label": "Heading color",
-      "default": "#BB855B"
-    },
-    {
-      "type": "color",
-      "id": "background_color",
-      "label": "Background color"
-    },
-    {
-      "type": "url",
-      "id": "product_link",
-      "label": "Product link"
-    },
-    {
-      "type": "select",
-      "id": "hero_width",
-      "label": "Content Width",
-      "default": "fs-lg-half fs-md-half fs-sm-full",
-      "options": [
-        {
-          "value": "fs-lg-half fs-md-half fs-sm-full",
-          "label": "Half"
-        },
-        {
-          "value": "fs-xl-5 fs-lg-7 fs-md-4 fs-sm-2 fs-xs-2",
-          "label": "Fancy"
-        },
-        {
-          "value": "fs-all-full",
-          "label": "Full"
-        }
-      ]
-    },
-    {
-      "type": "select",
-      "id": "text_align",
-      "label": "Text Align",
-      "default": "text-left",
-      "options": [
-        {
-          "value": "text-left",
-          "label": "Left"
-        },
-        {
-          "value": "text-center",
-          "label": "Center"
-        },
-        {
-          "value": "text-right",
-          "label": "Right"
-        }
-      ]
-    },
-    {
-      "type": "select",
-      "id": "hero_height",
-      "label": "Hero Height",
-      "default": "home-hero-height--default",
-      "options": [
-        {
-          "value": "home-hero-height--default",
-          "label": "Default"
-        },
-        {
-          "value": "home-hero-height--tall",
-          "label": "Tall"
-        },
-        {
-          "value": "home-hero-height--full",
-          "label": "Full"
-        }
-      ]
-    }
-  ],
   "blocks": [
     {
       "type":"text",
       "name": "Text",
       "settings": [
         {
-          "type": "textarea",
-          "id": "block_desc",
-          "label": "Block Quote"
+          "type":"text",
+          "id":"block_name",
+          "label":"Name"
         },
         {
           "type":"text",
-          "id":"block_text",
-          "label":"Block Attribution"
+          "id":"block_location",
+          "label":"Location"
+        },
+        {
+          "type": "textarea",
+          "id": "block_desc",
+          "label": "Quote"
+        },
+        {
+         "type": "image_picker",
+          "id": "block_img",
+          "label": "Image"
         }
       ]
     }

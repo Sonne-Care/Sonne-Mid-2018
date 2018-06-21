@@ -13,6 +13,7 @@
 // @codekit-append "../bower_components/formstone/dist/js/dropdown.js"
 // @codekit-append "../bower_components/formstone/dist/js/sticky.js"
 // @codekit-append "../bower_components/formstone/dist/js/checkpoint.js"
+// @codekit-append "../bower_components/formstone/dist/js/lightbox.js"
 
 // Other Plugins
 // @codekit-append "../bower_components/infinite-scroll/dist/infinite-scroll.pkgd.js"
