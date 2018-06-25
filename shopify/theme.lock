@@ -262,7 +262,7 @@ templates/customers/register.liquid:
 templates/customers/reset_password.liquid:
   development: 2018-06-11T15:32:49-07:00   c52cb1425f2aa4d0a3dbb557f3749fce
 templates/index.liquid:
-  development: 2018-06-20T16:45:56-07:00   0fd4276632fbc47fb207968f26d32fb8
+  development: 2018-06-25T14:20:56-07:00   c85880d0a1cf5bb3fe61c491f5c7415c
 templates/list-collections.liquid:
   development: 2018-06-11T15:32:49-07:00   31e3dc19c53b28349257f298c8f11c22
 templates/page.about.liquid:
@@ -274,7 +274,7 @@ templates/page.faq.liquid:
 templates/page.liquid:
   development: 2018-06-14T10:57:06-07:00   b6f90480909aeef427cca6bd59c0ee3d
 templates/page.mission.liquid:
-  development: 2018-06-19T15:15:08-07:00   938624c34f5c3dd78e867e24837bd9b5
+  development: 2018-06-21T12:32:13-07:00   d0a7969c9fa005c1e975278e7ab389ac
 templates/page.skin-101.liquid:
   development: 2018-06-19T17:45:17-07:00   d9f1b85d796d2efb4fb8495133bc679d
 templates/page.story.liquid:
