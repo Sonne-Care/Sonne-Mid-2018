@@ -1,0 +1,207 @@
+{% capture heroimage %}{{ 'product.jpg'  | asset_url }}{% endcapture %}
+{% capture takestwo %}{{ 'takestwo.jpg'  | asset_url }}{% endcapture %}
+{% assign current_variant = product.selected_or_first_available_variant %}
+
+<meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
+<meta itemprop="image" content="{{ product.featured_image.src | img_url: 'grande' }}">
+
+<div class="product">
+  {% capture source %}{"source":{"0px":"","740px":"{{ 'product2.jpg'  | asset_url }}"},"alt":"Background Image"}'{% endcapture %}
+  <div class="product-hero-mobile">
+    <img src="{{ 'productmobile.jpg'  | asset_url }}" class="img-responsive">
+  </div>
+  <div class="product-hero background" data-background-options='{{ source }}'>
+    <div class="product-hero-centered">
+      <div class="fs-row">
+        <div class="fs-cell fs-xl-4 fs-xl-push-8 fs-lg-5 fs-lg-push-7 fs-md-3 fs-md-push-3">
+          <hr class="invisible huge">
+          <div class="product-title main">The Sonne System <br>Morning & Evening</div>
+          <div id="product-price" class="product-subtitle">{{ current_variant.price | money }}</div>
+          <form action="/cart/add" method="post" enctype="multipart/form-data" data-productid="{{product.id}}">
+            <select name="id" id="productSelect" data-productid="{{product.id}}">
+              {% for variant in product.variants %}
+              {% if variant.available == true %}
+              <option value="{{variant.id}}"> {{ variant.title }} for {{ variant.price | money_with_currency }}</option>
+              {% else %}
+              <option disabled="disabled"> {{ variant.title }} - sold out!</option>
+              {% endif %}
+              {% endfor %}
+            </select>
+            <button type="submit" name="add" id="AddToCart" class="product-add button button-cta product-cta">
+              <span id="AddToCartText">{{ 'products.product.add_to_cart' | t }}</span>
+            </button>
+          </form>
+          <ul class="product-list">
+            <li>Combats the #1 cause of skin aging</li>
+            <li>Visible results reported in 6-8 days</li>
+            <li>Vegan, No Parabens, Cruelty Free</li>
+            <li>Manufactured in the USA</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-section product-section--betterskin">
+    <div class="fs-row">
+      <div class="fs-cell fs-lg-8 fs-md-5 fs-sm-3 fs-all-justify-center">
+        <div class="product-title text-center">Smarter Skincare = Better Skin</div>
+        <div class="product-desc text-center">
+          We put serious consideration towards what goes into Sonne — and what doesn’t. 
+          Because everything inside Sonne goes into your skin. And we take that seriously.
+        </div>
+      </div>
+      <div class="fs-cell fs-lg-9 fs-md-6 fs-sm-3 fs-all-justify-center">
+        {% include 'freeitems' %}
+      </div>
+    </div>
+  </div>
+
+  <div class="product-section product-section--betterskin">
+    <div class="fs-row">
+      <div class="fs-cell fs-lg-8 fs-md-5 fs-sm-3 fs-all-justify-center">
+        <div class="product-title text-center">The Sonne System</div>
+        <hr class="invisible compact">
+      </div>
+    </div>
+    <div class="checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
+      <div class="fs-row">
+        <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full fs-all-last fs-sm-first fs-lg-align-center fs-md-align-center">
+          <img src="{{ 'product-morning.jpg' | asset_url }}" class="img-responsive left" alt="Sonne Morning">
+        </div>
+        <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-lg-align-center fs-md-align-center">
+          <div class="explain-content left">
+            <div class="explain-title">Morning: Prepare</div>
+            <div class="explain-desc">
+              <p>Guards against UV rays to prevent damaged, <br>dull skin and cancer. </p>
+              <p>Our highly-concentrated, non-irritating lotion is scientifically formulated to offer your skin 4x protection against harmful UV rays — preventing redness, wrinkles, and signs of aging. Enriched with nutrients like red algae, Vitamin C, and Vitamin E to give you enviable skin. </p>
+              <hr class="invisible compact">
+              {% include 'morning-benefits' %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="invisible big">
+
+    <div class="checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
+      <div class="fs-row">
+        <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full {% if block.settings.block_align == 'left' %}fs-last fs-sm-first{% endif%} fs-lg-align-center fs-md-align-center">
+          <img src="{{ 'product-evening.jpg' | asset_url }}" class="img-responsive right" alt="Sonne Evening">
+        </div>
+        <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-lg-align-center fs-md-align-center">
+          <div class="explain-content right">
+            <div class="explain-title">Evening: Repair</div>
+            <div class="explain-desc">
+              <p>Brightens and hydrates while reducing wrinkles and stimulating collagen  — in your sleep. </p>
+              <p>Dermatologists agree that SPF alone won’t give you great skin. Research recommends a complementary night cream to combat the remaining 3% of sun damage your skin receives. Ours is antioxidant-rich to prevent wrinkles and improve tone and goes to work instantly to reduce the appearance of existing fine lines. </p>
+              <hr class="invisible compact">
+              {% include 'evening-benefits' %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% capture source %}{"source":{"0px":"","740px":"{{ 'takestwo.jpg'  | asset_url }}"},"alt":"Background Image"}'{% endcapture %}
+  <div class="product-section product-section--takestwo background" data-background-options='{{ source }}"}'>
+    <div class="product-section__content">
+      <div class="fs-row">
+        <div class="fs-cell fs-xl-4 fs-xl-push-8 fs-lg-5 fs-lg-push-7 fs-md-3 fs-md-push-3 fs-sm-2 fs-sm-justify-center">
+          <div class="product-title">It takes two.</div>
+          <div class="product-desc">
+            Most skincare products only skim the surface. Our unique combination system protects and activates your skin’s regenerative processes on a cellular level so you can enjoy younger-looking skin now, and far into the future.
+          </div>
+          <div class="product-cta">
+            <a href="#" class="button button-cta button-dummy home-cta">{{ 'products.product.add_to_cart' | t }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{ content_for_product }}
+
+  <div class="product-section product-section--testies">
+    <div class="fs-row">
+      <div class="fs-cell fs-lg-10 fs-all-justify-center">
+        {% include 'okendo-reviews-widget2' %}
+      </div>
+    </div>
+  </div>
+
+  {% comment %}
+  <div class="product-section product-section--testimonials">
+    <div class="fs-row">
+      <div class="fs-cell fs-all-full">
+        <div class="product-title text-center">What they’re saying about us</div>
+        <hr class="invisible">
+        <div class="quotes">
+          <div class="quotes-wrapper carousel" data-carousel-options='{"controls":false,"autoAdvance":false,"single":false,"contained":false}'>
+            {% include 'product-quote' %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endcomment %}
+
+</div>
+
+{% assign width = 'fs-lg-8 fs-md-8 fs-sm-3 fs-all-justify-center popup-content' %}
+
+<div id="ingredients-morning" class="popup morning-popup">
+  <div class="popup-wrapper">
+    <div class="fs-row">
+      <div class="fs-cell {{ width }}">
+        <a href="#" class="swap popup-close popup-close-morn" data-swap-target='.moning-popup' data-swap-linked='.popup-close-morn'><i data-feather="x"></i></a>
+        <h3 class="popup-title">{{ pages.sonne-morning-ingredients.title }}</h3>
+        {{ pages.sonne-morning-ingredients.content }}
+      </div>
+    </div>
+  </div>
+</div>
+<div id="ingredients-evening" class="popup evening-popup">
+  <div class="popup-wrapper">
+    <div class="fs-row">
+      <div class="fs-cell {{ width }}">
+        <a href="#" class="swap popup-close popup-close-eve" data-swap-target='.evening-popup' data-swap-linked='.popup-close-eve'><i data-feather="x"></i></a>
+        <h3 class="popup-title">{{ pages.sonne-evening-ingredients.title }}</h3>
+        {{ pages.sonne-evening-ingredients.content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  var selectCallback = function(variant, selector) {
+    timber.productPage({
+      money_format: "{{ shop.money_format }}",
+      variant: variant,
+      selector: selector
+    });
+  };
+  jQuery(function($) {
+    $('.button-dummy').click(function(event){
+      event.preventDefault();
+      $('#AddToCart').click();
+    });
+    new Shopify.OptionSelectors('productSelect', {
+      product: {{ product | json }},
+      onVariantSelected: selectCallback,
+      enableHistoryState: true
+    });
+    // Add label if only one product option and it isn't 'Title'. Could be 'Size'.
+    {% if product.options.size == 1 and product.options.first != 'Title' %}
+      $('.selector-wrapper:eq(0)').prepend('<label for="productSelect-option-0">{{ product.options.first | escape }}</label>');
+    {% endif %}
+    // Hide selectors if we only have 1 variant and its title contains 'Default'.
+    {% if product.variants.size == 1 and product.variants.first.title contains 'Default' %}
+      $('.selector-wrapper').hide();
+    {% endif %}
+    //$("select:not(#productSelect)").dropdown();
+  });
+</script>

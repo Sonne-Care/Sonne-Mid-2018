@@ -24,1245 +24,1291 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0
-		},
-	"\/shopify\/assets\/about-bottom.jpg": {
+	"\/dist\/assets\/about-bottom.jpg": {
 		"ft": 16384,
 		"iS": 76788,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/about-bottom.jpg",
+		"oAP": "\/dist\/assets\/about-bottom.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/about-top.jpg": {
+	"\/dist\/assets\/about-top.jpg": {
 		"ft": 16384,
 		"iS": 102118,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/about-top.jpg",
+		"oAP": "\/dist\/assets\/about-top.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/aboutstory2.jpg": {
+	"\/dist\/assets\/aboutstory2.jpg": {
 		"ft": 16384,
 		"iS": 177002,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/aboutstory2.jpg",
+		"oAP": "\/dist\/assets\/aboutstory2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/amir.jpg": {
+	"\/dist\/assets\/amir.jpg": {
 		"ft": 16384,
 		"iS": 308500,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/amir.jpg",
+		"oAP": "\/dist\/assets\/amir.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/beaker.svg": {
+	"\/dist\/assets\/beaker.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/beaker.svg",
+		"oAP": "\/dist\/assets\/beaker.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/easy.jpg": {
+	"\/dist\/assets\/easy.jpg": {
 		"ft": 16384,
 		"iS": 114164,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/easy.jpg",
+		"oAP": "\/dist\/assets\/easy.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/easy2.jpg": {
+	"\/dist\/assets\/easy2.jpg": {
 		"ft": 16384,
 		"iS": 100835,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/easy2.jpg",
+		"oAP": "\/dist\/assets\/easy2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/envelope.svg": {
+	"\/dist\/assets\/envelope.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/envelope.svg",
+		"oAP": "\/dist\/assets\/envelope.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/evening-2_1024x1024_de34637c-c145-419c-b420-4badb9fd1cd5_1024x1024.jpg": {
+	"\/dist\/assets\/evening-2_1024x1024_de34637c-c145-419c-b420-4badb9fd1cd5_1024x1024.jpg": {
 		"ft": 16384,
 		"iS": 82046,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/evening-2_1024x1024_de34637c-c145-419c-b420-4badb9fd1cd5_1024x1024.jpg",
+		"oAP": "\/dist\/assets\/evening-2_1024x1024_de34637c-c145-419c-b420-4badb9fd1cd5_1024x1024.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/fastclick.min-min.js": {
+	"\/dist\/assets\/fastclick.min-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/fastclick.min-min-min.js",
+		"oAP": "\/dist\/assets\/fastclick.min-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/shopify\/assets\/fastclick.min.js": {
+	"\/dist\/assets\/fastclick.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/fastclick.min-min.js",
+		"oAP": "\/dist\/assets\/fastclick.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/shopify\/assets\/github.svg": {
+	"\/dist\/assets\/github.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/github.svg",
+		"oAP": "\/dist\/assets\/github.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/Graphik-Bold-Web.svg": {
+	"\/dist\/assets\/Graphik-Bold-Web.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/Graphik-Bold-Web.svg",
+		"oAP": "\/dist\/assets\/Graphik-Bold-Web.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/Graphik-Bold-Web.ttf": {
+	"\/dist\/assets\/Graphik-Bold-Web.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/Graphik-Bold-Web.ttf",
+		"oAP": "\/dist\/assets\/Graphik-Bold-Web.ttf",
 		"oF": 0
 		},
-	"\/shopify\/assets\/Graphik-Bold-Web.woff": {
+	"\/dist\/assets\/Graphik-Bold-Web.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/Graphik-Bold-Web.woff",
+		"oAP": "\/dist\/assets\/Graphik-Bold-Web.woff",
 		"oF": 0
 		},
-	"\/shopify\/assets\/Graphik-Medium-Web.svg": {
+	"\/dist\/assets\/Graphik-Medium-Web.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/Graphik-Medium-Web.svg",
+		"oAP": "\/dist\/assets\/Graphik-Medium-Web.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/Graphik-Medium-Web.ttf": {
+	"\/dist\/assets\/Graphik-Medium-Web.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/Graphik-Medium-Web.ttf",
+		"oAP": "\/dist\/assets\/Graphik-Medium-Web.ttf",
 		"oF": 0
 		},
-	"\/shopify\/assets\/Graphik-Medium-Web.woff": {
+	"\/dist\/assets\/Graphik-Medium-Web.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/Graphik-Medium-Web.woff",
+		"oAP": "\/dist\/assets\/Graphik-Medium-Web.woff",
 		"oF": 0
 		},
-	"\/shopify\/assets\/Graphik-Regular.otf": {
+	"\/dist\/assets\/Graphik-Regular.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/Graphik-Regular.otf",
+		"oAP": "\/dist\/assets\/Graphik-Regular.otf",
 		"oF": 0
 		},
-	"\/shopify\/assets\/Graphik-Regular.svg": {
+	"\/dist\/assets\/Graphik-Regular.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/Graphik-Regular.svg",
+		"oAP": "\/dist\/assets\/Graphik-Regular.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/Graphik-Regular.ttf": {
+	"\/dist\/assets\/Graphik-Regular.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/Graphik-Regular.ttf",
+		"oAP": "\/dist\/assets\/Graphik-Regular.ttf",
 		"oF": 0
 		},
-	"\/shopify\/assets\/Graphik-Regular.woff": {
+	"\/dist\/assets\/Graphik-Regular.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/Graphik-Regular.woff",
+		"oAP": "\/dist\/assets\/Graphik-Regular.woff",
 		"oF": 0
 		},
-	"\/shopify\/assets\/Graphik-Super-Web.svg": {
+	"\/dist\/assets\/Graphik-Super-Web.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/Graphik-Super-Web.svg",
+		"oAP": "\/dist\/assets\/Graphik-Super-Web.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/Graphik-Super-Web.ttf": {
+	"\/dist\/assets\/Graphik-Super-Web.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/Graphik-Super-Web.ttf",
+		"oAP": "\/dist\/assets\/Graphik-Super-Web.ttf",
 		"oF": 0
 		},
-	"\/shopify\/assets\/Graphik-Super-Web.woff": {
+	"\/dist\/assets\/Graphik-Super-Web.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/Graphik-Super-Web.woff",
+		"oAP": "\/dist\/assets\/Graphik-Super-Web.woff",
 		"oF": 0
 		},
-	"\/shopify\/assets\/grid.png": {
+	"\/dist\/assets\/grid.png": {
 		"ft": 32768,
 		"iS": 81492,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/grid.png",
+		"oAP": "\/dist\/assets\/grid.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/shopify\/assets\/home-sol-1.jpg": {
+	"\/dist\/assets\/home-sol-1.jpg": {
 		"ft": 16384,
 		"iS": 87326,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/home-sol-1.jpg",
+		"oAP": "\/dist\/assets\/home-sol-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/home-sol-2.jpg": {
+	"\/dist\/assets\/home-sol-2.jpg": {
 		"ft": 16384,
 		"iS": 166675,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/home-sol-2.jpg",
+		"oAP": "\/dist\/assets\/home-sol-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/home-sol-4.jpg": {
+	"\/dist\/assets\/home-sol-4.jpg": {
 		"ft": 16384,
 		"iS": 76183,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/home-sol-4.jpg",
+		"oAP": "\/dist\/assets\/home-sol-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/home.jpg": {
+	"\/dist\/assets\/home.jpg": {
 		"ft": 16384,
 		"iS": 450515,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/home.jpg",
+		"oAP": "\/dist\/assets\/home.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/home2.jpg": {
+	"\/dist\/assets\/home2.jpg": {
 		"ft": 16384,
 		"iS": 242901,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/home2.jpg",
+		"oAP": "\/dist\/assets\/home2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/leaf.svg": {
+	"\/dist\/assets\/leaf.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/leaf.svg",
+		"oAP": "\/dist\/assets\/leaf.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/main.min.css": {
+	"\/dist\/assets\/main.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/main.min-min.css",
+		"oAP": "\/dist\/assets\/main.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/shopify\/assets\/main.min.css.map": {
+	"\/dist\/assets\/main.min.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/main.min.css.map",
+		"oAP": "\/dist\/assets\/main.min.css.map",
 		"oF": 0
 		},
-	"\/shopify\/assets\/main.min.js": {
+	"\/dist\/assets\/main.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/main.min-min.js",
+		"oAP": "\/dist\/assets\/main.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/shopify\/assets\/matt.jpg": {
+	"\/dist\/assets\/matt.jpg": {
 		"ft": 16384,
 		"iS": 272138,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/matt.jpg",
+		"oAP": "\/dist\/assets\/matt.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/mission-last.jpg": {
+	"\/dist\/assets\/mission-last.jpg": {
 		"ft": 16384,
 		"iS": 608970,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/mission-last.jpg",
+		"oAP": "\/dist\/assets\/mission-last.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/shopify\/assets\/mission.jpg": {
+	"\/dist\/assets\/mission.jpg": {
 		"ft": 16384,
 		"iS": 96596,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/mission.jpg",
+		"oAP": "\/dist\/assets\/mission.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/mission2.jpg": {
+	"\/dist\/assets\/mission2.jpg": {
 		"ft": 16384,
 		"iS": 445907,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/mission2.jpg",
+		"oAP": "\/dist\/assets\/mission2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/mission4.jpg": {
+	"\/dist\/assets\/mission4.jpg": {
 		"ft": 16384,
 		"iS": 779556,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/mission4.jpg",
+		"oAP": "\/dist\/assets\/mission4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/missionduo.jpg": {
+	"\/dist\/assets\/missionduo.jpg": {
 		"ft": 16384,
 		"iS": 275752,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/missionduo.jpg",
+		"oAP": "\/dist\/assets\/missionduo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/molecule-1.svg": {
+	"\/dist\/assets\/molecule-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/molecule-1.svg",
+		"oAP": "\/dist\/assets\/molecule-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/molecule-2.svg": {
+	"\/dist\/assets\/molecule-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/molecule-2.svg",
+		"oAP": "\/dist\/assets\/molecule-2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/moon.svg": {
+	"\/dist\/assets\/moon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/moon.svg",
+		"oAP": "\/dist\/assets\/moon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/morning-2_1024x1024_5448eb8f-9e85-45b4-af76-a70615a9700c_1024x1024.jpg": {
+	"\/dist\/assets\/morning-2_1024x1024_5448eb8f-9e85-45b4-af76-a70615a9700c_1024x1024.jpg": {
 		"ft": 16384,
 		"iS": 144865,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/morning-2_1024x1024_5448eb8f-9e85-45b4-af76-a70615a9700c_1024x1024.jpg",
+		"oAP": "\/dist\/assets\/morning-2_1024x1024_5448eb8f-9e85-45b4-af76-a70615a9700c_1024x1024.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/option_selection-min.js": {
+	"\/dist\/assets\/okendo-reviews.scss.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/assets\/okendo-reviews.scss.liquid",
+		"oF": 0
+		},
+	"\/dist\/assets\/option_selection-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/option_selection-min-min.js",
+		"oAP": "\/dist\/assets\/option_selection-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/shopify\/assets\/option_selection.js": {
+	"\/dist\/assets\/option_selection.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/option_selection-min.js",
+		"oAP": "\/dist\/assets\/option_selection-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/shopify\/assets\/password.jpg": {
+	"\/dist\/assets\/password.jpg": {
 		"ft": 16384,
 		"iS": 192525,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/password.jpg",
+		"oAP": "\/dist\/assets\/password.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/shopify\/assets\/prevent.jpg": {
+	"\/dist\/assets\/prevent.jpg": {
 		"ft": 16384,
 		"iS": 117862,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/prevent.jpg",
+		"oAP": "\/dist\/assets\/prevent.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/prob1.jpg": {
+	"\/dist\/assets\/prob1.jpg": {
 		"ft": 16384,
 		"iS": 46342,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/prob1.jpg",
+		"oAP": "\/dist\/assets\/prob1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/prob2.jpg": {
+	"\/dist\/assets\/prob2.jpg": {
 		"ft": 16384,
 		"iS": 53802,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/prob2.jpg",
+		"oAP": "\/dist\/assets\/prob2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/prob3.jpg": {
+	"\/dist\/assets\/prob3.jpg": {
 		"ft": 16384,
 		"iS": 45940,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/prob3.jpg",
+		"oAP": "\/dist\/assets\/prob3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/product-evening.jpg": {
+	"\/dist\/assets\/product-evening.jpg": {
 		"ft": 16384,
 		"iS": 186277,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/product-evening.jpg",
+		"oAP": "\/dist\/assets\/product-evening.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/product-morning.jpg": {
+	"\/dist\/assets\/product-morning.jpg": {
 		"ft": 16384,
 		"iS": 218006,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/product-morning.jpg",
+		"oAP": "\/dist\/assets\/product-morning.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/product.jpg": {
+	"\/dist\/assets\/product.jpg": {
 		"ft": 16384,
 		"iS": 312359,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/product.jpg",
+		"oAP": "\/dist\/assets\/product.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/productmobile.jpg": {
+	"\/dist\/assets\/product2.jpg": {
+		"ft": 16384,
+		"iS": 134443,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/assets\/product2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/assets\/productmobile.jpg": {
 		"ft": 16384,
 		"iS": 1139343,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/productmobile.jpg",
+		"oAP": "\/dist\/assets\/productmobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/quote-1.jpg": {
+	"\/dist\/assets\/quote-1.jpg": {
 		"ft": 16384,
 		"iS": 160277,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/quote-1.jpg",
+		"oAP": "\/dist\/assets\/quote-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/quote-2.jpg": {
+	"\/dist\/assets\/quote-2.jpg": {
 		"ft": 16384,
 		"iS": 76738,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/quote-2.jpg",
+		"oAP": "\/dist\/assets\/quote-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/shopify_common-min.js": {
+	"\/dist\/assets\/shopify_common-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/shopify_common-min-min.js",
+		"oAP": "\/dist\/assets\/shopify_common-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/shopify\/assets\/shopify_common.js": {
+	"\/dist\/assets\/shopify_common.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/shopify_common-min.js",
+		"oAP": "\/dist\/assets\/shopify_common-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/shopify\/assets\/soldout.png": {
+	"\/dist\/assets\/soldout.png": {
 		"ft": 32768,
 		"iS": 1097,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/soldout.png",
+		"oAP": "\/dist\/assets\/soldout.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/shopify\/assets\/sonne.svg": {
+	"\/dist\/assets\/sonne.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/sonne.svg",
+		"oAP": "\/dist\/assets\/sonne.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/SONNECARE_3-944.jpg": {
+	"\/dist\/assets\/SONNECARE_3-944.jpg": {
 		"ft": 16384,
 		"iS": 147831,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/SONNECARE_3-944.jpg",
+		"oAP": "\/dist\/assets\/SONNECARE_3-944.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/SonneCare_Lifestyle2-2058.jpg": {
+	"\/dist\/assets\/SonneCare_Lifestyle2-2058.jpg": {
 		"ft": 16384,
 		"iS": 200323,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/SonneCare_Lifestyle2-2058.jpg",
+		"oAP": "\/dist\/assets\/SonneCare_Lifestyle2-2058.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/SonneCare_Lifestyle2-2184.jpg": {
+	"\/dist\/assets\/SonneCare_Lifestyle2-2184.jpg": {
 		"ft": 16384,
 		"iS": 377148,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/SonneCare_Lifestyle2-2184.jpg",
+		"oAP": "\/dist\/assets\/SonneCare_Lifestyle2-2184.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/sun.svg": {
+	"\/dist\/assets\/sun.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/sun.svg",
+		"oAP": "\/dist\/assets\/sun.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/swatches.css.liquid": {
+	"\/dist\/assets\/swatches.css.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/swatches.css.liquid",
+		"oAP": "\/dist\/assets\/swatches.css.liquid",
 		"oF": 0
 		},
-	"\/shopify\/assets\/takestwo.jpg": {
+	"\/dist\/assets\/takestwo.jpg": {
 		"ft": 16384,
 		"iS": 251099,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/takestwo.jpg",
+		"oAP": "\/dist\/assets\/takestwo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/shopify\/assets\/theme.js.liquid": {
+	"\/dist\/assets\/theme.js.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/theme.js.liquid",
+		"oAP": "\/dist\/assets\/theme.js.liquid",
 		"oF": 0
 		},
-	"\/shopify\/assets\/usa.svg": {
+	"\/dist\/assets\/usa.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/shopify\/assets\/usa.svg",
+		"oAP": "\/dist\/assets\/usa.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/shopify\/assets\/vendor.min.css": {
+	"\/dist\/assets\/vendor.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/vendor.min-min.css",
+		"oAP": "\/dist\/assets\/vendor.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/shopify\/assets\/vendor.min.js": {
+	"\/dist\/assets\/vendor.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/vendor.min-min.js",
+		"oAP": "\/dist\/assets\/vendor.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/shopify\/config.yml": {
+	"\/dist\/config.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/config.yml",
+		"oAP": "\/dist\/config.yml",
 		"oF": 0
 		},
-	"\/shopify\/config\/settings_data.json": {
+	"\/dist\/config\/settings_data.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/shopify\/config\/settings_data-min.json",
+		"oAP": "\/dist\/config\/settings_data-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/shopify\/config\/settings_schema.json": {
+	"\/dist\/config\/settings_schema.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/shopify\/config\/settings_schema-min.json",
+		"oAP": "\/dist\/config\/settings_schema-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/shopify\/layout\/theme.liquid": {
+	"\/dist\/layout\/theme.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/layout\/theme.liquid",
+		"oAP": "\/dist\/layout\/theme.liquid",
 		"oF": 0
 		},
-	"\/shopify\/layout\/theme.naked.liquid": {
+	"\/dist\/layout\/theme.naked.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/layout\/theme.naked.liquid",
+		"oAP": "\/dist\/layout\/theme.naked.liquid",
 		"oF": 0
 		},
-	"\/shopify\/locales\/en.default.json": {
+	"\/dist\/locales\/en.default.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/shopify\/locales\/en.default-min.json",
+		"oAP": "\/dist\/locales\/en.default-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/shopify\/sections\/quote-template.liquid": {
+	"\/dist\/sections\/quote-template.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/sections\/quote-template.liquid",
+		"oAP": "\/dist\/sections\/quote-template.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/ajax-cart.liquid": {
+	"\/dist\/snippets\/ajax-cart.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/ajax-cart.liquid",
+		"oAP": "\/dist\/snippets\/ajax-cart.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/ajaxify-cart.liquid": {
+	"\/dist\/snippets\/ajaxify-cart.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/ajaxify-cart.liquid",
+		"oAP": "\/dist\/snippets\/ajaxify-cart.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/collection-sorting.liquid": {
+	"\/dist\/snippets\/collection-sorting.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/collection-sorting.liquid",
+		"oAP": "\/dist\/snippets\/collection-sorting.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/evening-benefits.liquid": {
+	"\/dist\/snippets\/evening-benefits.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/evening-benefits.liquid",
+		"oAP": "\/dist\/snippets\/evening-benefits.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/footer.liquid": {
+	"\/dist\/snippets\/footer.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/footer.liquid",
+		"oAP": "\/dist\/snippets\/footer.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/freeitems.liquid": {
+	"\/dist\/snippets\/freeitems.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/freeitems.liquid",
+		"oAP": "\/dist\/snippets\/freeitems.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/header.liquid": {
+	"\/dist\/snippets\/header.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/header.liquid",
+		"oAP": "\/dist\/snippets\/header.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/home-hiw.liquid": {
+	"\/dist\/snippets\/home-hiw.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/home-hiw.liquid",
+		"oAP": "\/dist\/snippets\/home-hiw.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/home-problem.liquid": {
+	"\/dist\/snippets\/home-problem.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/home-problem.liquid",
+		"oAP": "\/dist\/snippets\/home-problem.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/home-quote.liquid": {
+	"\/dist\/snippets\/home-quote.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/home-quote.liquid",
+		"oAP": "\/dist\/snippets\/home-quote.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/home-sol.liquid": {
+	"\/dist\/snippets\/home-sol.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/home-sol.liquid",
+		"oAP": "\/dist\/snippets\/home-sol.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/index-heros.liquid": {
+	"\/dist\/snippets\/index-heros.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/index-heros.liquid",
+		"oAP": "\/dist\/snippets\/index-heros.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/index-product.liquid": {
+	"\/dist\/snippets\/index-product.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/index-product.liquid",
+		"oAP": "\/dist\/snippets\/index-product.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/morning-benefits.liquid": {
+	"\/dist\/snippets\/morning-benefits.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/morning-benefits.liquid",
+		"oAP": "\/dist\/snippets\/morning-benefits.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/nav-dropdown-mobile.liquid": {
+	"\/dist\/snippets\/nav-dropdown-mobile.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/nav-dropdown-mobile.liquid",
+		"oAP": "\/dist\/snippets\/nav-dropdown-mobile.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/nav-dropdown.liquid": {
+	"\/dist\/snippets\/nav-dropdown.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/nav-dropdown.liquid",
+		"oAP": "\/dist\/snippets\/nav-dropdown.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/nav.liquid": {
+	"\/dist\/snippets\/nav.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/nav.liquid",
+		"oAP": "\/dist\/snippets\/nav.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/notification.liquid": {
+	"\/dist\/snippets\/notification.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/notification.liquid",
+		"oAP": "\/dist\/snippets\/notification.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/page-header.liquid": {
+	"\/dist\/snippets\/okendo-reviews-product-rating.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/page-header.liquid",
+		"oAP": "\/dist\/snippets\/okendo-reviews-product-rating.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/product-breadcrumbs.liquid": {
+	"\/dist\/snippets\/okendo-reviews-widget.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/product-breadcrumbs.liquid",
+		"oAP": "\/dist\/snippets\/okendo-reviews-widget.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/product-form.liquid": {
+	"\/dist\/snippets\/okendo-reviews-widget2.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/product-form.liquid",
+		"oAP": "\/dist\/snippets\/okendo-reviews-widget2.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/product-grid-item.liquid": {
+	"\/dist\/snippets\/page-header.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/product-grid-item.liquid",
+		"oAP": "\/dist\/snippets\/page-header.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/product-image-single.liquid": {
+	"\/dist\/snippets\/product-breadcrumbs.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/product-image-single.liquid",
+		"oAP": "\/dist\/snippets\/product-breadcrumbs.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/product-images.liquid": {
+	"\/dist\/snippets\/product-form.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/product-images.liquid",
+		"oAP": "\/dist\/snippets\/product-form.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/product-item.liquid": {
+	"\/dist\/snippets\/product-grid-item.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/product-item.liquid",
+		"oAP": "\/dist\/snippets\/product-grid-item.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/product-quote.liquid": {
+	"\/dist\/snippets\/product-image-single.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/product-quote.liquid",
+		"oAP": "\/dist\/snippets\/product-image-single.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/product-thumbs.liquid": {
+	"\/dist\/snippets\/product-images.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/product-thumbs.liquid",
+		"oAP": "\/dist\/snippets\/product-images.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/scripts.liquid": {
+	"\/dist\/snippets\/product-item.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/scripts.liquid",
+		"oAP": "\/dist\/snippets\/product-item.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/search-grid-item.liquid": {
+	"\/dist\/snippets\/product-quote.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/search-grid-item.liquid",
+		"oAP": "\/dist\/snippets\/product-quote.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/site-footer.liquid": {
+	"\/dist\/snippets\/product-thumbs.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/site-footer.liquid",
+		"oAP": "\/dist\/snippets\/product-thumbs.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/site-nav.liquid": {
+	"\/dist\/snippets\/scripts.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/site-nav.liquid",
+		"oAP": "\/dist\/snippets\/scripts.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/subscribe-form-2.liquid": {
+	"\/dist\/snippets\/search-grid-item.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/subscribe-form-2.liquid",
+		"oAP": "\/dist\/snippets\/search-grid-item.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/subscribe-form.liquid": {
+	"\/dist\/snippets\/site-footer.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/subscribe-form.liquid",
+		"oAP": "\/dist\/snippets\/site-footer.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/subscribe.liquid": {
+	"\/dist\/snippets\/site-nav.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/subscribe.liquid",
+		"oAP": "\/dist\/snippets\/site-nav.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/subscription-cart-footer.liquid": {
+	"\/dist\/snippets\/subscribe-form-2.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/subscription-cart-footer.liquid",
+		"oAP": "\/dist\/snippets\/subscribe-form-2.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/subscription-product.liquid": {
+	"\/dist\/snippets\/subscribe-form.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/subscription-product.liquid",
+		"oAP": "\/dist\/snippets\/subscribe-form.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/subscription-theme-footer.liquid": {
+	"\/dist\/snippets\/subscribe.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/subscription-theme-footer.liquid",
+		"oAP": "\/dist\/snippets\/subscribe.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/swatch.liquid": {
+	"\/dist\/snippets\/subscription-cart-footer.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/swatch.liquid",
+		"oAP": "\/dist\/snippets\/subscription-cart-footer.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/swatches.liquid": {
+	"\/dist\/snippets\/subscription-product.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/swatches.liquid",
+		"oAP": "\/dist\/snippets\/subscription-product.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/sweettooth-initializer.liquid": {
+	"\/dist\/snippets\/subscription-theme-footer.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/sweettooth-initializer.liquid",
+		"oAP": "\/dist\/snippets\/subscription-theme-footer.liquid",
 		"oF": 0
 		},
-	"\/shopify\/snippets\/sweettooth-tab-widget.liquid": {
+	"\/dist\/snippets\/swatch.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/snippets\/sweettooth-tab-widget.liquid",
+		"oAP": "\/dist\/snippets\/swatch.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/404.liquid": {
+	"\/dist\/snippets\/swatches.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/404.liquid",
+		"oAP": "\/dist\/snippets\/swatches.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/article.liquid": {
+	"\/dist\/snippets\/sweettooth-initializer.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/article.liquid",
+		"oAP": "\/dist\/snippets\/sweettooth-initializer.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/blog.liquid": {
+	"\/dist\/snippets\/sweettooth-tab-widget.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/blog.liquid",
+		"oAP": "\/dist\/snippets\/sweettooth-tab-widget.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/cart.liquid": {
+	"\/dist\/templates\/404.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/cart.liquid",
+		"oAP": "\/dist\/templates\/404.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/collection.liquid": {
+	"\/dist\/templates\/article.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/collection.liquid",
+		"oAP": "\/dist\/templates\/article.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/customers\/account.liquid": {
+	"\/dist\/templates\/blog.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/customers\/account.liquid",
+		"oAP": "\/dist\/templates\/blog.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/customers\/activate_account.liquid": {
+	"\/dist\/templates\/cart.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/customers\/activate_account.liquid",
+		"oAP": "\/dist\/templates\/cart.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/customers\/addresses.liquid": {
+	"\/dist\/templates\/collection.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/customers\/addresses.liquid",
+		"oAP": "\/dist\/templates\/collection.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/customers\/login.liquid": {
+	"\/dist\/templates\/customers\/account.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/customers\/login.liquid",
+		"oAP": "\/dist\/templates\/customers\/account.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/customers\/order.liquid": {
+	"\/dist\/templates\/customers\/activate_account.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/customers\/order.liquid",
+		"oAP": "\/dist\/templates\/customers\/activate_account.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/customers\/register.liquid": {
+	"\/dist\/templates\/customers\/addresses.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/customers\/register.liquid",
+		"oAP": "\/dist\/templates\/customers\/addresses.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/customers\/reset_password.liquid": {
+	"\/dist\/templates\/customers\/login.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/customers\/reset_password.liquid",
+		"oAP": "\/dist\/templates\/customers\/login.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/index.liquid": {
+	"\/dist\/templates\/customers\/order.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/index.liquid",
+		"oAP": "\/dist\/templates\/customers\/order.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/list-collections.liquid": {
+	"\/dist\/templates\/customers\/register.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/list-collections.liquid",
+		"oAP": "\/dist\/templates\/customers\/register.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/page.about.liquid": {
+	"\/dist\/templates\/customers\/reset_password.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/page.about.liquid",
+		"oAP": "\/dist\/templates\/customers\/reset_password.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/page.about2.liquid": {
+	"\/dist\/templates\/index.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/page.about2.liquid",
+		"oAP": "\/dist\/templates\/index.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/page.faq.liquid": {
+	"\/dist\/templates\/list-collections.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/page.faq.liquid",
+		"oAP": "\/dist\/templates\/list-collections.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/page.liquid": {
+	"\/dist\/templates\/page.about.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/page.liquid",
+		"oAP": "\/dist\/templates\/page.about.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/page.mission.liquid": {
+	"\/dist\/templates\/page.about2.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/page.mission.liquid",
+		"oAP": "\/dist\/templates\/page.about2.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/page.skin-101.liquid": {
+	"\/dist\/templates\/page.faq.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/page.skin-101.liquid",
+		"oAP": "\/dist\/templates\/page.faq.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/page.story.liquid": {
+	"\/dist\/templates\/page.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/page.story.liquid",
+		"oAP": "\/dist\/templates\/page.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/password.liquid": {
+	"\/dist\/templates\/page.mission.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/password.liquid",
+		"oAP": "\/dist\/templates\/page.mission.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/product.liquid": {
+	"\/dist\/templates\/page.skin-101.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/product.liquid",
+		"oAP": "\/dist\/templates\/page.skin-101.liquid",
 		"oF": 0
 		},
-	"\/shopify\/templates\/search.liquid": {
+	"\/dist\/templates\/page.story.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/templates\/search.liquid",
+		"oAP": "\/dist\/templates\/page.story.liquid",
 		"oF": 0
 		},
-	"\/shopify\/theme.lock": {
+	"\/dist\/templates\/password.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/shopify\/theme.lock",
+		"oAP": "\/dist\/templates\/password.liquid",
+		"oF": 0
+		},
+	"\/dist\/templates\/product.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/templates\/product.liquid",
+		"oF": 0
+		},
+	"\/dist\/templates\/product.variants.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/templates\/product.variants.liquid",
+		"oF": 0
+		},
+	"\/dist\/templates\/search.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/templates\/search.liquid",
+		"oF": 0
+		},
+	"\/dist\/theme.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/theme.lock",
+		"oF": 0
+		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/src\/bower_components\/desandro-matches-selector\/.bower.json": {

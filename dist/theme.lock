@@ -95,6 +95,8 @@ assets/moon.svg:
   development: 2018-06-13T07:31:26-07:00   2cf0a819a66e43280fe5ff83d9f2bdf5
 assets/morning-2_1024x1024_5448eb8f-9e85-45b4-af76-a70615a9700c_1024x1024.jpg:
   development: 2018-06-18T16:56:09-07:00   3750016b18c06fab86f9379f2c1e12b4
+assets/okendo-reviews.scss.liquid:
+  development: 2018-06-28T14:12:30-07:00   f843be509e58bfc0f00309a99ae82211
 assets/option_selection-min.js:
   development: 2018-06-19T17:45:15-07:00   5d772baacb0e8ff8a451e5ed69f28c05
 assets/option_selection.js:
@@ -115,6 +117,8 @@ assets/product-morning.jpg:
   development: 2018-06-18T15:53:39-07:00   bfbe5bd911426fe7422a5ca67af3c12b
 assets/product.jpg:
   development: 2018-06-18T11:54:14-07:00   4aa67a58d1ce8991405db6a90fc9184d
+assets/product2.jpg:
+  development: 2018-06-28T14:03:46-07:00   503e2a51d2fb7fdb1ec21ebbbf3b8e2a
 assets/productmobile.jpg:
   development: 2018-06-19T19:34:18-07:00   d0f2a1867532bcd2f7314fc920b53509
 assets/quote-1.jpg:
@@ -191,6 +195,12 @@ snippets/nav.liquid:
   development: 2018-06-11T15:32:47-07:00   05ea8b93245e2b9dfe5d89609b3a8865
 snippets/notification.liquid:
   development: 2018-06-11T15:32:47-07:00   a14cbfc152e36d923b9afe402268a1be
+snippets/okendo-reviews-product-rating.liquid:
+  development: 2018-06-28T14:12:13-07:00   b1f07b6cea87f9760b45d308b357d6a8
+snippets/okendo-reviews-widget.liquid:
+  development: 2018-06-28T14:11:58-07:00   9f1d147b81b0709b761d2f341be1da39
+snippets/okendo-reviews-widget2.liquid:
+  development: 2018-06-28T14:19:43-07:00   0f2befcfe84c541a5f4d4334587aa673
 snippets/page-header.liquid:
   development: 2018-06-11T15:32:47-07:00   cc8a9501489f3ee5fe1b2a4074c14d72
 snippets/product-breadcrumbs.liquid:
@@ -283,5 +293,7 @@ templates/password.liquid:
   development: 2018-06-11T15:32:49-07:00   412c343c7b2a5e7a0eadba30bf51ed75
 templates/product.liquid:
   development: 2018-06-20T17:32:17-07:00   5d4e7a23bca95e06777147fad8d2491b
+templates/product.variants.liquid:
+  development: 2018-06-28T14:19:09-07:00   ffb43cabe6e07ddeef7807080d73baaf
 templates/search.liquid:
   development: 2018-06-11T15:32:49-07:00   ccc9508f4c5e7043ee796775bcb10ce8
