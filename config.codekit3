@@ -1311,6 +1311,16 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/shopify\/assets\/main.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/shopify\/assets\/main.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/src\/bower_components\/desandro-matches-selector\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -7180,7 +7190,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/main.min.js",
+		"oAP": "\/dist\/assets\/main.min.js",
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
@@ -7526,7 +7536,7 @@
 		"iI": 0,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/main.min.css",
+		"oAP": "\/dist\/assets\/main.min.css",
 		"oF": 2,
 		"oS": 1,
 		"rU": 0,

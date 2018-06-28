@@ -74,7 +74,7 @@ assets/main.min.css:
 assets/main.min.css.map:
   development: 2018-06-11T15:32:45-07:00   e1338bb491140abd827b0f0ee1256615
 assets/main.min.js:
-  development: 2018-06-21T10:33:24-07:00   5682fa2a74509a70c8fe7ca2a98fa5b5
+  development: 2018-06-28T14:29:38-07:00   a9157a55b908a778b9f962e6d8fea6f6
 assets/matt.jpg:
   development: 2018-06-19T19:34:12-07:00   99b88a5128b1125b8d3c205883755269
 assets/mission-last.jpg:
@@ -294,6 +294,6 @@ templates/password.liquid:
 templates/product.liquid:
   development: 2018-06-20T17:32:17-07:00   5d4e7a23bca95e06777147fad8d2491b
 templates/product.variants.liquid:
-  development: 2018-06-28T14:19:09-07:00   ffb43cabe6e07ddeef7807080d73baaf
+  development: 2018-06-28T14:51:30-07:00   f7d9ec166196e7d101bfdd23d608bb45
 templates/search.liquid:
   development: 2018-06-11T15:32:49-07:00   ccc9508f4c5e7043ee796775bcb10ce8

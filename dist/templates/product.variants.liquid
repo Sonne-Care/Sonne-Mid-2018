@@ -175,8 +175,32 @@
   </div>
 </div>
 
-<script>
+<a href="#" class="launch_lightbox" style="display:none">
+  Open jQuery Content
+</a>
 
+<script>
+  {% comment %}
+  jQuery(function($) {
+    $(document).ready(function(){
+      $partner = $.urlParam('partner');
+      $message = $.urlParam('message');
+      $code = $.urlParam('code');
+      console.log($partner);
+      function launchLightbox() {
+        $.lightbox($('<div class="inline_content"><h2>' + $partner + '</h2><p>Welcome, heres the code!:' + $code +'</p></div>'), {
+          mobile: false,
+          //theme: $(".js-theme_select").val()
+        });
+      }
+      if($partner){
+        alert('hello');
+        launchLightbox();
+        
+      }
+    })
+  });
+  {% endcomment %}
   var selectCallback = function(variant, selector) {
     timber.productPage({
       money_format: "{{ shop.money_format }}",
