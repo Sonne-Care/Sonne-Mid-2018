@@ -70,7 +70,7 @@ assets/home2.jpg:
 assets/leaf.svg:
   development: 2018-06-13T07:31:24-07:00   95fed90f0049925557502e65e45833b5
 assets/main.min.css:
-  development: 2018-06-21T10:41:08-07:00   66ed6daba2245973989f7861705ba315
+  development: 2018-06-28T15:20:30-07:00   75f45f2d689043814107de60dabcf9f2
 assets/main.min.css.map:
   development: 2018-06-11T15:32:45-07:00   e1338bb491140abd827b0f0ee1256615
 assets/main.min.js:
@@ -258,13 +258,13 @@ templates/cart.liquid:
 templates/collection.liquid:
   development: 2018-06-11T15:32:48-07:00   ffaea2bd938b134d32b3442797dd6786
 templates/customers/account.liquid:
-  development: 2018-06-13T07:30:34-07:00   32f4dead8ffded50a8e2c5965743de42
+  development: 2018-06-28T15:06:38-07:00   295cfc74214abe730e194f5454464863
 templates/customers/activate_account.liquid:
   development: 2018-06-11T15:32:49-07:00   325913e4a868a5a5852749f158d98065
 templates/customers/addresses.liquid:
   development: 2018-06-13T07:27:45-07:00   c09022e953bd51ea8d9839ebd834cbed
 templates/customers/login.liquid:
-  development: 2018-06-13T07:07:36-07:00   4ca990590f157656c16e0670ca09a946
+  development: 2018-06-28T15:05:31-07:00   4ca990590f157656c16e0670ca09a946
 templates/customers/order.liquid:
   development: 2018-06-11T15:32:49-07:00   87b5090195c754551a8cab5424796bf4
 templates/customers/register.liquid:

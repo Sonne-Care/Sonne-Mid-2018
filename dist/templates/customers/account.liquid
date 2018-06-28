@@ -7,6 +7,8 @@
     <div class="page-header fs-cell text-center">
       <div class="page-title">{{ 'customer.account.title' | t }}</div>
       <a class="account-logout" href="/account/logout">{{ 'layout.customer.log_out' | t }}</a>
+      <span>&nbsp;|&nbsp;</span>
+      <a class="account-logout" href="/tools/recurring/customer/{{customer.metafields.subscriptions.customer_string}}/subscriptions/">Manage Subscriptions</a>
     </div>
 
     <hr class="divider fs-cell">
