@@ -147,9 +147,22 @@
 
   & #rc_container {
 
+    border: 1px solid fade(@brown,10%);
+    padding: 5px 10px;
+    border-radius: 3px;
+
     & .rc {
 
+      &_block {
+        padding: 0;
+      }
+
       &_label {
+
+       margin-bottom: 0;
+       text-transform: uppercase;
+       font-size: 1.1rem;
+       letter-spacing: .1rem;
 
         span {
           @media @min {
@@ -189,3 +202,4 @@
   }
 
 }
+

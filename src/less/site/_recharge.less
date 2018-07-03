@@ -1,0 +1,64 @@
+.rc {
+
+	&_layout {
+		padding: 80px 0;
+		-webkit-font-smoothing: antialiased;
+		a {
+			color: @brown;
+		}
+	}
+
+	&_subscriptions {
+		&__subscription--info {
+			& .purchase-address {
+				font-size: 1.5rem;
+			}
+		}
+	}
+
+	&_menu {
+		&__item {
+			color: @gray;
+			text-decoration: none;
+			&.active {
+				color: @brown;
+			}
+			a {
+				color: inherit;
+			}
+		}
+	}
+
+	.title(){
+		color: @brown;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 500;
+		font-size: 2rem;
+	}
+
+	&_customer {
+		&__name {
+			.title();
+		}
+	}
+
+	&_title-bar {
+		&__title {
+			h2 {
+				.title();
+			}
+		}
+	}
+
+	&_header {
+		&-settings {
+			&__title {
+				h2 {
+					.title();
+				}
+			}
+		}
+	}
+
+}
