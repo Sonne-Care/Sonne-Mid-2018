@@ -260,7 +260,7 @@ templates/collection.liquid:
 templates/customers/account.liquid:
   development: 2018-06-28T15:06:38-07:00   295cfc74214abe730e194f5454464863
 templates/customers/activate_account.liquid:
-  development: 2018-06-11T15:32:49-07:00   325913e4a868a5a5852749f158d98065
+  development: 2018-07-03T11:16:02-07:00   a07ba83e2e3569b9dffb49404bc15dfb
 templates/customers/addresses.liquid:
   development: 2018-06-13T07:27:45-07:00   c09022e953bd51ea8d9839ebd834cbed
 templates/customers/login.liquid:
@@ -268,7 +268,7 @@ templates/customers/login.liquid:
 templates/customers/order.liquid:
   development: 2018-06-11T15:32:49-07:00   87b5090195c754551a8cab5424796bf4
 templates/customers/register.liquid:
-  development: 2018-06-11T15:32:49-07:00   a231d072b1a914498071f4cc17d75711
+  development: 2018-07-03T11:16:21-07:00   f3afddfb8d8eb9e3b6fd184f7882a86f
 templates/customers/reset_password.liquid:
   development: 2018-06-11T15:32:49-07:00   c52cb1425f2aa4d0a3dbb557f3749fce
 templates/index.liquid:
