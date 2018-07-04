@@ -148,11 +148,11 @@ assets/vendor.min.css:
 assets/vendor.min.js:
   development: 2018-07-03T16:53:12-07:00   ba82fcd48079633b534f63fa7e89885a
 config/settings_data.json:
-  development: 2018-06-11T15:32:49-07:00   99914b932bd37a50b983c5e7c90ae93b
+  development: 2018-06-21T16:00:24-07:00   2a7ed813899935db3f313353b8136dc8
 config/settings_schema.json:
   development: 2018-06-20T16:26:35-07:00   778f325cd64511a4e677327e5715f94e
 layout/theme.liquid:
-  development: 2018-06-19T21:54:10-07:00   7c766485dbf02070d2590cf65e53391d
+  development: 2018-07-04T10:37:39-07:00   be3aff207f0a78ce598ed2abb97cf125
 layout/theme.naked.liquid:
   development: 2018-06-11T15:32:47-07:00   57a1d6cdeafc98ce8d294c03e8da1bf1
 locales/en.default.json:
@@ -160,7 +160,7 @@ locales/en.default.json:
 sections/quote-template.liquid:
   development: 2018-06-20T16:44:21-07:00   f4a8957cc1ece4b68b5ea5945eea69af
 snippets/ajax-cart.liquid:
-  development: 2018-06-11T15:32:47-07:00   9a0aaaa11b0b57525ceed9ed52c71dc3
+  development: 2018-07-04T10:38:49-07:00   66ccd076d6f8c07ecec7b2cd82b006da
 snippets/ajaxify-cart.liquid:
   development: 2018-06-18T11:33:44-07:00   9cb7fa0a2f1b3feb5e2d76dab2e886df
 snippets/collection-sorting.liquid:

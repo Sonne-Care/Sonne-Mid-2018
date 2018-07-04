@@ -1,1 +1,66 @@
-{}
+{
+  "current": {
+    "notification-bar": "Free shipping on orders over $100",
+    "notification-enable": false,
+    "subscribe-box": "Free shipping on orders over $100",
+    "subscribe-enable": false,
+    "site_logo": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "1529538284789": {
+        "type": "quote-template",
+        "blocks": {
+          "1529538289579": {
+            "type": "text",
+            "settings": {
+              "block_name": "Will",
+              "block_location": "Los Angeles, CA",
+              "block_desc": "Sonne has simplified my daily routine and now lives on my bathroom counter.  I appreciate such a simple product that has really improved my daily life!",
+              "block_img": "shopify:\/\/shop_images\/will.jpg"
+            }
+          },
+          "1529538613776": {
+            "type": "text",
+            "settings": {
+              "block_name": "Nicole",
+              "block_location": "Los Angeles",
+              "block_desc": "As someone who is intimidated by all the labels on products and not knowing what is a good fit, I was excited to give Sonne a go as it was so simple.",
+              "block_img": "shopify:\/\/shop_images\/quote-2_63e9056f-3a5b-4e9c-b887-e089f218a6d1.jpg"
+            }
+          },
+          "1529538676979": {
+            "type": "text",
+            "settings": {
+              "block_name": "Brouwer",
+              "block_location": "Los Angeles",
+              "block_desc": "Sonne comes in a cool package and is super easy to use. I’ve noticed a big difference by adding the Evening Formula to my grooming regimen.",
+              "block_img": "shopify:\/\/shop_images\/quote-2_39ea3c5c-e4cd-496a-84e8-88bc80b74b33.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1529538289579",
+          "1529538613776",
+          "1529538676979"
+        ],
+        "settings": {}
+      }
+    },
+    "content_for_index": [
+      "1529538284789"
+    ]
+  }
+}

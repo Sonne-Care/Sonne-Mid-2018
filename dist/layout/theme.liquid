@@ -35,7 +35,8 @@
 <meta property="fb:app_id" content="" /> 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
+{{ shop.metafields.okendo.ReviewsWidgetStyleTag }}
+</head>
 <body class="fs-grid">
   <div id="wrapper">
     {% include 'header' %}
@@ -46,7 +47,7 @@
   {{ 'theme.js'  | asset_url | script_tag }}
   {{ 'vendor.min.js' | asset_url | script_tag }}
   {{ 'main.min.js'  | asset_url | script_tag }}
-  {% include 'ajaxify-cart' %}
+  {% include 'ajax-cart' %}
   {% include 'subscription-theme-footer' %}
   {% include 'scripts' %}
  {% include 'sweettooth-initializer' %}
