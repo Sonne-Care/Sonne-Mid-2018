@@ -2,6 +2,17 @@
 
 <!-- -->
 
+### 1.4.8
+
+* Added mobile auto-play video support in Background
+* Added `threshold` and `time` options in Touch
+* Fixed issue with `matchWidth: false` paging in Carousel
+* Fixed issue with page scrolling in Carousel
+
+### 1.4.7
+
+* Fixed issue with nested cell widths in Grid for legacy IE
+
 ### 1.4.6
 
 * Added `parent` scroll context support in Checkpoint

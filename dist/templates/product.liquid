@@ -15,7 +15,8 @@
         <div class="fs-cell fs-xl-4 fs-xl-push-8 fs-lg-5 fs-lg-push-7 fs-md-3 fs-md-push-3">
           <hr class="invisible huge">
           <div class="product-title main">The Sonne System <br>Morning & Evening</div>
-          <div class="product-subtitle">$45/month</div>
+          <hr class="invisible compact">
+          {% comment %}<div class="product-subtitle">$45/month</div>{% endcomment %}
           <form action="/cart/add" method="post" enctype="multipart/form-data" data-productid="{{product.id}}">
             {% if product.available %}{% include 'subscription-product' %}{% endif %}
             <select name="id" id="productSelect" data-productid="{{product.id}}">
@@ -32,10 +33,10 @@
             </button>
           </form>
           <ul class="product-list">
-            <li>Delivered Monthly</li>
             <li>Visible Results Reported In 6-8 Days</li>
+            <li>Made in the USA</li>
             <li>Free Shipping</li>
-            <li>Cancel Anytime</li>
+            <li>Cancel Subscription Anytime</li>
           </ul>
         </div>
       </div>

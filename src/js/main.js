@@ -2,6 +2,7 @@ function formstone(){
   $('.background').background();
   $('.carousel').carousel();
   $('.swap').swap();  
+  $("input[type=checkbox], input[type=radio]").checkbox();
   $(".sticky").sticky();
   //$(".lightbox").lightbox();
   $('.benefit-item').swap({

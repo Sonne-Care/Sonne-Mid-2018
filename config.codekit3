@@ -1164,6 +1164,13 @@
 		"oAP": "\/dist\/templates\/customers\/account.liquid",
 		"oF": 0
 		},
+	"\/dist\/templates\/customers\/activate_account.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/templates\/customers\/activate_account.liquid",
+		"oF": 0
+		},
 	"\/dist\/templates\/customers\/addresses.liquid": {
 		"cB": 0,
 		"ft": 8192,
@@ -1183,6 +1190,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/dist\/templates\/customers\/order.liquid",
+		"oF": 0
+		},
+	"\/dist\/templates\/customers\/register.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/templates\/customers\/register.liquid",
 		"oF": 0
 		},
 	"\/dist\/templates\/customers\/reset_password.liquid": {
@@ -1283,12 +1297,29 @@
 		"oAP": "\/dist\/templates\/search.liquid",
 		"oF": 0
 		},
+	"\/dist\/theme.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/theme.lock",
+		"oF": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/shopify\/assets\/vendor.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/shopify\/assets\/vendor.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/src\/bower_components\/desandro-matches-selector\/.bower.json": {
 		"ft": 524288,
@@ -2944,7 +2975,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/src\/bower_components\/formstone\/dist\/js\/checkbox.js",
 		"oF": 0,
 		"sC": 3,
@@ -4881,7 +4912,7 @@
 		"ie": 1,
 		"iI": 0,
 		"ma": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/src\/bower_components\/formstone\/src\/less\/checkbox.less",
 		"oF": 0,
 		"oS": 0,
@@ -7169,7 +7200,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/shopify\/assets\/vendor.min.js",
+		"oAP": "\/dist\/assets\/vendor.min.js",
 		"oF": 2,
 		"sC": 3,
 		"tS": 0

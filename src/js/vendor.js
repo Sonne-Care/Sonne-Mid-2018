@@ -14,6 +14,7 @@
 // @codekit-append "../bower_components/formstone/dist/js/sticky.js"
 // @codekit-append "../bower_components/formstone/dist/js/checkpoint.js"
 // @codekit-append "../bower_components/formstone/dist/js/lightbox.js"
+// @codekit-append "../bower_components/formstone/dist/js/checkbox.js"
 
 // Other Plugins
 // @codekit-append "../bower_components/infinite-scroll/dist/infinite-scroll.pkgd.js"

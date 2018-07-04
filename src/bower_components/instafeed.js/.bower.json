@@ -32,6 +32,5 @@
   },
   "_source": "https://github.com/stevenschobert/instafeed.js.git",
   "_target": "^1.4.1",
-  "_originalSource": "instafeed.js",
-  "_direct": true
+  "_originalSource": "instafeed.js"
 }

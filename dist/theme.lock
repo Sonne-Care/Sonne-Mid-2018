@@ -70,11 +70,11 @@ assets/home2.jpg:
 assets/leaf.svg:
   development: 2018-06-13T07:31:24-07:00   95fed90f0049925557502e65e45833b5
 assets/main.min.css:
-  development: 2018-07-03T16:45:19-07:00   49b72a38dd289ca191bc1210c6ea2842
+  development: 2018-07-03T17:03:47-07:00   4c4f1ebfde46396bd83c28706d408388
 assets/main.min.css.map:
   development: 2018-06-11T15:32:45-07:00   e1338bb491140abd827b0f0ee1256615
 assets/main.min.js:
-  development: 2018-06-28T14:29:38-07:00   a9157a55b908a778b9f962e6d8fea6f6
+  development: 2018-07-03T16:53:16-07:00   409014a49c1a4ad942be096065bea193
 assets/matt.jpg:
   development: 2018-06-19T19:34:12-07:00   99b88a5128b1125b8d3c205883755269
 assets/mission-last.jpg:
@@ -146,7 +146,7 @@ assets/usa.svg:
 assets/vendor.min.css:
   development: 2018-06-11T15:32:46-07:00   d66e2fb62859704e16091ba118017fdd
 assets/vendor.min.js:
-  development: 2018-06-20T17:21:25-07:00   e12a76c373827a0994cdee671479aa07
+  development: 2018-07-03T16:53:12-07:00   ba82fcd48079633b534f63fa7e89885a
 config/settings_data.json:
   development: 2018-06-11T15:32:49-07:00   99914b932bd37a50b983c5e7c90ae93b
 config/settings_schema.json:
@@ -292,7 +292,7 @@ templates/page.story.liquid:
 templates/password.liquid:
   development: 2018-06-11T15:32:49-07:00   412c343c7b2a5e7a0eadba30bf51ed75
 templates/product.liquid:
-  development: 2018-06-20T17:32:17-07:00   5d4e7a23bca95e06777147fad8d2491b
+  development: 2018-07-03T17:00:37-07:00   3cb341b77d4710eec6d39060a8d7cfbd
 templates/product.variants.liquid:
   development: 2018-06-28T14:51:30-07:00   f7d9ec166196e7d101bfdd23d608bb45
 templates/search.liquid:
