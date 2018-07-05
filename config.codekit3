@@ -1311,16 +1311,6 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/shopify\/assets\/vendor.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/shopify\/assets\/vendor.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/src\/bower_components\/desandro-matches-selector\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -7962,6 +7952,23 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/src\/less\/site\/_recharge.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/src\/less\/site\/_reviews.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/src\/less\/site\/_reviews.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,

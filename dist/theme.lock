@@ -70,7 +70,7 @@ assets/home2.jpg:
 assets/leaf.svg:
   development: 2018-06-13T07:31:24-07:00   95fed90f0049925557502e65e45833b5
 assets/main.min.css:
-  development: 2018-07-03T17:03:47-07:00   4c4f1ebfde46396bd83c28706d408388
+  development: 2018-07-05T12:33:53-07:00   0901a927efd3163355818f7928a6ed59
 assets/main.min.css.map:
   development: 2018-06-11T15:32:45-07:00   e1338bb491140abd827b0f0ee1256615
 assets/main.min.js:
@@ -292,7 +292,7 @@ templates/page.story.liquid:
 templates/password.liquid:
   development: 2018-06-11T15:32:49-07:00   412c343c7b2a5e7a0eadba30bf51ed75
 templates/product.liquid:
-  development: 2018-07-03T17:00:37-07:00   3cb341b77d4710eec6d39060a8d7cfbd
+  development: 2018-07-05T12:12:44-07:00   b88265a0b739c1301034aef342faf526
 templates/product.variants.liquid:
   development: 2018-06-28T14:51:30-07:00   f7d9ec166196e7d101bfdd23d608bb45
 templates/search.liquid:

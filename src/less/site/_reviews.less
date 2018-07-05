@@ -1,0 +1,59 @@
+.okeReviews {
+
+  & &-barGraph {
+
+    &-layer {
+
+      &--foreground {
+        background-color: @brown!important;
+      }
+      &--background {
+        background-color: @bgGray!important;
+      }
+
+    }
+
+  }
+
+  & &-review {
+
+    box-shadow: 0 @spacer @spacer*2 rgba(0,0,0,.05);  
+
+    &-primary {
+      border: 0!important;
+      background-color: #fff;
+    }
+
+    &-side {
+      border: 0!important;
+      background-color: #fff;
+      border-right: 1px solid @lighterGray!important;
+    }
+
+    &-recommendation {
+      &--yes {
+        color: @gray!important;
+        &:before {
+          color: @brown!important;  
+        }
+      }
+    }
+
+    &-reviewer {
+      &-profile {
+        &-status {
+          &--verified {
+            color: @gray!important;
+            &:before {
+              color: @brown!important;  
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+

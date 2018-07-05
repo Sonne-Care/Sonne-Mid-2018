@@ -125,6 +125,15 @@
 
   {{ content_for_product }}
 
+  <div class="product-section product-section--testies">
+    <div class="fs-row">
+      <div class="fs-cell fs-lg-10 fs-all-justify-center">
+        {% include 'okendo-reviews-widget' %}
+      </div>
+    </div>
+  </div>
+
+  {% comment %}
   <div class="product-section product-section--testimonials">
     <div class="fs-row">
       <div class="fs-cell fs-all-full">
@@ -138,6 +147,7 @@
       </div>
     </div>
   </div>
+  {% endcomment %}
 
 </div>
 
