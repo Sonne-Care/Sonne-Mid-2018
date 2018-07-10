@@ -15,7 +15,7 @@
   &.active, &:hover, &.fs-sticky-stuck {
     background-color: rgba(255,255,255,.95);
     box-shadow: 0 0 @spacer rgba(0,0,0,.05);
-    z-index: 999;
+    z-index: 9999;
   }
 
   & .button {
@@ -102,7 +102,7 @@
     .cover();
     position: fixed;
     background-color: @white;
-    z-index: 49;
+    z-index: 999;
     visibility: hidden;
     opacity: 0;
     transition: 700ms ease;
@@ -112,7 +112,7 @@
       opacity: 1;
     }
     
-    @media @tablet {
+    @media @desktop {
       display: none;
     }
 

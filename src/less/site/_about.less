@@ -88,7 +88,23 @@
 
   & &-tabs {
 
-    position: absolute;
+    @media @min {
+
+      & .fs-row {
+        background-color: @brown;  
+      }
+      
+      position: relative;  
+    }
+
+    @media @tablet {
+
+      & .fs-row {
+        background-color: transparent;
+      }
+      position: absolute;  
+    }
+    
     padding-top: 15px;
     z-index: 999;
     width: 100%;
@@ -134,7 +150,10 @@
         .serif();
         color: @brown;
         font-size: 4rem;
-        white-space: nowrap;
+        @media @tablet {
+          white-space: nowrap;  
+        }
+        
         &.white {
           color: @white;
         }

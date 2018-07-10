@@ -31,6 +31,8 @@ assets/SonneCare_Lifestyle2-2058.jpg:
   development: 2018-06-18T16:23:37-07:00   a03a098f771e56f59a185f993a4ee989
 assets/SonneCare_Lifestyle2-2184.jpg:
   development: 2018-06-19T08:33:02-07:00   36e4f92430d67bf41fa17fba3d1924aa
+assets/about-bottom-mobile.jpg:
+  development: 2018-07-10T12:25:50-07:00   55e72e5c6343365ed7f689dc61a7e4c3
 assets/about-bottom.jpg:
   development: 2018-06-19T19:34:06-07:00   d313d1601e816f3b69396c977a8f37db
 assets/about-top.jpg:
@@ -70,7 +72,7 @@ assets/home2.jpg:
 assets/leaf.svg:
   development: 2018-06-13T07:31:24-07:00   95fed90f0049925557502e65e45833b5
 assets/main.min.css:
-  development: 2018-07-10T11:47:40-07:00   0edf19735dd980743c099fc0294bce44
+  development: 2018-07-10T12:27:01-07:00   fb0ddf8a9ed3b96836c859b9e6e6f229
 assets/main.min.css.map:
   development: 2018-06-11T15:32:45-07:00   e1338bb491140abd827b0f0ee1256615
 assets/main.min.js:
@@ -278,7 +280,7 @@ templates/index.liquid:
 templates/list-collections.liquid:
   development: 2018-06-11T15:32:49-07:00   31e3dc19c53b28349257f298c8f11c22
 templates/page.about.liquid:
-  development: 2018-06-19T16:00:11-07:00   c0636c7c6223da2defa8bc807928444a
+  development: 2018-07-10T12:28:49-07:00   fbe69a1c1a752591a5cd696a3b59446c
 templates/page.about2.liquid:
   development: 2018-06-19T17:45:16-07:00   4038c6a03c86976914109a2b7ca20900
 templates/page.faq.liquid:
@@ -286,7 +288,7 @@ templates/page.faq.liquid:
 templates/page.liquid:
   development: 2018-06-14T10:57:06-07:00   b6f90480909aeef427cca6bd59c0ee3d
 templates/page.mission.liquid:
-  development: 2018-06-21T12:32:13-07:00   d0a7969c9fa005c1e975278e7ab389ac
+  development: 2018-07-10T12:28:32-07:00   48e73da70f470ef644c694e8ab12cd51
 templates/page.skin-101.liquid:
   development: 2018-06-19T17:45:17-07:00   d9f1b85d796d2efb4fb8495133bc679d
 templates/page.story.liquid:
