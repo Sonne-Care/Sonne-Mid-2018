@@ -26,35 +26,35 @@
           "1529538289579": {
             "type": "text",
             "settings": {
-              "block_name": "Will",
-              "block_location": "Los Angeles, CA",
-              "block_desc": "Sonne has simplified my daily routine and now lives on my bathroom counter.  I appreciate such a simple product that has really improved my daily life!",
-              "block_img": "shopify:\/\/shop_images\/will.jpg"
-            }
-          },
-          "1529538613776": {
-            "type": "text",
-            "settings": {
-              "block_name": "Nicole",
-              "block_location": "Los Angeles",
-              "block_desc": "As someone who is intimidated by all the labels on products and not knowing what is a good fit, I was excited to give Sonne a go as it was so simple.",
-              "block_img": "shopify:\/\/shop_images\/quote-2_63e9056f-3a5b-4e9c-b887-e089f218a6d1.jpg"
+              "block_name": "Airows.com",
+              "block_location": "",
+              "block_desc": "This new startup specializes in a dead-simple skincare regimen that includes one all-natural moisturizer for daytime UV protection and one all-natural moisturizer for night time healing. Together, the combination is one of the most effective ways to reduce UV damage and any kind of sun-produced aging.",
+              "block_img": "shopify:\/\/shop_images\/airows_ed852cc9-1cb4-404c-a98a-f9b06b562ab8.jpg"
             }
           },
           "1529538676979": {
             "type": "text",
             "settings": {
-              "block_name": "Brouwer",
-              "block_location": "Los Angeles",
-              "block_desc": "Sonne comes in a cool package and is super easy to use. I’ve noticed a big difference by adding the Evening Formula to my grooming regimen.",
-              "block_img": "shopify:\/\/shop_images\/quote-2_39ea3c5c-e4cd-496a-84e8-88bc80b74b33.jpg"
+              "block_name": "TheCoolector.com",
+              "block_location": "",
+              "block_desc": "The overriding ethos of Sonne is the fact that you simply don’t need 300 skincare products that will clog up your bathroom or dopp bag. You just need one that works. It doesn’t get any easier than Sonne with just one step in the morning and one step at night for a lifetime of safe, healthy skin. Sign us up!",
+              "block_img": "shopify:\/\/shop_images\/coolector_11262a03-b782-4dd3-87f6-13705d351b9d.jpg"
+            }
+          },
+          "1531246303039": {
+            "type": "text",
+            "settings": {
+              "block_name": "Huckberry",
+              "block_location": "",
+              "block_desc": "Towering grocery isles of skincare products can be intimidating — Sonne’s two-step routine makes it ultra-simple to put your best face forward.",
+              "block_img": "shopify:\/\/shop_images\/huckberry_b4a55f78-b2dc-485b-bf7c-a1df23015556.jpg"
             }
           }
         },
         "block_order": [
           "1529538289579",
-          "1529538613776",
-          "1529538676979"
+          "1529538676979",
+          "1531246303039"
         ],
         "settings": {}
       }

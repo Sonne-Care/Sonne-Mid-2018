@@ -940,6 +940,13 @@
 		"oAP": "\/dist\/snippets\/notification.liquid",
 		"oF": 0
 		},
+	"\/dist\/snippets\/okendo-reviews-product-rating-summary.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/snippets\/okendo-reviews-product-rating-summary.liquid",
+		"oF": 0
+		},
 	"\/dist\/snippets\/okendo-reviews-product-rating.liquid": {
 		"cB": 0,
 		"ft": 8192,

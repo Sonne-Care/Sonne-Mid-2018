@@ -17,6 +17,7 @@
           <div class="product-title main">The Sonne System <br>Morning & Evening</div>
           <hr class="invisible compact">
           {% comment %}<div class="product-subtitle">$45/month</div>{% endcomment %}
+          {% include 'okendo-reviews-product-rating-summary' %}
           <form action="/cart/add" method="post" enctype="multipart/form-data" data-productid="{{product.id}}">
             {% if product.available %}{% include 'subscription-product' %}{% endif %}
             <select name="id" id="productSelect" data-productid="{{product.id}}">
@@ -32,6 +33,7 @@
               <span id="AddToCartText">{{ 'products.product.add_to_cart' | t }}</span>
             </button>
           </form>
+          <hr class="invisible compact fs-lg-hide fs-md-hide">
           <ul class="product-list">
             <li>Visible Results Reported In 6-8 Days</li>
             <li>Made in the USA</li>

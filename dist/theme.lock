@@ -70,7 +70,7 @@ assets/home2.jpg:
 assets/leaf.svg:
   development: 2018-06-13T07:31:24-07:00   95fed90f0049925557502e65e45833b5
 assets/main.min.css:
-  development: 2018-07-05T12:33:53-07:00   0901a927efd3163355818f7928a6ed59
+  development: 2018-07-10T11:47:40-07:00   0edf19735dd980743c099fc0294bce44
 assets/main.min.css.map:
   development: 2018-06-11T15:32:45-07:00   e1338bb491140abd827b0f0ee1256615
 assets/main.min.js:
@@ -148,11 +148,11 @@ assets/vendor.min.css:
 assets/vendor.min.js:
   development: 2018-07-03T16:53:12-07:00   ba82fcd48079633b534f63fa7e89885a
 config/settings_data.json:
-  development: 2018-06-21T16:00:24-07:00   2a7ed813899935db3f313353b8136dc8
+  development: 2018-07-10T11:24:16-07:00   731b484e8790c27ef73d908d4bb67758
 config/settings_schema.json:
   development: 2018-06-20T16:26:35-07:00   778f325cd64511a4e677327e5715f94e
 layout/theme.liquid:
-  development: 2018-07-04T10:37:39-07:00   be3aff207f0a78ce598ed2abb97cf125
+  development: 2018-07-06T15:52:41-07:00   c91b356023a3a7999d008e5b5db976e0
 layout/theme.naked.liquid:
   development: 2018-06-11T15:32:47-07:00   57a1d6cdeafc98ce8d294c03e8da1bf1
 locales/en.default.json:
@@ -170,7 +170,7 @@ snippets/evening-benefits.liquid:
 snippets/footer.liquid:
   development: 2018-06-18T16:26:35-07:00   6ca6f0e95f53ad0f3e8c2f9db02a240c
 snippets/freeitems.liquid:
-  development: 2018-06-18T11:40:46-07:00   7ad1c6669dffb531b7662fe6164cf5a1
+  development: 2018-07-10T11:48:12-07:00   e7d5839ca84963fe68fece92652cf38a
 snippets/header.liquid:
   development: 2018-06-20T15:44:17-07:00   a2be7ba3885473a9d01d5a4176490eeb
 snippets/home-hiw.liquid:
@@ -180,7 +180,7 @@ snippets/home-problem.liquid:
 snippets/home-quote.liquid:
   development: 2018-06-19T22:03:58-07:00   3f114a138f7c4fd005deef739c1a6f77
 snippets/home-sol.liquid:
-  development: 2018-06-18T17:10:35-07:00   de866bfc803722d670db97ffff38a3ea
+  development: 2018-07-10T11:42:32-07:00   fcc267ed6641701393eb6974860a9f6d
 snippets/index-heros.liquid:
   development: 2018-06-11T15:32:47-07:00   f0074d7f144ed86515f3a825a6e98205
 snippets/index-product.liquid:
@@ -195,6 +195,8 @@ snippets/nav.liquid:
   development: 2018-06-11T15:32:47-07:00   05ea8b93245e2b9dfe5d89609b3a8865
 snippets/notification.liquid:
   development: 2018-06-11T15:32:47-07:00   a14cbfc152e36d923b9afe402268a1be
+snippets/okendo-reviews-product-rating-summary.liquid:
+  development: 2018-07-07T10:09:54-07:00   b1f07b6cea87f9760b45d308b357d6a8
 snippets/okendo-reviews-product-rating.liquid:
   development: 2018-06-28T14:12:13-07:00   b1f07b6cea87f9760b45d308b357d6a8
 snippets/okendo-reviews-widget.liquid:
@@ -292,7 +294,7 @@ templates/page.story.liquid:
 templates/password.liquid:
   development: 2018-06-11T15:32:49-07:00   412c343c7b2a5e7a0eadba30bf51ed75
 templates/product.liquid:
-  development: 2018-07-05T12:12:44-07:00   b88265a0b739c1301034aef342faf526
+  development: 2018-07-10T11:50:23-07:00   7e575b66d6776a7724576ce6f4f3b6d7
 templates/product.variants.liquid:
   development: 2018-06-28T14:51:30-07:00   f7d9ec166196e7d101bfdd23d608bb45
 templates/search.liquid:

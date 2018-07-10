@@ -13,12 +13,12 @@
 {% capture block3_dir %}left{% endcapture %}
 {% capture block3_img %}{{ 'home-sol-4.jpg'  | asset_url }}{% endcapture %}
 
-<div class="hero hero-small hero-headless checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
+<div class="checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
   <div class="fs-row">
     <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full {% if block1_dir == 'left' %}fs-all-last fs-sm-first{% endif%}">
       <img src="{{ block1_img }}" class="img-responsive {{ block1_dir }}" alt="">
     </div>
-    <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-all-align-center">
+    <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-lg-align-center fs-md-align-center">
       <div class="explain-content {{ block1_dir }}">
         <div class="explain-title">{{ block1_title }}</div>
         <div class="explain-desc">{{ block1_desc }}</div>
@@ -27,12 +27,14 @@
   </div>
 </div>
 
-<div class="hero hero-small hero-headless checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
+<hr class="invisible">
+
+<div class="checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
   <div class="fs-row">
     <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full {% if block2_dir == 'left' %}fs-all-last fs-sm-first{% endif%}">
       <img src="{{ block2_img }}" class="img-responsive {{ block2_dir }}" alt="">
     </div>
-    <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-all-align-center">
+    <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-lg-align-center fs-md-align-center">
       <div class="explain-content {{ block2_dir }}">
         <div class="explain-title">{{ block2_title }}</div>
         <div class="explain-desc">{{ block2_desc }}</div>
@@ -41,12 +43,14 @@
   </div>
 </div>
 
-<div class="hero hero-small hero-headless checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
+<hr class="invisible">
+
+<div class="checkpoint explain hero-explainer" data-checkpoint-animation="fade-up">
   <div class="fs-row">
     <div class="fs-cell fs-lg-7 fs-md-4 fs-sm-full {% if block3_dir == 'left' %}fs-all-last fs-sm-first{% endif%}">
       <img src="{{ block3_img }}" class="img-responsive {{ block3_dir }}" alt="">
     </div>
-    <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-all-align-center">
+    <div class="fs-cell fs-lg-5 fs-md-2 fs-sm-full fs-lg-align-center fs-md-align-center">
       <div class="explain-content {{ block3_dir }}">
         <div class="explain-title">{{ block3_title }}</div>
         <div class="explain-desc">{{ block3_desc }}</div>
