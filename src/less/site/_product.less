@@ -46,6 +46,24 @@
     margin-bottom: @spacer;
     font-weight: 300;
     margin-bottom: @spacer;
+
+    &-wrapper {
+      margin: auto;
+      @media @min {
+        text-align: center;
+      }
+      @media @tablet {
+        width: 75%;
+        text-align: left;
+      }
+      @media @desktop {
+        width: 75%;
+      }
+      @media @max {
+        width: 60%;
+      }
+    }
+
   }
 
   & &-list {
@@ -100,6 +118,20 @@
         width: 100%;
         z-index: 50;
         transform: translateY(-50%);
+      }
+    }
+
+    &-wrapper {
+      background-color: #fafafa;
+      @media @min {
+        padding-bottom: 50px;
+      }
+      @media @tablet {
+        padding-bottom: 0;
+      }
+      & .row {
+        width: auto;
+        margin: 0;
       }
     }
 

@@ -47,6 +47,12 @@
         border-style: solid;
         border-width: 10px 10px 10px 0;
         border-color: transparent @brown transparent transparent;
+        @media @min {
+          visibility: hidden;
+        }
+        @media @tablet {
+          visibility: visible;
+        }
       }
 
       &:after {
@@ -66,7 +72,13 @@
   }
 
   & .quote {
-    font-size: 3rem;
+    @media @min {
+      font-size: 1.8rem;
+    }
+    @media @tablet {
+      font-size: 3rem;  
+    }
+    
     line-height: 1.3;
     margin-bottom: @spacer*.5;
     position: relative;

@@ -1,5 +1,14 @@
 .home {
 
+  &-hero-mobile {
+    @media @min {
+      display: block;
+    }
+    @media @tablet {
+      display: none;
+    }
+  }
+
   & &-title {
     color: @brown;
     .serif();
@@ -141,6 +150,24 @@
     }
     &--cta {
       padding: 225px 0;
+    }
+    &--bottom {
+      @media @min {
+        padding: 325px 0 0;
+        text-align: center;
+        > div {
+          background-color: #FAF0E7;
+          padding: 20px 0;
+        }
+      }
+      @media @tablet {
+        padding: 225px 0;
+        text-align: left;
+        > div {
+          background-color: transparent;
+          padding: 0;
+        }
+      }
     }
     &--hiw {
       //padding-bottom: 0;

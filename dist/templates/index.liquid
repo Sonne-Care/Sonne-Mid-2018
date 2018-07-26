@@ -4,18 +4,18 @@
   <div class="carousel" data-carousel-options='{"pagination":false}'>
     {% capture source %}{"source":{"0px":"","740px":"{{ 'home2.jpg'  | asset_url }}"},"alt":"Background Image"}'{% endcapture %}
     <div class="home-hero background" data-background-options='{{ source }}'>
+      <div class="home-hero-mobile">
+        <img src="{{ 'SonneCare_Lifestyle2-2184.jpg'  | asset_url }}" class="img-responsive">
+        <hr class="invisible compact">
+      </div>
       <div class="home-hero-centered">
         <div class="fs-row">
-          <div class="fs-cell fs-lg-hide fs-md-hide fs-sm-full fs-cell-contained">
-            <img src="{{ 'SonneCare_Lifestyle2-2184.jpg'  | asset_url }}" class="img-responsive">
-            <hr class="invisible compact">
-          </div>
           <div class="fs-cell fs-xl-5 fs-lg-half fs-md-3 fs-sm-2 fs-sm-justify-center fs-xs-full">
             <hr class="invisible huge fs-sm-hide">
             <hr class="invisible huge fs-sm-hide">
             <div class="home-title emphasized">Future proof <br>your skin.</div>
             <div class="home-subtitle emphasized">A skincare system developed by doctors and delivered to your door.</div>
-            <a href="{{ url }}" class="button button-cta home-cta">Buy Now</a>
+            <a href="{{ url }}" class="button button-cta home-cta">Order Now</a>
             <ul class="home-list">
               <li>Combats the #1 cause of skin aging</li>
               <li>Visible results reported in 6-8 days</li>
@@ -101,12 +101,12 @@
 
   {{ content_for_index }}
 
-  <div class="home-section home-section--cta background" data-background-options='{"source":"{{ 'SonneCare_Lifestyle2-2058.jpg'  | asset_url }}"}'>
+  <div class="home-section home-section--bottom background" data-background-options='{"source":"{{ 'SonneCare_Lifestyle2-2058.jpg'  | asset_url }}"}'>
     <div class="home-section__content">
       <div class="fs-row">
         <div class="fs-cell fs-lg-4 fs-lg-push-1">
           <div class="home-title">Get started today</div>  
-          <a href="{{ url }}" class="button button-cta home-cta">Buy Now</a>
+          <a href="{{ url }}" class="button button-cta home-cta">Order Now</a>
         </div>
       </div>
     </div>

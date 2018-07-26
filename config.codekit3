@@ -162,109 +162,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/assets\/Graphik-Bold-Web.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/assets\/Graphik-Bold-Web.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/assets\/Graphik-Bold-Web.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/Graphik-Bold-Web.ttf",
-		"oF": 0
-		},
-	"\/dist\/assets\/Graphik-Bold-Web.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/Graphik-Bold-Web.woff",
-		"oF": 0
-		},
-	"\/dist\/assets\/Graphik-Medium-Web.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/assets\/Graphik-Medium-Web.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/assets\/Graphik-Medium-Web.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/Graphik-Medium-Web.ttf",
-		"oF": 0
-		},
-	"\/dist\/assets\/Graphik-Medium-Web.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/Graphik-Medium-Web.woff",
-		"oF": 0
-		},
-	"\/dist\/assets\/Graphik-Regular.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/Graphik-Regular.otf",
-		"oF": 0
-		},
-	"\/dist\/assets\/Graphik-Regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/assets\/Graphik-Regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/assets\/Graphik-Regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/Graphik-Regular.ttf",
-		"oF": 0
-		},
-	"\/dist\/assets\/Graphik-Regular.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/Graphik-Regular.woff",
-		"oF": 0
-		},
-	"\/dist\/assets\/Graphik-Super-Web.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/dist\/assets\/Graphik-Super-Web.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/dist\/assets\/Graphik-Super-Web.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/Graphik-Super-Web.ttf",
-		"oF": 0
-		},
-	"\/dist\/assets\/Graphik-Super-Web.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/Graphik-Super-Web.woff",
-		"oF": 0
-		},
 	"\/dist\/assets\/grid.png": {
 		"ft": 32768,
 		"iS": 81492,
@@ -607,6 +504,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/assets\/productmobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/assets\/productnew.jpg": {
+		"ft": 16384,
+		"iS": 157718,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/assets\/productnew.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1292,6 +1200,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/dist\/templates\/password.liquid",
+		"oF": 0
+		},
+	"\/dist\/templates\/product.alt.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/templates\/product.alt.liquid",
 		"oF": 0
 		},
 	"\/dist\/templates\/product.liquid": {

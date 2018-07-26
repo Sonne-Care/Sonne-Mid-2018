@@ -89,20 +89,23 @@
   & &-tabs {
 
     @media @min {
-
       & .fs-row {
         background-color: @brown;  
       }
-      
       position: relative;  
     }
 
     @media @tablet {
-
       & .fs-row {
         background-color: transparent;
       }
       position: absolute;  
+    }
+
+    &.mission {
+      & .fs-row {
+        background-color: transparent;
+      }
     }
     
     padding-top: 15px;
