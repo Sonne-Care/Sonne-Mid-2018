@@ -1,0 +1,17 @@
+{% assign faqs = page.content | split: '<hr>' %}
+
+<div id="page" class="page page-{{ page.handle }} faq">
+  <div class="fs-row">
+    <div class="fs-cell">
+      <div class="faq-grid fs-row">
+        {% for faq in faqs %}
+        <div class="faq-block fs-cell fs-all-third fs-contained">
+          <div class="faq-block__wrapper">
+            {{ faq }}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

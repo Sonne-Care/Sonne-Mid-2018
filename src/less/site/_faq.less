@@ -1,5 +1,31 @@
 .faq {
 
+  & &-block {
+    &__wrapper {
+      padding: @spacer;
+      height: 200px;
+    }
+    &--gigante {
+      background-color: @white;
+      box-shadow: 0 10px @spacer rgba(0,0,0,.02);
+      & .faq {
+        &-block {
+          &__wrapper {
+            height: 300px;
+          }
+        }
+        &-a {
+          display: block;
+        }
+      }
+    }
+    & .faq {
+      &-a {
+        display: none;
+      }
+    }
+  }
+
   & &-item {
   
     transition: 500ms ease;

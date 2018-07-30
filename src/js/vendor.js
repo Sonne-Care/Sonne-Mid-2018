@@ -20,5 +20,5 @@
 // @codekit-append "../bower_components/infinite-scroll/dist/infinite-scroll.pkgd.js"
 // @codekit-append "../bower_components/feather-icons/dist/feather.js"
 // @codekit-append "../bower_components/jquery-spectragram-master/spectragram.min.js"
-// @codekit-append "../bower_components/isotope-master/dist/isotope.pkgd.min.js"
+// @codekit-append "../bower_components/masonry-layout/dist/masonry.pkgd.min.js"
 // @codekit-append "../node_modules/tilt.js/dest/tilt.jquery.js"

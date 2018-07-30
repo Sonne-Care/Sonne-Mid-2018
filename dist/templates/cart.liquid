@@ -17,14 +17,17 @@
         {% for item in cart.items %}
         <div class="fs-row cart-item" id="cart-item-{{item.variant.id}}">
           <div class="cart-item__cell fs-cell fs-all-align-center fs-lg-2 fs-md-hide fs-sm-hide item desc"><img src="{{ item | img_url: 'grande' }}" alt="{{ item.title | escape }}" class="img-responsive full"></div>
-          <div class="cart-item__cell fs-cell fs-all-align-center fs-lg-6 fs-md-2 fs-sm-fourth item desc"><div>
-            <a href="/collections/{{ item.product.collections.first.title | downcase }}#{{ item.product.handle }}">
-              <span class="cart-item__title">{{ item.product.title }}</span>
-              {% unless item.variant.title == 'Default Title' %}
-              <br>
-              <small class="cart-item__variant">{{ item.variant.title }}</small>
-              {% endunless %}
-            </a></div>
+          <div class="cart-item__cell fs-cell fs-all-align-center fs-lg-6 fs-md-2 fs-sm-fourth item desc">
+            <div>
+              <a href="/collections/{{ item.product.collections.first.title | downcase }}#{{ item.product.handle }}">
+                <span class="cart-item__title">{{ item.product.title }}</span>
+                {% unless item.variant.title == 'Default Title' %}
+                <br>
+                <small class="cart-item__variant">{{ item.variant.title }}</small>
+                {% endunless %}
+              </a>
+              <div class="fs-lg-hide fs-md-hide"><small><a href="/cart/change/{{item.variant.id}}?quantity=0">Remove</a></small></div>
+            </div>
           </div>
           <div class="cart-item__cell fs-cell fs-all-align-center fs-lg-1 fs-md-1 fs-sm-fourth text-center item price"><div>{{ item.price | money }}</div></div>
           <div class="cart-item__cell fs-cell fs-all-align-center fs-lg-1 fs-md-1 fs-sm-fourth text-center item qty"><div><input type="number" size="4" pattern="[0-9]*" name="updates[{{item.variant.id}}]" id="quantity-{{ item.variant.id }}" class="quantity" value="{{ item.quantity }}" min="1" onfocus="this.select();"/></div></div>
@@ -50,7 +53,7 @@
       </form>
       {% else %}
       <div class="cart-empty text-center">
-        <span class="cart-empty__title">Hey friendo, there's nothing in your cart.</span><br>
+        <span class="cart-empty__title">Hey friendo, there's <br class="fs-lg-hide fs-md-hide">nothing in your cart.</span><br>
         <span class="cart-empty__subtitle">Head back <a href="/">home</a>.</span>
       </div>
       {% endif %}

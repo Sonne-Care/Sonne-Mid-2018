@@ -46,11 +46,11 @@ assets/home2.jpg:
 assets/leaf.svg:
   development: 2018-06-13T07:31:24-07:00   95fed90f0049925557502e65e45833b5
 assets/main.min.css:
-  development: 2018-07-17T12:55:31-07:00   a3f95a0b9a9a6c30612ddaf28c926217
+  development: 2018-07-26T16:26:01-07:00   df31d49fe76bd37cc7e0c2d21c32173b
 assets/main.min.css.map:
   development: 2018-06-11T15:32:45-07:00   e1338bb491140abd827b0f0ee1256615
 assets/main.min.js:
-  development: 2018-07-03T16:53:16-07:00   409014a49c1a4ad942be096065bea193
+  development: 2018-07-26T16:10:17-07:00   01e79cf3bf200936bc84fb4693570bcd
 assets/matt.jpg:
   development: 2018-06-19T19:34:12-07:00   99b88a5128b1125b8d3c205883755269
 assets/mission-last.jpg:
@@ -124,7 +124,7 @@ assets/usa.svg:
 assets/vendor.min.css:
   development: 2018-06-11T15:32:46-07:00   d66e2fb62859704e16091ba118017fdd
 assets/vendor.min.js:
-  development: 2018-07-03T16:53:12-07:00   ba82fcd48079633b534f63fa7e89885a
+  development: 2018-07-26T16:06:12-07:00   4fc011c0924fc51cadef808a6d973227
 config/settings_data.json:
   development: 2018-07-10T11:24:16-07:00   731b484e8790c27ef73d908d4bb67758
 config/settings_schema.json:
@@ -234,7 +234,7 @@ templates/article.liquid:
 templates/blog.liquid:
   development: 2018-06-11T15:32:48-07:00   0598241c38b5f2aafb30cbaf1219373e
 templates/cart.liquid:
-  development: 2018-06-19T17:42:29-07:00   2fcf6a95d25ce28ae49bff327dda4c53
+  development: 2018-07-30T09:53:01-07:00   0f1582068a9399869b102b7647daa6f7
 templates/collection.liquid:
   development: 2018-06-11T15:32:48-07:00   ffaea2bd938b134d32b3442797dd6786
 templates/customers/account.liquid:
@@ -261,6 +261,8 @@ templates/page.about2.liquid:
   development: 2018-07-12T11:33:21-07:00   04ebf14a727afdb0c2eb82c16c64eca3
 templates/page.faq.liquid:
   development: 2018-06-18T17:42:36-07:00   c07b9161c220c829ad63cd4298e73e81
+templates/page.faq2.liquid:
+  development: 2018-07-26T16:18:23-07:00   00307f55b9ab95c2fb0b3a4bc04d4983
 templates/page.liquid:
   development: 2018-06-14T10:57:06-07:00   b6f90480909aeef427cca6bd59c0ee3d
 templates/page.mission.liquid:

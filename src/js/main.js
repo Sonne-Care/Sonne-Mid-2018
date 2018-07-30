@@ -40,10 +40,29 @@ function headerScroll(){
   });
 }
 
+function masonry(){
+  var $grid = $('.faq-grid').masonry({
+  itemSelector: '.faq-block',
+  olumnWidth: '.faq-block',
+  });
+
+  $grid.on( 'click', '.faq-block', function() {
+  // change size of item via class
+  $( this ).toggleClass('faq-block--gigante');
+  // trigger layout
+  $grid.masonry();
+  });
+
+  $grid.on( 'layoutComplete', function( event, laidOutItems ) {
+  console.log( 'Masonry layout complete with ' + laidOutItems.length + ' items' );
+  });
+}
+
 function init(){
   formstone();
   headerScroll();
   instagram();
+  masonry();
   const tilt = $('.js-tilt').tilt({
     maxTilt: 3,
     scale: 1.01,

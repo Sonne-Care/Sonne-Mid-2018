@@ -1167,6 +1167,13 @@
 		"oAP": "\/dist\/templates\/page.faq.liquid",
 		"oF": 0
 		},
+	"\/dist\/templates\/page.faq2.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/templates\/page.faq2.liquid",
+		"oF": 0
+		},
 	"\/dist\/templates\/page.liquid": {
 		"cB": 0,
 		"ft": 8192,
@@ -6379,7 +6386,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/src\/bower_components\/isotope-master\/dist\/isotope.pkgd.min.js",
 		"oF": 0,
 		"sC": 3,
@@ -6955,7 +6962,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/src\/bower_components\/masonry-layout\/dist\/masonry.pkgd.min.js",
 		"oF": 0,
 		"sC": 3,
