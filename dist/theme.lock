@@ -17,6 +17,8 @@ assets/amir.jpg:
   development: 2018-06-19T19:34:13-07:00   20bfa165eae0d7c1a05a8f51b7b40270
 assets/beaker.svg:
   development: 2018-06-13T07:31:23-07:00   5d747dde3e401f5ac28d21c5f6f9a9cd
+assets/commitment.jpg:
+  development: 2018-07-30T16:10:17-07:00   dcd0cb97d4c5d762431c5f3aa6e59515
 assets/easy.jpg:
   development: 2018-06-13T12:54:06-07:00   3b44600c4b943b85c0461da2d50d496a
 assets/easy2.jpg:
@@ -43,10 +45,12 @@ assets/home.jpg:
   development: 2018-06-12T14:07:53-07:00   a62d63d0d1b717475e118edbae0a04a5
 assets/home2.jpg:
   development: 2018-06-13T10:41:13-07:00   eaea6c9323c17ca7445849dc5d57557b
+assets/home3.jpg:
+  development: 2018-07-30T13:25:05-07:00   3b389ffe0060d8ca5cfafdd691a50c6b
 assets/leaf.svg:
   development: 2018-06-13T07:31:24-07:00   95fed90f0049925557502e65e45833b5
 assets/main.min.css:
-  development: 2018-07-26T16:26:01-07:00   df31d49fe76bd37cc7e0c2d21c32173b
+  development: 2018-07-30T13:28:07-07:00   6b99748f44ce8b9d4f787b21b317a1d9
 assets/main.min.css.map:
   development: 2018-06-11T15:32:45-07:00   e1338bb491140abd827b0f0ee1256615
 assets/main.min.js:
@@ -252,7 +256,7 @@ templates/customers/register.liquid:
 templates/customers/reset_password.liquid:
   development: 2018-06-11T15:32:49-07:00   c52cb1425f2aa4d0a3dbb557f3749fce
 templates/index.liquid:
-  development: 2018-07-12T11:38:03-07:00   f1398364bc7bb859088568153cd88f60
+  development: 2018-08-01T14:12:55-07:00   dee608f8a11e214d1d0c88f208beceea
 templates/list-collections.liquid:
   development: 2018-06-11T15:32:49-07:00   31e3dc19c53b28349257f298c8f11c22
 templates/page.about.liquid:
@@ -276,7 +280,7 @@ templates/password.liquid:
 templates/product.alt.liquid:
   development: 2018-07-17T12:45:36-07:00   a30ef0fe83bdbaec87a5c1cd8867f9cd
 templates/product.liquid:
-  development: 2018-07-17T12:56:48-07:00   a30ef0fe83bdbaec87a5c1cd8867f9cd
+  development: 2018-07-31T16:32:03-07:00   206079efa171b1d716ddc3d796de0959
 templates/product.variants.liquid:
   development: 2018-06-28T14:51:30-07:00   f7d9ec166196e7d101bfdd23d608bb45
 templates/search.liquid:
