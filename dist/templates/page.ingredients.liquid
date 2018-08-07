@@ -1,0 +1,17 @@
+<div id="page" class="page page-{{ page.handle }}">
+  <div class="page-header">
+    <div class="fs-row">
+      <div class="fs-cell fs-all-full">
+        <h2 class="page-header__title">{{ page.title }}</h2>
+        {% if page.handle == 'skin-101' %}
+        <h3 class="page-header__subtitle">Bits and pieces everyone should know about skincare.</h3>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <div class="fs-row">
+    <div class="fs-cell fs-lg-10 fs-md-6 fs-sm-3">
+      {{ page.content }}
+    </div>
+  </div>
+</div>

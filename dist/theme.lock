@@ -4,7 +4,7 @@ assets/SONNECARE_3-944.jpg:
 assets/SonneCare_Lifestyle2-2058.jpg:
   development: 2018-06-18T16:23:37-07:00   a03a098f771e56f59a185f993a4ee989
 assets/SonneCare_Lifestyle2-2184.jpg:
-  development: 2018-06-19T08:33:02-07:00   36e4f92430d67bf41fa17fba3d1924aa
+  development: 2018-08-07T13:42:05-07:00   2be9fbf87a07e4952042b87a4f787814
 assets/about-bottom-mobile.jpg:
   development: 2018-07-10T12:25:50-07:00   55e72e5c6343365ed7f689dc61a7e4c3
 assets/about-bottom.jpg:
@@ -31,10 +31,14 @@ assets/fastclick.min-min.js:
   development: 2018-06-19T17:45:18-07:00   3fcae108dd4a21cc781a174cd8559a3f
 assets/fastclick.min.js:
   development: 2018-06-11T15:32:45-07:00   a8082e71d6b046776c20a40496c0917b
+assets/get-started-women.jpg:
+  development: 2018-08-06T12:40:25-07:00   4913f6e9e5bc1db07101d5e62f2e4dca
 assets/github.svg:
   development: 2018-06-13T07:31:24-07:00   11f239e0ba8daf1618c8fe54d9505362
 assets/grid.png:
   development: 2018-06-19T21:52:41-07:00   8f71e6a21575142dc61daaaa0c52c122
+assets/home-sol-1-women.jpg:
+  development: 2018-08-06T12:38:17-07:00   26512f5fff2407d335fdabf76f720d79
 assets/home-sol-1.jpg:
   development: 2018-06-18T17:05:48-07:00   59071c5ec3ce8829b7f1a38d01f9edae
 assets/home-sol-2.jpg:
@@ -43,14 +47,16 @@ assets/home-sol-4.jpg:
   development: 2018-06-18T17:15:30-07:00   f5296fb9b736f59a74382734156c4046
 assets/home.jpg:
   development: 2018-06-12T14:07:53-07:00   a62d63d0d1b717475e118edbae0a04a5
+assets/home2-old.jpg:
+  development: 2018-08-06T12:35:00-07:00   eaea6c9323c17ca7445849dc5d57557b
 assets/home2.jpg:
-  development: 2018-06-13T10:41:13-07:00   eaea6c9323c17ca7445849dc5d57557b
+  development: 2018-08-06T12:35:53-07:00   7e021acfdebd4956a87afa29558f8f96
 assets/home3.jpg:
   development: 2018-07-30T13:25:05-07:00   3b389ffe0060d8ca5cfafdd691a50c6b
 assets/leaf.svg:
   development: 2018-06-13T07:31:24-07:00   95fed90f0049925557502e65e45833b5
 assets/main.min.css:
-  development: 2018-07-30T13:28:07-07:00   6b99748f44ce8b9d4f787b21b317a1d9
+  development: 2018-08-06T12:41:16-07:00   e0f2447b29637354fbeb8403577f1062
 assets/main.min.css.map:
   development: 2018-06-11T15:32:45-07:00   e1338bb491140abd827b0f0ee1256615
 assets/main.min.js:
@@ -100,7 +106,7 @@ assets/product.jpg:
 assets/product2.jpg:
   development: 2018-06-28T14:03:46-07:00   503e2a51d2fb7fdb1ec21ebbbf3b8e2a
 assets/productmobile.jpg:
-  development: 2018-06-19T19:34:18-07:00   d0f2a1867532bcd2f7314fc920b53509
+  development: 2018-08-07T13:42:52-07:00   4490a3fdccee1a12c6cb27cd119cdf4f
 assets/productnew.jpg:
   development: 2018-07-17T12:14:21-07:00   5c197b5ac5e8439e0486a98fb435ec7b
 assets/quote-1.jpg:
@@ -130,7 +136,7 @@ assets/vendor.min.css:
 assets/vendor.min.js:
   development: 2018-07-26T16:06:12-07:00   4fc011c0924fc51cadef808a6d973227
 config/settings_data.json:
-  development: 2018-07-10T11:24:16-07:00   731b484e8790c27ef73d908d4bb67758
+  development: 2018-07-20T08:23:38-07:00   3d9182d461c74033ce0c87b85df6a9d7
 config/settings_schema.json:
   development: 2018-06-20T16:26:35-07:00   778f325cd64511a4e677327e5715f94e
 layout/theme.liquid:
@@ -162,7 +168,7 @@ snippets/home-problem.liquid:
 snippets/home-quote.liquid:
   development: 2018-06-19T22:03:58-07:00   3f114a138f7c4fd005deef739c1a6f77
 snippets/home-sol.liquid:
-  development: 2018-07-10T11:42:32-07:00   fcc267ed6641701393eb6974860a9f6d
+  development: 2018-08-06T12:38:21-07:00   f26ae31bb4ce37bd002d054c140ba035
 snippets/index-heros.liquid:
   development: 2018-06-11T15:32:47-07:00   f0074d7f144ed86515f3a825a6e98205
 snippets/index-product.liquid:
@@ -256,7 +262,7 @@ templates/customers/register.liquid:
 templates/customers/reset_password.liquid:
   development: 2018-06-11T15:32:49-07:00   c52cb1425f2aa4d0a3dbb557f3749fce
 templates/index.liquid:
-  development: 2018-08-01T14:12:55-07:00   dee608f8a11e214d1d0c88f208beceea
+  development: 2018-08-06T12:40:53-07:00   7c11f463e212038626c9ae8df2ac9998
 templates/list-collections.liquid:
   development: 2018-06-11T15:32:49-07:00   31e3dc19c53b28349257f298c8f11c22
 templates/page.about.liquid:
@@ -269,12 +275,16 @@ templates/page.faq2.liquid:
   development: 2018-07-26T16:18:23-07:00   00307f55b9ab95c2fb0b3a4bc04d4983
 templates/page.liquid:
   development: 2018-06-14T10:57:06-07:00   b6f90480909aeef427cca6bd59c0ee3d
+templates/page.men.liquid:
+  development: 2018-08-06T12:31:22-07:00   f8699977fb94bf2ae8096f847ac985b0
 templates/page.mission.liquid:
   development: 2018-07-12T11:33:14-07:00   2aec656e8ec09fd7d5ef94068686f406
 templates/page.skin-101.liquid:
   development: 2018-06-19T17:45:17-07:00   d9f1b85d796d2efb4fb8495133bc679d
 templates/page.story.liquid:
   development: 2018-06-14T10:57:02-07:00   b6f90480909aeef427cca6bd59c0ee3d
+templates/page.women.liquid:
+  development: 2018-08-06T12:30:40-07:00   f1398364bc7bb859088568153cd88f60
 templates/password.liquid:
   development: 2018-06-11T15:32:49-07:00   412c343c7b2a5e7a0eadba30bf51ed75
 templates/product.alt.liquid:
