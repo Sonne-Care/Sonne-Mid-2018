@@ -16,6 +16,12 @@
   & &-info {
     color: @gray;
     font-weight: 300;
+    @media @min {
+      text-align: center;
+    }
+    @media @tablet {
+      text-align: right;
+    }
     strong {
       color: @brown;
     }
@@ -23,8 +29,18 @@
 
   & &-item {
 
+    &__remove {
+      border: 1px solid @lighterGray;
+      padding: 4px 8px;
+      border-radius: 2px;
+      margin-top: 5px;
+      margin-left: -3px;
+      display: inline-block;
+    }
+
     &__cell {
       color: @gray;
+      line-height: 1.4;
       a {
         text-decoration: none;
         color: @brown;

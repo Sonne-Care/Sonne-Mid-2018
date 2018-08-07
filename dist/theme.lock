@@ -56,7 +56,7 @@ assets/home3.jpg:
 assets/leaf.svg:
   development: 2018-06-13T07:31:24-07:00   95fed90f0049925557502e65e45833b5
 assets/main.min.css:
-  development: 2018-08-06T12:41:16-07:00   e0f2447b29637354fbeb8403577f1062
+  development: 2018-08-07T15:44:35-07:00   9bb1b7cf4630bd379378975c00605fb0
 assets/main.min.css.map:
   development: 2018-06-11T15:32:45-07:00   e1338bb491140abd827b0f0ee1256615
 assets/main.min.js:
@@ -244,7 +244,7 @@ templates/article.liquid:
 templates/blog.liquid:
   development: 2018-06-11T15:32:48-07:00   0598241c38b5f2aafb30cbaf1219373e
 templates/cart.liquid:
-  development: 2018-07-30T09:53:01-07:00   0f1582068a9399869b102b7647daa6f7
+  development: 2018-08-07T15:45:54-07:00   d2954055a53bb6a1eaa71de50361e889
 templates/collection.liquid:
   development: 2018-06-11T15:32:48-07:00   ffaea2bd938b134d32b3442797dd6786
 templates/customers/account.liquid:
