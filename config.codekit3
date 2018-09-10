@@ -219,10 +219,21 @@
 		},
 	"\/dist\/assets\/home-sol-2.jpg": {
 		"ft": 16384,
-		"iS": 166675,
+		"iS": 134085,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/assets\/home-sol-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/assets\/home-sol-2a.jpg": {
+		"ft": 16384,
+		"iS": 166675,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/assets\/home-sol-2a.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -476,6 +487,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/dist\/assets\/prob1-men.jpg": {
+		"ft": 16384,
+		"iS": 25450,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/assets\/prob1-men.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/dist\/assets\/prob1.jpg": {
 		"ft": 16384,
 		"iS": 46342,
@@ -487,12 +509,34 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/dist\/assets\/prob2-men.jpg": {
+		"ft": 16384,
+		"iS": 53802,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/assets\/prob2-men.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/dist\/assets\/prob2.jpg": {
 		"ft": 16384,
 		"iS": 53802,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/dist\/assets\/prob2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/assets\/prob3-men.jpg": {
+		"ft": 16384,
+		"iS": 21513,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/dist\/assets\/prob3-men.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
