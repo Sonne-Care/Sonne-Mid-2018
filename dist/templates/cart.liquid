@@ -25,6 +25,31 @@
                 <br>
                 <small class="cart-item__variant">{{ item.variant.title }}</small>
                 {% endunless %}
+
+                {% assign recurringchecked = "false" %} 
+                {% for p in item.properties  %}   
+                {% if p.first == 'shipping_interval_frequency' %}
+                  {% assign frequency = p.last %}
+                  {% assign recurringchecked = "true" %} 
+                {% endif %}
+                {% if p.first == 'shipping_interval_unit_type' %}
+                  {% if frequency == '1'%}
+                    {% if p.last == 'Days' %}
+                      {% assign frequency_unit = 'Day' %}
+                    {% elsif p.last == 'Months'%}
+                      {% assign frequency_unit = 'Month' %}
+                    {% elsif p.last == 'Weeks'%}
+                      {% assign frequency_unit = 'Week' %}
+                    {% endif %}
+                  {% else %}
+                    {% assign frequency_unit = p.last %}
+                  {% endif %}
+                {% endif %}
+                {% endfor %}
+                {% if recurringchecked == "true" %}
+                <br>
+                <small class="cart-item__variant">Recurring Delivery every {{frequency}} {{frequency_unit}}. Change or cancel anytime </small>
+                {% endif %}
               </a>
               <div class="fs-lg-hide fs-md-hide"><small><a class="cart-item__remove" href="/cart/change/{{item.variant.id}}?quantity=0">Remove</a></small></div>
             </div>

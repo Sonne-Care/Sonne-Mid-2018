@@ -1,11 +1,16 @@
 {% assign url = '/homes/sonne-premium-skincare-membership' %}
+
+{% assign content = page.content | split: "<hr>" %}
+{% assign mainimage = content[3] %}
+{% assign mobilimage = content[4] %}
+
 <div class="home">
 
   <div class="carousel" data-carousel-options='{"pagination":false}'>
-    {% capture source %}{"source":{"0px":"","740px":"https://cdn.shopify.com/s/files/1/2134/6445/files/sonne-home-template.jpg?6398923233590959874"},"alt":"Background Image"}'{% endcapture %}
+    {% capture source %}{"source":{"0px":"","740px":"{{ mainimage | strip }}"},"alt":"Background Image"}'{% endcapture %}
     <div class="home-hero background" data-background-options='{{ source }}'>
       <div class="home-hero-mobile">
-        <img src="https://cdn.shopify.com/s/files/1/2134/6445/files/homepage.jpg?7183713265591780513" class="img-responsive">
+        <img src="{{ mobilimage | strip }}" class="img-responsive">
         <hr class="invisible compact">
       </div>
       <div class="home-hero-centered">
@@ -13,14 +18,11 @@
           <div class="fs-cell fs-xl-5 fs-lg-half fs-md-3 fs-sm-2 fs-sm-justify-center fs-xs-full">
             <hr class="invisible huge fs-sm-hide">
             <hr class="invisible huge fs-sm-hide">
-            <div class="home-title emphasized">Future proof <br>your skin.</div>
-            <div class="home-subtitle emphasized">The Sonne Skincare System. <br>Developed by doctors, designed for men.</div>
+            <div class="home-title emphasized">{{ content[0] }}</div>
+            <div class="home-subtitle emphasized">{{ content[1] }}</div>
             <a href="#buynow" class="button button-cta home-cta">Buy Now</a>
             <ul class="home-list">
-              <li>Combats the #1 cause of skin aging</li>
-              <li>Visible results reported in 6-8 days</li>
-              <li>Vegan, No Parabens, Cruelty Free</li>
-              <li>Manufactured in the USA</li>
+              {{ content[2] }}
             </ul>
           </div>
         </div>
@@ -161,15 +163,14 @@
       </div>
     </div>
   </div>
-   <div id="reviews" class="product-section product-section--testies">
-      <div class="fs-row">
-        <div class="fs-cell fs-lg-10 fs-all-justify-center">
-          {% include 'okendo-reviews-widget' %}
-        </div>
+  <div id="reviews" class="product-section product-section--testies">
+    <div class="fs-row">
+      <div class="fs-cell fs-lg-10 fs-all-justify-center">
+        {% include 'okendo-reviews-widget' %}
       </div>
     </div>
+  </div>
   {% endfor %}
-
 </div>
 
 {% include 'subscribe' %}

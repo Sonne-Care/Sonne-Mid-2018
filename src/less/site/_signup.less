@@ -8,6 +8,13 @@
   visibility: hidden;
   transition: 500ms ease;
 
+  @media @min {
+    display: none;
+  }
+  @media @tablet {
+    display: block;
+  }
+
   &.fs-swap-active {
     opacity: 1;
     visibility: visible;

@@ -7,10 +7,10 @@
         "content": "Notification Bar"
       },
       {
-         "type": "textarea",
-         "id": "notification-bar",
-         "default": "Free shipping on orders over $100",
-         "label": "Notification Message"
+        "type": "textarea",
+        "id": "notification-bar",
+        "default": "Free shipping on orders over $100",
+        "label": "Notification Message"
       },
       {
         "type": "checkbox",
@@ -22,10 +22,10 @@
         "content": "Subscribe Box"
       },
       {
-         "type": "textarea",
-         "id": "subscribe-box",
-         "default": "Free shipping on orders over $100",
-         "label": "Notification Message"
+        "type": "textarea",
+        "id": "subscribe-box",
+        "default": "Free shipping on orders over $100",
+        "label": "Notification Message"
       },
       {
         "type": "checkbox",

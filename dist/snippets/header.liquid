@@ -10,7 +10,7 @@
         <i data-feather="x"></i>
       </a>
       <a id="header-logo" class="button button-clear button-nav button-first" href="/">{{ shop.name }}</a>
-      {% for link in linklists.main-menu.links %}
+      {% for link in linklists.main-menu-new.links %}
       <a class="button button-clear button-nav fs-md-hide fs-sm-hide {% if link.active %}active{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
       {% endfor %}
       <a class="button button-clear button-nav fs-md-hide fs-sm-hide" target="blank" href="http://medium.com/sonnecare">Blog</a>
@@ -32,7 +32,7 @@
 <div id="header-mobile">
   <div id="header-mobile-content">
     <div class="fs-row">
-      {% for link in linklists.main-menu.links %}
+      {% for link in linklists.main-menu-new.links %}
       <a class="mobile-btn fs-cell" href="{{ link.url }}">{{ link.title }}</a>
       {% endfor %}
       <div class="text-center fs-cell">

@@ -38,6 +38,10 @@
 {{ shop.metafields.okendo.ReviewsWidgetStyleTag }}
 </head>
 <body class="fs-grid">
+<!-- Start of Littledata - Fix Google Analytics Script-->
+{% include 'LittledataLayer' %}
+<!-- End of Littledata - Fix Google Analytics Script -->
+
   <div id="wrapper">
     {% include 'header' %}
     {{ content_for_layout }}

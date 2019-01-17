@@ -6,6 +6,9 @@
 {% assign section_6 = '' %}
 {% assign section_7 = '' %}
 
+{% capture section_8 %}<div class="about-section-title">The Solution is the Sonne System</div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in arcu eu velit tincidunt semper ut id turpis. Sed bibendum nisl vitae sem cursus auctor. Vivamus eu magna sed nisi consectetur eleifend vitae sit amet nisi.' {% endcapture %}
+
+
 <div class="page page-about about fs-grid-fluid">
   <div class="about-tabs">
     <div class="fs-row text-center">
@@ -67,12 +70,16 @@
       </div>
     </div>
 
-    <div class="fs-cell fs-all-full home">
-      <div class="about-section about-section__last">
-        <div class="about-cta text-center">
-          <div class="home-title">Future proof your skin.</div>
-          <div class="home-subtitle">The doctor-developed skincare system delivered to your door.</div>
-          <a href="#" class="button button-cta home-cta">Order Now</a>
+    <div class="fs-cell fs-all-full about-section__five background" data-background-options='{"source":"{{ 'easy2.jpg'  | asset_url }}"}'>
+      <div class="about-section-centered">
+        <div class="fs-row">
+          <div class="fs-cell fs-all-half">
+            <div class="fs-row">
+              <div class="fs-cell fs-lg-8 fs-md-4 fs-all-justify-center">
+                <div class="">{{ section_8 }}</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -2,17 +2,6 @@
 
 <div class="page page-about about fs-grid-fluid">
 
-  <div class="about-tabs mission relative">
-    <div class="fs-row text-center">
-      <div class="fs-cell fs-lg-2 fs-lg-push-4 fs-md-fourth fs-md-push-fourth fs-sm-half">
-        <div class="about-tabs__tab"><a href="/pages/about">Brand Story</a></div>
-      </div>
-      <div class="fs-cell fs-lg-2 fs-md-fourth fs-sm-half">
-        <div class="about-tabs__tab"><a class="active" href="/pages/about-mission">Our Mission</a></div>
-      </div>
-    </div>
-  </div>
-
   <div class="fs-row">
     <div class="fs-cell fs-lg-half fs-md-half fs-sm-full fs-contained">
       {{ 'SONNECARE_3-944.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
@@ -79,16 +68,22 @@
     </div>
   </div>
 
-  <div class="fs-row bg--creme">
-    <div class="fs-cell fs-lg-half fs-md-half fs-sm-full fs-lg-last fs-contained fs-md-last">
-      {{ 'mission-last.jpg'  | asset_url | img_tag, '', 'img-responsive' }}
-    </div>
-    <div class="fs-cell fs-lg-half fs-md-half fs-contained fs-all-align-center">
-      <div class="fs-row">
-        <div class="fs-cell fs-lg-8 fs-md-4 fs-sm-4 fs-cell-contained  fs-all-justify-center">
-          <div class="about-mission-content mobile-centered">
-            <h2 class="brown">Get Started <br>with Sonne today</h2>
-            <a href="{{ url }}" class="button button-cta home-cta">Order Now</a>
+  {% capture section_5 %}
+  <p>An alternative to markups and marketing gimmicks, The Sonne System is trustworthy, science-based, affordable, and easy to use. Our combination system uses two products that work together to improve the look of your skin while reducing your risk of skin cancer. From skincare newbies to near professionals, The System is designed to meet the standards of anyone with skin. </p>
+  <p>Because being human is hard. <br>But caring for your skin shouldn’t be. </p>
+{% endcapture %}
+
+
+  <div class="about-relative">
+    <div class="fs-row">
+      <div class="fs-cell fs-all-full fs-contained">
+        <div class="fs-sm-hide">{{ 'about-bottom.jpg'  | asset_url | img_tag, '', 'img-responsive' }}</div>
+        <div class="fs-lg-hide fs-md-hide">{{ 'about-bottom-mobile.jpg'  | asset_url | img_tag, '', 'img-responsive' }}</div>
+        <div class="about-mission-content overlay">
+          <div class="fs-row">
+            <div class="fs-cell text-center">
+              {{ section_5 }}
+            </div>
           </div>
         </div>
       </div>
