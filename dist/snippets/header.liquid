@@ -15,7 +15,10 @@
       {% endfor %}
       <a class="button button-clear button-nav fs-md-hide fs-sm-hide" target="blank" href="http://medium.com/sonnecare">Blog</a>
     </div>
-    <div class="fs-cell fs-lg-4 fs-md-half fs-sm-1 text-right">
+    <div class="fs-cell fs-lg-hide fs-md-hide fs-sm-1 text-right">
+      <a href="/#buynow" class="button" style="width:100%;color:white">Buy Now</a>
+    </div>
+    <div class="fs-cell fs-lg-4 fs-md-half fs-sm-hide text-right">
       <div id="header-socials">
         <a class="button button-clear button-nav button-icon" href="/account"><i data-feather="user"></i></a>
         {% if customer %}
@@ -32,6 +35,15 @@
 <div id="header-mobile">
   <div id="header-mobile-content">
     <div class="fs-row">
+      <div class="fs-cell text-center">
+        <a class="button button-clear button-nav button-icon" href="/account"><i data-feather="user"></i></a>
+        {% if customer %}
+        <a href="/account/logout" class="button button-clear button-nav button-icon"><i data-feather="log-out"></i></a>
+        {% endif %}
+        <a id="header-cart" class="button button-nav button-clear cart-count {% if cart.item_count > 0 %}items{% endif %}" href="/cart">
+          <i data-feather="shopping-bag"></i>
+        </a>
+      </div>
       {% for link in linklists.main-menu-new.links %}
       <a class="mobile-btn fs-cell" href="{{ link.url }}">{{ link.title }}</a>
       {% endfor %}
