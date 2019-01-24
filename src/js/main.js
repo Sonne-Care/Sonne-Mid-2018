@@ -2,7 +2,7 @@ function formstone(){
   $('.background').background();
   $('.carousel').carousel();
   $('.swap').swap();  
-  $("input[type=checkbox], input[type=radio]").checkbox();
+  //$("input[type=checkbox], input[type=radio]").checkbox();
   $(".sticky").sticky();
   //$(".lightbox").lightbox();
   $('.benefit-item').swap({
@@ -63,11 +63,11 @@ function init(){
   headerScroll();
   instagram();
   masonry();
-  const tilt = $('.js-tilt').tilt({
-    maxTilt: 3,
-    scale: 1.01,
-    //glare: true
-  });
+  //const tilt = $('.js-tilt').tilt({
+  //  maxTilt: 3,
+  //  scale: 1.01,
+  //  //glare: true
+  //});
   feather.replace({
     'stroke-width': 1,
   });
