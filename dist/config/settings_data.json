@@ -49,12 +49,22 @@
               "block_desc": "Towering grocery aisles of skincare products can be intimidating — Sonne’s two-step routine makes it ultra-simple to put your best face forward.",
               "block_img": "shopify:\/\/shop_images\/huckberry_b4a55f78-b2dc-485b-bf7c-a1df23015556.jpg"
             }
+          },
+          "1547583701158": {
+            "type": "text",
+            "settings": {
+              "block_name": "Outside Magazine",
+              "block_location": "",
+              "block_desc": "Don’t be that guy who’s spent so much time on the rock, or the snow, that his skin is literally like leather. It’s not a good look, or healthy. To avoid, always wear your sunscreen and a hat. Then at night put a dab of this lotion on. It’s packed with ingredients like vitamin C that will keep your skin happy so you’re ready to play another day.",
+              "block_img": "shopify:\/\/shop_images\/outside.png"
+            }
           }
         },
         "block_order": [
+          "1531246303039",
           "1529538289579",
           "1529538676979",
-          "1531246303039"
+          "1547583701158"
         ],
         "settings": {}
       }
