@@ -41,8 +41,6 @@
   
 </head>
 <body class="fs-grid">
-
-
   <div id="wrapper">
     {% include 'header' %}
     {{ content_for_layout }}
@@ -52,12 +50,11 @@
   {{ 'theme.js'  | asset_url | script_tag }}
   {{ 'vendor.min.js' | asset_url | script_tag }}
   {{ 'main.min.js'  | asset_url | script_tag }}
-  {% comment %}{% include 'ajax-cart' %}{% endcomment %}
+  {% include 'ajaxify-cart' %}
   {% include 'subscription-theme-footer' %}
   {% include 'scripts' %}
- {% include 'sweettooth-initializer' %}
-
- {% include 'sweettooth-tab-widget' %}
+  {% include 'sweettooth-initializer' %}
+  {% include 'sweettooth-tab-widget' %}
 
 </body>
 

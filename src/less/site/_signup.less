@@ -9,7 +9,7 @@
   transition: 500ms ease;
 
   @media @min {
-    display: none;
+    display: block;
   }
   @media @tablet {
     display: block;
@@ -95,8 +95,12 @@
     }
     & .serif {
       font-family: 'Cormorant', serif;
-      font-size: 32px;
-      line-height: 1.4;
+      font-size: 20px;
+      line-height: 1.2;
+      @media @tablet {
+        font-size: 32px;
+        line-height: 1.4;  
+      }
       span {
         letter-spacing: -5px;
       }
@@ -111,7 +115,8 @@
       line-height: @height;
       @media @min {
         border: 1px solid @white50;
-        border-top: 0;
+        border-left: 0;
+        width: 100%;
       }
       @media @tablet {
         border: 1px solid @white50;
